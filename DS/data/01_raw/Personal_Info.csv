@@ -1,0 +1,751 @@
+First_Name,EMail,Age,Gender,Coordinate,Country,City,Languages_Preferred,Last_Seen,Response_Time
+Wanda,wanda.opizzi@aol.com,46,Male,"(52.48592054317992, 13.597034412185927)",Germany,Berlin,"['English', 'Italian', 'Ukrainian', 'Turkish ', 'Romanian']",Over a Month Ago,Within a week
+Meinrad,meinrad.kiedrowicz@zoho.com,26,Other,"(52.59690466818614, 13.725347983308117)",Germany,Berlin,"['German', 'Punjabi', 'Spanish', 'Arabic']",Within a Week,Within 24 hours
+Derkay,derkay.kurach@outlook.com,41,Male,"(52.56108833495195, 13.18563761680123)",Germany,Berlin,"['Hindi', 'Japanese']",Within a Week,Within 24 hours
+Uzsoy,uzsoy.akdeniz@freenet.de,54,Male,"(52.443532336864735, 13.419956868448828)",Germany,Berlin,['Romanian'],Within a Week,Within 24 hours
+Alpsü,alpsü.demirel@icloud.com,19,Female,"(52.36608543756369, 13.10990718388389)",Germany,Berlin,"['Arabic', 'Portuguese', 'Mandarin Chinese', 'Japanese']",Within a Week,Within a month
+Nurser,nurser.rymarz@gmail.com,33,Female,"(52.63708661533526, 13.093528818781424)",Germany,Berlin,"['Portuguese', 'Punjabi']",Over a Month Ago,Within a week
+Maksymilian,maksymilian.demir@hotmail.com,20,Female,"(52.67477343317099, 13.352122328111756)",Germany,Berlin,"['Italian', 'Romanian', 'Bengali', 'Japanese']",Yesterday,Within a week
+Filippo,filippo.szkopek@yahoo.com,51,Male,"(52.5824339755571, 13.483208315324259)",Germany,Berlin,"['German', 'Spanish']",Within a Month,Within 24 hours
+Leonard,leonard.mans@zoho.com,62,Female,"(52.34718134180427, 13.16413965393292)",Germany,Berlin,['German'],Recently,Within 24 hours
+Sibylla,sibylla.bandello@hotmail.com,21,Other,"(52.450292723352696, 13.611517082479065)",Germany,Berlin,"['Italian', 'Russian', 'Arabic', 'Japanese', 'English']",Within a Week,Within 24 hours
+Julianna,julianna.kohl@t-online.de,21,Other,"(52.496427828335705, 13.136119250857538)",Germany,Berlin,"['Portuguese', 'English', 'French', 'Punjabi']",Yesterday,Within 24 hours
+Maciej,maciej.hanson@arcor.de,61,Female,"(52.58939265390313, 13.180359691544652)",Germany,Berlin,"['Italian', 'French', 'Portuguese', 'Hindi']",Over a Month Ago,Within a week
+Andrea,andrea.powell@freenet.de,51,Female,"(52.430553837253655, 13.091816751688565)",Germany,Berlin,"['Italian', 'German ', 'Punjabi']",Over a Month Ago,Within a week
+Nataniel,nataniel.margraf@outlook.com,63,Other,"(52.37077663786853, 13.225397775985538)",Germany,Berlin,"['Polish', 'German']",Over a Month Ago,Within a week
+Rümeysa,rümeysa.legnante@hotmail.com,19,Male,"(52.52881228769652, 13.750259153317652)",Germany,Berlin,"['Romanian', 'English', 'Punjabi', 'French', 'German']",Within a Month,Within a week
+Annalisa,annalisa.ward@t-online.de,33,Female,"(52.37086500851261, 13.25480881325516)",Germany,Berlin,"['Punjabi', 'Mandarin Chinese']",Within a Month,Within 24 hours
+Andrew,andrew.harvey@aol.com,26,Male,"(52.47807918316563, 13.37929624703777)",Germany,Berlin,"['Japanese', 'Bengali', 'Russian']",Yesterday,Within a month
+Pierina,pierina.howe@t-online.de,30,Female,"(52.531730825448975, 13.293471949128227)",Germany,Berlin,['Arabic'],Within a Month,Within 24 hours
+Ida,ida.sobiło@hotmail.com,54,Female,"(52.56400503599586, 13.15902303227015)",Germany,Berlin,"['English', 'Ukrainian', 'Turkish ', 'Japanese', 'Arabic']",Within a Month,Within 24 hours
+Josh,josh.richardson@zoho.com,47,Female,"(52.36531418091742, 13.50403348589031)",Germany,Berlin,"['English', 'Japanese', 'Russian', 'Bengali']",Yesterday,Within a week
+Brenda,brenda.malaparte@aol.com,33,Male,"(52.54237689610549, 13.19958205088523)",Germany,Berlin,"['Mandarin Chinese', 'Russian', 'Punjabi', 'Ukrainian', 'Italian']",Within a Month,Within a week
+Cynthia,cynthia.grassi@gmx.de,30,Male,"(52.42130726330966, 13.521351286318884)",Germany,Berlin,"['French', 'German ', 'English']",Today,Within a month
+Bağdaş,bağdaş.karadeniz@icloud.com,31,Other,"(52.62080355970419, 13.753728211854106)",Germany,Berlin,['German'],Within a Week,Within 24 hours
+Julia,julia.campbell@unitybox.de,28,Other,"(52.45215287340992, 13.156977145292524)",Germany,Berlin,"['Turkish ', 'Romanian', 'Mandarin Chinese', 'English']",Over a Month Ago,Within a week
+Cipriano,cipriano.yılmaz@gmail.com,23,Male,"(52.54551020949677, 13.451278457374556)",Germany,Berlin,"['Japanese', 'Mandarin Chinese', 'Ukrainian']",Yesterday,Within 24 hours
+Seçme,seçme.jacuzzi@yahoo.com,18,Male,"(52.48529003645916, 13.331589219334516)",Germany,Berlin,"['Ukrainian', 'Romanian']",Yesterday,Within a week
+Arıkol,arıkol.klingelhöfer@aol.com,60,Male,"(52.630364449803174, 13.502363077063377)",Germany,Berlin,"['Mandarin Chinese', 'Ukrainian', 'Portuguese', 'Spanish', 'Arabic']",Recently,Within a week
+Asu,asu.jones@t-online.de,47,Female,"(52.46972721681975, 13.317644454212827)",Germany,Berlin,"['Mandarin Chinese', 'German ']",Within a Month,Within a month
+Sonia,sonia.eimer@outlook.com,40,Male,"(52.51419196999795, 13.579730819583592)",Germany,Berlin,"['Italian', 'Polish', 'Russian', 'Punjabi']",Over a Month Ago,Within a week
+Fabian,fabian.stein@mail.com,29,Female,"(52.522038582064695, 13.559404486627733)",Germany,Berlin,['German '],Today,Within 24 hours
+Peren,peren.barese@web.de,37,Male,"(52.347503631239924, 13.346622042997897)",Germany,Berlin,"['Arabic', 'Spanish', 'Italian']",Within a Week,Within a month
+Okbay,okbay.ülker@protonmail.com,48,Female,"(52.462653231521685, 13.483737583239755)",Germany,Berlin,"['Portuguese', 'Turkish ']",Today,Within a month
+Dominic,dominic.bany@t-online.de,38,Other,"(52.62512040705695, 13.267902939318512)",Germany,Berlin,['Portuguese'],Over a Month Ago,Within a month
+Ewelina,ewelina.kawulok@aol.com,32,Other,"(52.56484785726932, 13.757648380032105)",Germany,Berlin,"['Japanese', 'Ukrainian', 'German']",Over a Month Ago,Within 24 hours
+Luciana,luciana.abate@freenet.de,64,Male,"(52.60864830279837, 13.74671520982001)",Germany,Berlin,"['Punjabi', 'Bengali', 'English', 'Spanish']",Today,Within a week
+Ayse,ayse.williams@aol.com,61,Female,"(52.44228885473996, 13.143867115187936)",Germany,Berlin,['Bengali'],Over a Month Ago,Within a week
+Ellie,ellie.janc@freenet.de,38,Female,"(52.52622577041681, 13.362512631311619)",Germany,Berlin,['Arabic'],Today,Within a month
+Tracy,tracy.vasari@protonmail.com,63,Female,"(52.548309836252976, 13.182145730854508)",Germany,Berlin,"['Ukrainian', 'Arabic', 'German', 'Turkish ']",Today,Within a week
+Aurelia,aurelia.mennea@hotmail.com,47,Other,"(52.387213746604814, 13.475594842071315)",Germany,Berlin,"['Mandarin Chinese', 'Arabic', 'Russian', 'Hindi']",Today,Within 24 hours
+Greta,greta.soylu@freenet.de,33,Male,"(52.51682747656437, 13.681857706179517)",Germany,Berlin,"['Japanese', 'Bengali', 'Mandarin Chinese']",Within a Month,Within a week
+Cäcilia,cäcilia.bryant@protonmail.com,21,Female,"(52.58172894765966, 13.188185990492201)",Germany,Berlin,"['Turkish ', 'Spanish', 'Mandarin Chinese']",Within a Week,Within 24 hours
+Danilo,danilo.duran@hotmail.com,43,Other,"(52.626819492791874, 13.25728495610285)",Germany,Berlin,"['Arabic', 'English', 'Romanian', 'German ', 'Polish']",Yesterday,Within 24 hours
+Calogero,calogero.stahr@hotmail.com,36,Male,"(52.59304869570474, 13.461112001592541)",Germany,Berlin,"['Spanish', 'Russian', 'German ']",Within a Week,Within a month
+Grzegorz,grzegorz.schmiedt@gmail.com,47,Other,"(52.67283373068455, 13.699634160485866)",Germany,Berlin,"['Hindi', 'French']",Yesterday,Within a month
+Annette,annette.pavone@gmail.com,18,Other,"(52.476377429798994, 13.604204530681924)",Germany,Berlin,['Arabic'],Over a Month Ago,Within a week
+Florence,florence.hajduga@mail.com,64,Other,"(52.61194254298397, 13.41726108927972)",Germany,Berlin,"['Turkish ', 'Mandarin Chinese', 'German']",Yesterday,Within a week
+Rafia,rafia.witoń@hotmail.com,64,Female,"(52.514193076590956, 13.54968160902372)",Germany,Berlin,"['English', 'Polish', 'German', 'French']",Today,Within a month
+Svenja,svenja.conti@web.de,48,Male,"(52.6246500788304, 13.415373122785102)",Germany,Berlin,"['Romanian', 'Spanish', 'Bengali', 'Russian']",Within a Month,Within a month
+Müjde,müjde.kostolzin@protonmail.com,34,Other,"(52.65895926376079, 13.726572676202865)",Germany,Berlin,"['Italian', 'German ', 'Spanish']",Over a Month Ago,Within 24 hours
+Kutgün,kutgün.bond@aol.com,40,Male,"(52.658801893230745, 13.412980833365403)",Germany,Berlin,"['English', 'Japanese', 'Russian', 'Italian']",Within a Week,Within a week
+Köker,köker.white@gmail.com,51,Other,"(52.53611917148574, 13.748139897446194)",Germany,Berlin,['French'],Over a Month Ago,Within a month
+Anny,anny.wawszczyk@arcor.de,41,Other,"(52.60492111465478, 13.132546466357319)",Germany,Berlin,"['Portuguese', 'Polish', 'Spanish']",Today,Within a week
+Leah,leah.meucci@gmail.com,37,Female,"(52.635047764457894, 13.340502772641663)",Germany,Berlin,"['Japanese', 'Ukrainian', 'Portuguese', 'Spanish', 'French']",Within a Month,Within a month
+Abdürreşit,abdürreşit.giec@aol.com,20,Other,"(52.55023824814733, 13.106697557802596)",Germany,Berlin,"['Punjabi', 'Turkish ', 'German ', 'Ukrainian', 'Arabic']",Within a Month,Within a week
+Uli,uli.ścibior@unitybox.de,28,Male,"(52.54667760394823, 13.748636299578749)",Germany,Berlin,"['Spanish', 'Russian', 'Mandarin Chinese', 'Bengali']",Over a Month Ago,Within a week
+Doğanşah,doğanşah.hettner@hotmail.com,52,Male,"(52.662568412663546, 13.553778645761202)",Germany,Berlin,"['Italian', 'Russian', 'Punjabi', 'Turkish ']",Recently,Within a week
+Paolo,paolo.barth@web.de,41,Male,"(52.42296021799431, 13.365698303122356)",Germany,Berlin,['Ukrainian'],Over a Month Ago,Within 24 hours
+Eugenia,eugenia.altera@unitybox.de,38,Other,"(52.36761261117284, 13.668968866333064)",Germany,Berlin,"['Ukrainian', 'German', 'Japanese']",Over a Month Ago,Within a month
+Irma,irma.dehmel@outlook.com,49,Other,"(52.427767647063305, 13.217942062342345)",Germany,Berlin,"['Romanian', 'Italian', 'Arabic', 'Turkish ']",Yesterday,Within a week
+Cheryl,cheryl.johnson@zoho.com,21,Male,"(52.399478732537304, 13.555065054765132)",Germany,Berlin,"['Hindi', 'Italian']",Over a Month Ago,Within 24 hours
+Ksawery,ksawery.yaman@zoho.com,27,Male,"(52.46834483993626, 13.233403495439475)",Germany,Berlin,"['Hindi', 'Punjabi', 'German ']",Today,Within a week
+Meryeme,meryeme.şama@icloud.com,57,Female,"(52.567054910382744, 13.407714822420086)",Germany,Berlin,['Hindi'],Within a Week,Within a month
+Serena,serena.scott@protonmail.com,43,Male,"(52.580105873622, 13.221994516882928)",Germany,Berlin,"['Japanese', 'Spanish']",Within a Month,Within a week
+Tymon,tymon.samol@freenet.de,63,Male,"(52.508657465114325, 13.34090814882367)",Germany,Berlin,"['Arabic', 'German ', 'Hindi', 'Russian']",Today,Within a month
+Vincenza,vincenza.galvani@mail.com,50,Female,"(52.62343203048248, 13.181646754249186)",Germany,Berlin,['Polish'],Within a Month,Within a week
+Calogero,calogero.arslan@arcor.de,50,Female,"(52.66978326617612, 13.514590537779778)",Germany,Berlin,['Italian'],Over a Month Ago,Within a month
+Stuart,stuart.wiek@mail.com,23,Other,"(52.34310157049592, 13.260945763066697)",Germany,Berlin,"['Arabic', 'Romanian', 'Hindi', 'Italian']",Recently,Within a week
+Koşukhan,koşukhan.hermann@yahoo.com,39,Female,"(52.475906669064905, 13.110725942851753)",Germany,Berlin,"['German', 'Arabic', 'Polish']",Within a Month,Within a week
+Carole,carole.kısakürek@hotmail.com,32,Other,"(52.58849880859544, 13.136588597604558)",Germany,Berlin,"['Italian', 'English', 'Mandarin Chinese']",Within a Week,Within 24 hours
+Hayley,hayley.cugia@hotmail.com,50,Male,"(52.430600187692306, 13.521815772005036)",Germany,Berlin,"['English', 'Portuguese']",Over a Month Ago,Within a week
+Olga,olga.akar@icloud.com,46,Female,"(52.37911080501304, 13.175893327165376)",Germany,Berlin,"['Japanese', 'English']",Today,Within a week
+Debra,debra.pritchard@gmx.de,58,Female,"(52.548749057473216, 13.6949896805492)",Germany,Berlin,"['Punjabi', 'English']",Yesterday,Within a month
+Katy,katy.kaur@mail.com,65,Other,"(52.5116498346628, 13.51385355793086)",Germany,Berlin,"['Portuguese', 'Italian', 'German']",Recently,Within a month
+Frances,frances.collins@protonmail.com,33,Female,"(52.55226854504806, 13.287028374326727)",Germany,Berlin,"['German ', 'Mandarin Chinese', 'French', 'Ukrainian', 'German']",Within a Month,Within 24 hours
+Laureano,laureano.ebert@unitybox.de,26,Male,"(52.54566736244056, 13.690765618928316)",Germany,Berlin,"['Ukrainian', 'Russian', 'German', 'Mandarin Chinese', 'Bengali']",Within a Week,Within 24 hours
+Gülbani,gülbani.maraszek@freenet.de,25,Male,"(52.52719087229282, 13.253780436348856)",Germany,Berlin,"['English', 'Hindi', 'Punjabi']",Yesterday,Within 24 hours
+Kai-Uwe,kai-uwe.delekta@freenet.de,39,Female,"(52.57493597834086, 13.392908657279188)",Germany,Berlin,"['Bengali', 'Turkish ', 'Italian', 'Russian', 'German']",Today,Within a week
+Aloys,aloys.tanzini@zoho.com,23,Female,"(52.634269627402624, 13.643714271067044)",Germany,Berlin,['Spanish'],Within a Week,Within a month
+Tomasz,tomasz.hodgson@arcor.de,23,Other,"(52.35064669728591, 13.324085326785223)",Germany,Berlin,"['Mandarin Chinese', 'German ', 'French']",Within a Week,Within a month
+Carolyn,carolyn.trzos@mail.com,38,Female,"(52.35083935733155, 13.74758840660344)",Germany,Berlin,"['Mandarin Chinese', 'German', 'Arabic', 'Romanian']",Within a Week,Within a week
+Tadeusz,tadeusz.tevetoğlu@1und1.de,56,Other,"(52.57604549958159, 13.557592373561503)",Germany,Berlin,['Polish'],Over a Month Ago,Within 24 hours
+Ayşenur,ayşenur.gülen@freenet.de,37,Male,"(52.35169430014536, 13.338190133310686)",Germany,Berlin,"['Portuguese', 'French']",Within a Week,Within a week
+Mario,mario.bajamonti@zoho.com,29,Male,"(52.63484417058336, 13.48572901147498)",Germany,Berlin,['Polish'],Within a Week,Within a week
+Sergius,sergius.sakarya@protonmail.com,20,Other,"(52.669145634753235, 13.183497384508023)",Germany,Berlin,"['Punjabi', 'Ukrainian', 'French']",Within a Month,Within a week
+Bişar,bişar.fletcher@unitybox.de,23,Other,"(52.64901355587181, 13.192791394347466)",Germany,Berlin,"['Turkish ', 'Hindi', 'Bengali']",Over a Month Ago,Within 24 hours
+Evde,evde.front@hotmail.com,46,Other,"(52.63100937313381, 13.677264075869505)",Germany,Berlin,"['Mandarin Chinese', 'Portuguese', 'Romanian']",Recently,Within a month
+Cornelia,cornelia.stevens@protonmail.com,37,Female,"(52.49338660165044, 13.208380054202722)",Germany,Berlin,"['Italian', 'Ukrainian', 'Polish', 'German ', 'Punjabi']",Within a Month,Within 24 hours
+Fitnat,fitnat.dumanlı@t-online.de,26,Female,"(52.645304756466, 13.40658894260484)",Germany,Berlin,"['German ', 'Romanian', 'Russian']",Within a Month,Within a month
+Erbay,erbay.eberhardt@web.de,57,Other,"(52.558842267582676, 13.425783738244379)",Germany,Berlin,['German '],Within a Month,Within a week
+Pasqual,pasqual.vollbrecht@mail.com,62,Other,"(52.48771878411357, 13.70260741240633)",Germany,Berlin,"['Ukrainian', 'French']",Recently,Within a month
+Konstanze,konstanze.yüksel@yahoo.com,22,Other,"(52.669817127658064, 13.529509984567898)",Germany,Berlin,"['Mandarin Chinese', 'German ']",Within a Week,Within 24 hours
+Ayaydın,ayaydın.soylu@yahoo.com,49,Female,"(52.35368253432036, 13.404144899253843)",Germany,Berlin,"['English', 'Hindi']",Yesterday,Within a week
+Denis,denis.hörle@web.de,24,Female,"(52.409492449932, 13.40927191752943)",Germany,Berlin,"['English', 'Portuguese']",Over a Month Ago,Within a month
+Daniel,daniel.briemer@web.de,19,Male,"(52.53751490542596, 13.366124285446567)",Germany,Berlin,"['Arabic', 'Japanese', 'Spanish']",Within a Week,Within 24 hours
+Marco,marco.sakarya@gmx.de,25,Other,"(52.560680475951685, 13.219703497035086)",Germany,Berlin,"['German ', 'Arabic', 'Ukrainian', 'Japanese']",Recently,Within a week
+Delia,delia.corbo@icloud.com,58,Male,"(52.40972555558842, 13.589915342580452)",Germany,Berlin,['Japanese'],Within a Month,Within 24 hours
+Ute,ute.asmundo@mail.com,63,Female,"(52.45594225555557, 13.47871139143152)",Germany,Berlin,"['Ukrainian', 'Japanese', 'Hindi']",Today,Within 24 hours
+Memili,memili.akça@zoho.com,48,Male,"(52.50640646832135, 13.397175624037702)",Germany,Berlin,"['French', 'Portuguese']",Within a Week,Within 24 hours
+Galasso,galasso.downar@zoho.com,48,Female,"(52.389294959407636, 13.467791484934612)",Germany,Berlin,"['Portuguese', 'English', 'Hindi', 'Spanish']",Within a Week,Within a month
+Çinerk,çinerk.altera@hotmail.com,49,Male,"(52.56210150343764, 13.44155083760431)",Germany,Berlin,"['German ', 'Spanish', 'Russian']",Over a Month Ago,Within a week
+Gülfeza,gülfeza.alemdar@1und1.de,21,Female,"(52.58793618872446, 13.307047767000494)",Germany,Berlin,"['English', 'German']",Today,Within 24 hours
+Federica,federica.marshall@arcor.de,26,Male,"(52.60035528470543, 13.49928730519736)",Germany,Berlin,"['Romanian', 'Punjabi', 'English', 'Bengali', 'Hindi']",Yesterday,Within a month
+Gabriele,gabriele.morucci@freenet.de,22,Female,"(52.43232858402972, 13.678613899898988)",Germany,Berlin,['Punjabi'],Today,Within a week
+Samir,samir.bender@gmail.com,60,Other,"(52.57041224725759, 13.679644395180196)",Germany,Berlin,"['Japanese', 'French']",Within a Week,Within a month
+Nicole,nicole.webb@mail.com,43,Male,"(52.57888306210724, 13.475624565924628)",Germany,Berlin,"['German', 'French', 'Turkish ', 'Ukrainian', 'Portuguese']",Within a Month,Within 24 hours
+Orlando,orlando.öcalan@hotmail.com,46,Female,"(52.44650486058799, 13.609645531024123)",Germany,Berlin,"['Bengali', 'Polish', 'Turkish ', 'Punjabi']",Today,Within a month
+Isa,isa.wiertel@protonmail.com,61,Female,"(52.642811407724125, 13.219565708834084)",Germany,Berlin,['Bengali'],Over a Month Ago,Within 24 hours
+Ergül,ergül.detti@web.de,20,Male,"(52.54657726209078, 13.550489033525402)",Germany,Berlin,"['Russian', 'Polish', 'German ', 'Romanian', 'Mandarin Chinese']",Today,Within a week
+Timm,timm.zeffirelli@outlook.com,45,Male,"(52.46983347973286, 13.709055317225037)",Germany,Berlin,"['Portuguese', 'Mandarin Chinese']",Yesterday,Within 24 hours
+Alberto,alberto.cardano@1und1.de,37,Male,"(52.44530688921891, 13.677001145026308)",Germany,Berlin,"['English', 'Arabic', 'Portuguese', 'Ukrainian']",Within a Week,Within a week
+Julianna,julianna.hettner@hotmail.com,49,Other,"(52.647264434265715, 13.124428590917416)",Germany,Berlin,"['Punjabi', 'French', 'Arabic', 'German', 'Russian']",Recently,Within a month
+Gianpaolo,gianpaolo.pasiak@web.de,38,Female,"(52.470287810136206, 13.667783675792045)",Germany,Berlin,"['Spanish', 'Ukrainian', 'Turkish ']",Yesterday,Within a month
+Bernardo,bernardo.pachla@yahoo.com,41,Female,"(52.452901640807156, 13.136970550738027)",Germany,Berlin,"['French', 'Portuguese', 'Italian', 'German', 'Polish']",Today,Within 24 hours
+Fulvio,fulvio.ullmann@gmail.com,55,Female,"(52.59678138814873, 13.716533928944862)",Germany,Berlin,"['Hindi', 'Italian']",Recently,Within a month
+Lidia,lidia.smith@icloud.com,42,Other,"(52.389493040880524, 13.53621972012385)",Germany,Berlin,"['Bengali', 'Italian']",Over a Month Ago,Within a month
+Cemalettin,cemalettin.stoll@t-online.de,59,Other,"(52.523362839314764, 13.391577285197279)",Germany,Berlin,"['Arabic', 'Ukrainian', 'Punjabi', 'Portuguese', 'English']",Within a Month,Within 24 hours
+Fadime,fadime.demir@mail.com,59,Other,"(52.60827641294145, 13.629499580479605)",Germany,Berlin,"['Punjabi', 'Arabic', 'Turkish ']",Recently,Within a month
+Janice,janice.carter@mail.com,43,Female,"(52.62936963689869, 13.333716582252057)",Germany,Berlin,"['Ukrainian', 'Punjabi', 'Arabic']",Today,Within a month
+Manuel,manuel.perkins@zoho.com,47,Other,"(52.39879146697633, 13.680674802503798)",Germany,Berlin,"['Hindi', 'Russian']",Over a Month Ago,Within a month
+Margaret,margaret.akça@gmail.com,26,Male,"(52.64963997451764, 13.12301212504673)",Germany,Berlin,"['Russian', 'Japanese']",Within a Week,Within a week
+Kornelia,kornelia.höfig@freenet.de,32,Male,"(52.58672896703352, 13.223428037598095)",Germany,Berlin,"['Polish', 'Romanian', 'Italian']",Today,Within a week
+Cassandra,cassandra.soylu@arcor.de,61,Other,"(52.608202973060045, 13.608220389571027)",Germany,Berlin,['Portuguese'],Within a Week,Within a week
+Declan,declan.golda@yahoo.com,29,Male,"(52.53052561071044, 13.697325277379328)",Germany,Berlin,"['French', 'Romanian']",Yesterday,Within a week
+Gerd,gerd.brichese@protonmail.com,40,Male,"(52.376566701978554, 13.19246331511229)",Germany,Berlin,"['Russian', 'Punjabi', 'French']",Over a Month Ago,Within 24 hours
+Fabia,fabia.hançer@protonmail.com,34,Female,"(52.65668516126517, 13.387795403602864)",Germany,Berlin,"['French', 'German', 'Hindi', 'Romanian', 'Ukrainian']",Recently,Within 24 hours
+Mattia,mattia.saunders@gmail.com,22,Other,"(52.47415946710467, 13.396594443991201)",Germany,Berlin,"['Russian', 'Ukrainian', 'German ', 'Romanian', 'Portuguese']",Today,Within 24 hours
+Muktedir,muktedir.lang@yahoo.com,22,Male,"(52.416622862123646, 13.51828647675852)",Germany,Berlin,"['German ', 'Russian', 'Polish', 'German']",Today,Within a week
+Nigel,nigel.zamorani@zoho.com,54,Male,"(52.44041262344175, 13.178636702799286)",Germany,Berlin,"['Mandarin Chinese', 'Japanese']",Yesterday,Within a week
+Giuliana,giuliana.bacosi@1und1.de,23,Other,"(52.351010001763264, 13.356234527932212)",Germany,Berlin,"['English', 'Spanish', 'Romanian']",Yesterday,Within 24 hours
+Vera,vera.agnesi@outlook.com,22,Other,"(52.662040318087705, 13.64730888083729)",Germany,Berlin,"['Mandarin Chinese', 'Russian', 'Arabic', 'Ukrainian', 'Turkish ']",Recently,Within a month
+Michael,michael.yılmaz@mail.com,57,Other,"(52.565134131784944, 13.326892960532925)",Germany,Berlin,"['Russian', 'Polish', 'Bengali', 'Hindi']",Within a Month,Within 24 hours
+Ermes,ermes.khan@icloud.com,25,Female,"(52.55310608905769, 13.467025809733594)",Germany,Berlin,"['Arabic', 'Spanish', 'Romanian']",Today,Within 24 hours
+Bican,bican.cierpka@aol.com,34,Female,"(52.47189453162353, 13.737964896334953)",Germany,Berlin,"['Punjabi', 'French', 'German ', 'Arabic', 'Hindi']",Yesterday,Within a week
+Artur,artur.franklin@protonmail.com,37,Other,"(52.669514744675375, 13.542022503376083)",Germany,Berlin,"['Punjabi', 'German ', 'German', 'Polish']",Within a Week,Within 24 hours
+Tiziano,tiziano.brown@t-online.de,61,Male,"(52.344229240601706, 13.329804401966975)",Germany,Berlin,"['Mandarin Chinese', 'Punjabi']",Today,Within a month
+Alexandre,alexandre.erdoğan@1und1.de,54,Other,"(52.573418518155634, 13.572615792083191)",Germany,Berlin,"['Arabic', 'Portuguese', 'Bengali', 'German']",Over a Month Ago,Within a week
+Sharon,sharon.williams@aol.com,57,Male,"(52.4554069912301, 13.373701999844055)",Germany,Berlin,['Hindi'],Over a Month Ago,Within a month
+Adam,adam.hübel@aol.com,64,Female,"(52.50229363195597, 13.128344257069022)",Germany,Berlin,"['French', 'Turkish ', 'German', 'Portuguese']",Within a Week,Within a week
+Raffaele,raffaele.jones@outlook.com,46,Male,"(52.578695192166414, 13.396542624785408)",Germany,Berlin,"['French', 'Bengali', 'Polish', 'Spanish']",Within a Month,Within a week
+Eryk,eryk.hughes@protonmail.com,36,Male,"(52.57107271738038, 13.199327030592162)",Germany,Berlin,"['Hindi', 'Japanese', 'German', 'Italian']",Today,Within 24 hours
+Philip,philip.gieß@icloud.com,46,Male,"(52.50371348471578, 13.595237549523898)",Germany,Berlin,"['Spanish', 'Japanese']",Yesterday,Within a week
+Meinhard,meinhard.cavanna@outlook.com,47,Male,"(52.62023047816192, 13.326667231647411)",Germany,Berlin,['Mandarin Chinese'],Recently,Within 24 hours
+Ennio,ennio.infantino@yahoo.com,28,Female,"(52.428194460195705, 13.123521653534452)",Germany,Berlin,['Punjabi'],Within a Week,Within 24 hours
+Karlukhan,karlukhan.trussardi@outlook.com,50,Male,"(52.51115703808074, 13.098174409238657)",Germany,Berlin,"['German ', 'German', 'Bengali']",Within a Week,Within 24 hours
+Öğet,öğet.dean@gmail.com,20,Female,"(52.41637768855865, 13.736218159222243)",Germany,Berlin,['Hindi'],Today,Within a month
+Saverio,saverio.andrews@aol.com,51,Other,"(52.48759923518717, 13.324390977769912)",Germany,Berlin,"['Turkish ', 'Mandarin Chinese', 'German', 'German ']",Yesterday,Within 24 hours
+Maciej,maciej.moore@arcor.de,19,Other,"(52.44269414448723, 13.472564545359267)",Germany,Berlin,"['Turkish ', 'English']",Within a Month,Within a month
+Anna Maria,anna maria.williams@gmx.de,41,Female,"(52.6097608809046, 13.306173321479571)",Germany,Berlin,"['Portuguese', 'Ukrainian']",Over a Month Ago,Within 24 hours
+Julianna,julianna.lane@aol.com,49,Female,"(52.60889899796805, 13.664000097738679)",Germany,Berlin,"['German ', 'Mandarin Chinese', 'Spanish']",Within a Week,Within 24 hours
+Sözer,sözer.pisacane@aol.com,20,Female,"(52.52626067468865, 13.169146186088515)",Germany,Berlin,"['Japanese', 'French', 'German ', 'Bengali', 'Romanian']",Within a Month,Within 24 hours
+Yayak,yayak.schmiedt@unitybox.de,38,Other,"(52.3412548971025, 13.76055856035318)",Germany,Berlin,"['Mandarin Chinese', 'Punjabi', 'Bengali']",Recently,Within 24 hours
+Jakub,jakub.kitzmann@icloud.com,61,Other,"(52.55615556074307, 13.547704890900876)",Germany,Berlin,"['Ukrainian', 'Russian']",Today,Within a week
+Faruk,faruk.johnston@yahoo.com,62,Male,"(52.39051392374673, 13.449656445396332)",Germany,Berlin,"['Hindi', 'Russian', 'Portuguese', 'Italian', 'Polish']",Today,Within a week
+Leon,leon.baroffio@gmail.com,28,Male,"(52.41933278193589, 13.727317158552932)",Germany,Berlin,"['Turkish ', 'German ', 'Russian', 'Polish']",Today,Within 24 hours
+Baldassare,baldassare.malara@protonmail.com,60,Male,"(52.54530940405098, 13.759239035624562)",Germany,Berlin,['Mandarin Chinese'],Over a Month Ago,Within a week
+Burkhardt,burkhardt.dydo@freenet.de,54,Male,"(52.39195638692239, 13.35522086263954)",Germany,Berlin,['English'],Recently,Within a month
+Virginia,virginia.demir@protonmail.com,45,Female,"(52.66351228389143, 13.62313377269572)",Germany,Berlin,"['Hindi', 'Portuguese', 'Japanese', 'Turkish ']",Yesterday,Within a month
+Bethany,bethany.pertile@unitybox.de,38,Female,"(52.61813636889659, 13.396599300288976)",Germany,Berlin,"['Romanian', 'German ']",Within a Week,Within 24 hours
+Mikołaj,mikołaj.gnyp@yahoo.com,18,Male,"(52.448591380945906, 13.654042134814977)",Germany,Berlin,['Japanese'],Today,Within a week
+Joel,joel.karadeniz@t-online.de,20,Other,"(52.48393435256059, 13.543151384709356)",Germany,Berlin,"['English', 'Bengali', 'German ', 'Portuguese']",Yesterday,Within a month
+Rossana,rossana.sezgin@outlook.com,41,Female,"(52.52862870777623, 13.232834513226056)",Germany,Berlin,"['Polish', 'Ukrainian', 'Russian', 'Punjabi']",Yesterday,Within a week
+Charles,charles.farmer@protonmail.com,49,Female,"(52.35158131581387, 13.641690496704284)",Germany,Berlin,"['Turkish ', 'Arabic', 'Mandarin Chinese']",Within a Month,Within a week
+Tymoteusz,tymoteusz.żabierek@hotmail.com,46,Male,"(52.487106475656894, 13.372484851645549)",Germany,Berlin,"['Portuguese', 'Hindi', 'Bengali', 'Arabic']",Within a Week,Within 24 hours
+Kapagan,kapagan.franas@hotmail.com,26,Other,"(52.5165184417799, 13.1426741869131)",Germany,Berlin,"['Polish', 'English', 'Turkish ', 'Spanish']",Within a Month,Within a week
+Roksana,roksana.fraser@arcor.de,57,Female,"(52.46391442340011, 13.503923430898869)",Germany,Berlin,"['German', 'Italian']",Today,Within a month
+Corrado,corrado.witaszek@protonmail.com,19,Male,"(52.46979609955003, 13.19916221603366)",Germany,Berlin,['German'],Within a Month,Within a month
+Graeme,graeme.evans@gmail.com,56,Male,"(52.51599976102365, 13.248118995268577)",Germany,Berlin,"['Arabic', 'Turkish ', 'German', 'English']",Within a Week,Within a month
+Leonard,leonard.weimer@unitybox.de,40,Female,"(52.526962318109405, 13.115281255332906)",Germany,Berlin,"['Japanese', 'Punjabi']",Over a Month Ago,Within 24 hours
+Janus,janus.morris@gmail.com,19,Male,"(52.470985550353966, 13.273924331411822)",Germany,Berlin,"['Turkish ', 'Punjabi']",Today,Within a month
+Natan,natan.akçay@web.de,65,Male,"(52.62246445301629, 13.747315270443913)",Germany,Berlin,['Polish'],Today,Within a month
+Emine,emine.orwat@hotmail.com,49,Female,"(52.50021125665072, 13.592304250597673)",Germany,Berlin,"['Italian', 'Hindi']",Recently,Within a week
+Yeşil,yeşil.piotrkowicz@web.de,61,Male,"(52.65885689947459, 13.472541344829024)",Germany,Berlin,"['Portuguese', 'Japanese', 'Polish', 'Punjabi', 'Mandarin Chinese']",Within a Month,Within a month
+Orgün,orgün.juvara@web.de,44,Female,"(52.563407370369745, 13.600314489849293)",Germany,Berlin,"['Portuguese', 'Turkish ', 'Spanish', 'Bengali', 'English']",Recently,Within a month
+Morena,morena.hethur@aol.com,26,Male,"(52.4929088970866, 13.422514952227688)",Germany,Berlin,"['Italian', 'Russian', 'Turkish ', 'Romanian', 'German ']",Recently,Within a week
+Semender,semender.kozieja@web.de,23,Female,"(52.45627491675931, 13.5020658722792)",Germany,Berlin,['Italian'],Over a Month Ago,Within a week
+Stella,stella.hartmann@icloud.com,32,Male,"(52.35504894944137, 13.716189496998318)",Germany,Berlin,"['Japanese', 'Ukrainian', 'Hindi']",Within a Week,Within 24 hours
+Alwin,alwin.ficoń@t-online.de,21,Male,"(52.4454960205098, 13.554869643981188)",Germany,Berlin,"['Japanese', 'Arabic', 'Italian', 'English', 'Russian']",Today,Within a month
+Aneta,aneta.kuzior@mail.com,33,Female,"(52.62542807134063, 13.595122631727765)",Germany,Berlin,"['French', 'Russian', 'English']",Recently,Within a week
+Eckart,eckart.emo@unitybox.de,43,Male,"(52.39678677632061, 13.248432441754863)",Germany,Berlin,"['Turkish ', 'Punjabi', 'Ukrainian', 'Mandarin Chinese']",Within a Week,Within a month
+Luciano,luciano.mizgała@gmx.de,31,Female,"(52.41431766649166, 13.380368183597044)",Germany,Berlin,"['Russian', 'Punjabi']",Within a Week,Within a week
+Etta,etta.pickering@1und1.de,27,Female,"(52.64212345972141, 13.1006021222962)",Germany,Berlin,"['Japanese', 'German', 'Italian']",Over a Month Ago,Within a week
+Zevlüde,zevlüde.garczyk@gmail.com,62,Other,"(52.544701576231134, 13.67175624136137)",Germany,Berlin,"['Russian', 'Portuguese', 'Turkish ']",Within a Month,Within a month
+Yelesen,yelesen.moore@zoho.com,22,Other,"(52.47487371162808, 13.322289823085173)",Germany,Berlin,"['Hindi', 'Spanish']",Within a Week,Within 24 hours
+Victor,victor.innocenti@unitybox.de,27,Other,"(52.577128864567634, 13.153508180192018)",Germany,Berlin,"['Ukrainian', 'French']",Within a Week,Within 24 hours
+İlbek,i̇lbek.davidson@protonmail.com,51,Male,"(52.392549503633056, 13.10948239743863)",Germany,Berlin,['French'],Within a Month,Within a week
+Danielle,danielle.yorulmaz@hotmail.com,32,Other,"(52.420006519469815, 13.4823034560613)",Germany,Berlin,"['Russian', 'Portuguese', 'Ukrainian', 'Japanese', 'Romanian']",Over a Month Ago,Within a month
+Kunibert,kunibert.pabiś@freenet.de,40,Male,"(52.49209706538143, 13.358582052263941)",Germany,Berlin,['Portuguese'],Yesterday,Within 24 hours
+Nurbanu,nurbanu.świt@gmail.com,38,Other,"(52.51183541700395, 13.60850412048787)",Germany,Berlin,"['German ', 'Polish']",Within a Month,Within 24 hours
+Ewa,ewa.yaman@protonmail.com,20,Male,"(52.44269521654424, 13.738798184316003)",Germany,Berlin,"['Spanish', 'Portuguese']",Today,Within 24 hours
+Lilian,lilian.jockel@gmx.de,45,Female,"(52.56472222664212, 13.548840038523087)",Germany,Berlin,['Japanese'],Recently,Within 24 hours
+Lidia,lidia.kuska@unitybox.de,61,Other,"(52.498180171050315, 13.097982216242007)",Germany,Berlin,"['Arabic', 'German ', 'Japanese']",Within a Month,Within a month
+Hugh,hugh.bender@gmx.de,31,Female,"(52.45419851677103, 13.460251156509802)",Germany,Berlin,"['Punjabi', 'German', 'Turkish ', 'Japanese', 'English']",Today,Within 24 hours
+Verde,verde.janc@freenet.de,58,Male,"(52.66294460977246, 13.133701647559064)",Germany,Berlin,"['Spanish', 'Portuguese', 'Arabic', 'Italian']",Yesterday,Within a week
+Guarino,guarino.gumprich@gmx.de,21,Other,"(52.6200627957981, 13.612889357461995)",Germany,Berlin,"['Japanese', 'Punjabi', 'German ', 'Ukrainian']",Within a Week,Within 24 hours
+Karl-Jürgen,karl-jürgen.ludovisi@zoho.com,52,Male,"(52.662570152197794, 13.389440333603627)",Germany,Berlin,['Italian'],Yesterday,Within a week
+Satıa,satıa.ford@unitybox.de,34,Male,"(52.48927251421568, 13.761145531497727)",Germany,Berlin,"['Mandarin Chinese', 'Arabic', 'Bengali', 'German ']",Today,Within 24 hours
+Buyrukhan,buyrukhan.staniaszek@hotmail.com,50,Other,"(52.48185502880459, 13.662988627530966)",Germany,Berlin,"['Portuguese', 'Mandarin Chinese', 'Turkish ']",Today,Within a week
+Christian,christian.alemdar@hotmail.com,24,Male,"(52.45219808495162, 13.428687462830018)",Germany,Berlin,['English'],Over a Month Ago,Within a week
+Yekda,yekda.mantegna@zoho.com,37,Female,"(52.56194124652546, 13.632236451197091)",Germany,Berlin,['Hindi'],Recently,Within a week
+Swantje,swantje.złotek@icloud.com,31,Female,"(52.53460273203057, 13.207807530042615)",Germany,Berlin,"['English', 'Hindi', 'French', 'Russian']",Today,Within a week
+Fabian,fabian.meister@icloud.com,52,Male,"(52.35317647727059, 13.695200613580953)",Germany,Berlin,"['Bengali', 'Arabic']",Within a Month,Within a month
+Grace,grace.şama@aol.com,51,Other,"(52.54467336780874, 13.697697947464675)",Germany,Berlin,"['Turkish ', 'Portuguese', 'Japanese', 'English', 'Russian']",Within a Week,Within a month
+Filip,filip.döhn@mail.com,57,Other,"(52.539477658253624, 13.25834163481526)",Germany,Berlin,"['Mandarin Chinese', 'Italian', 'Polish', 'Hindi', 'English']",Recently,Within a week
+Tola,tola.smith@unitybox.de,18,Female,"(52.43892760284932, 13.178615040626761)",Germany,Berlin,"['Hindi', 'Arabic', 'English', 'Japanese', 'Italian']",Yesterday,Within a month
+Besin,besin.börner@gmx.de,50,Other,"(52.57656012168818, 13.381994339211708)",Germany,Berlin,"['Turkish ', 'Punjabi', 'Arabic']",Within a Week,Within a week
+Şahinbey,şahinbey.rose@freenet.de,29,Other,"(52.57586751193171, 13.206400284993162)",Germany,Berlin,"['Russian', 'Turkish ', 'Polish', 'Spanish', 'Japanese']",Recently,Within 24 hours
+Mutluhan,mutluhan.thompson@aol.com,25,Other,"(52.61651448303389, 13.464439436575924)",Germany,Berlin,"['Punjabi', 'Turkish ', 'Polish', 'German ']",Recently,Within 24 hours
+Samantha,samantha.taczała@aol.com,30,Male,"(52.54405914093734, 13.493335214049816)",Germany,Berlin,"['Hindi', 'Turkish ', 'Punjabi', 'German']",Over a Month Ago,Within a month
+Emil,emil.durys@1und1.de,25,Female,"(52.634886754206654, 13.141557209228075)",Germany,Berlin,"['Arabic', 'Polish', 'German', 'Japanese']",Within a Week,Within 24 hours
+Dorothy,dorothy.cugia@hotmail.com,34,Male,"(52.55229269515581, 13.388413235784537)",Germany,Berlin,['Spanish'],Recently,Within a month
+Ippazio,ippazio.guariento@gmail.com,59,Female,"(52.48437708062542, 13.232665001328034)",Germany,Berlin,"['Polish', 'Bengali', 'Russian', 'Arabic']",Over a Month Ago,Within a month
+Tatiana,tatiana.cardano@unitybox.de,52,Male,"(52.45960590869924, 13.456019964646691)",Germany,Berlin,"['Arabic', 'Hindi', 'Bengali', 'Polish', 'German']",Yesterday,Within a month
+Pietro,pietro.gülen@unitybox.de,22,Female,"(52.64471210784489, 13.227182112906663)",Germany,Berlin,"['Portuguese', 'Hindi', 'Polish']",Yesterday,Within a month
+Owen,owen.gumprich@icloud.com,22,Other,"(52.574596434123265, 13.569060743276566)",Germany,Berlin,['Portuguese'],Within a Week,Within a month
+Roksana,roksana.carsten@freenet.de,53,Other,"(52.383546328755386, 13.711438480504947)",Germany,Berlin,"['Portuguese', 'Bengali']",Within a Week,Within 24 hours
+Grzegorz,grzegorz.grotek@arcor.de,25,Male,"(52.40801489243196, 13.47063577578232)",Germany,Berlin,['Italian'],Yesterday,Within 24 hours
+İsak,i̇sak.fuller@1und1.de,54,Male,"(52.41014413304345, 13.488899731093992)",Germany,Berlin,['Ukrainian'],Yesterday,Within a week
+Maciej,maciej.berger@t-online.de,43,Other,"(52.36266706592947, 13.349240390969559)",Germany,Berlin,"['Italian', 'Arabic']",Over a Month Ago,Within a week
+Martine,martine.güçlü@icloud.com,50,Male,"(52.631612433812464, 13.301561100661482)",Germany,Berlin,"['Portuguese', 'Russian', 'Bengali', 'Punjabi']",Recently,Within a week
+Ida,ida.kapałka@arcor.de,53,Other,"(52.57118662560448, 13.284690412459957)",Germany,Berlin,"['Polish', 'Spanish', 'Bengali', 'Mandarin Chinese', 'Italian']",Within a Month,Within 24 hours
+Elvan,elvan.bird@zoho.com,49,Male,"(52.613888852055915, 13.29910190586638)",Germany,Berlin,"['Russian', 'German ']",Yesterday,Within 24 hours
+Melanie,melanie.mitchell@web.de,31,Other,"(52.58601190538129, 13.584789567541273)",Germany,Berlin,"['Romanian', 'Spanish']",Today,Within a month
+Gunter,gunter.wernecke@yahoo.com,55,Male,"(52.466379313005056, 13.714813760037462)",Germany,Berlin,"['German ', 'Arabic']",Recently,Within 24 hours
+Nural,nural.aslan@t-online.de,31,Male,"(52.414451877599156, 13.703467208723954)",Germany,Berlin,"['Spanish', 'Turkish ', 'Italian', 'Ukrainian']",Yesterday,Within a week
+Aurelia,aurelia.smith@mail.com,21,Male,"(52.67149171349532, 13.726682246440527)",Germany,Berlin,['Italian'],Within a Week,Within 24 hours
+Ivo,ivo.perry@gmail.com,64,Other,"(52.59266134806052, 13.227306518482482)",Germany,Berlin,"['Bengali', 'Spanish']",Recently,Within a month
+Konstanty,konstanty.lübs@protonmail.com,29,Female,"(52.575370820102954, 13.573552853758285)",Germany,Berlin,['Bengali'],Within a Month,Within 24 hours
+Adam,adam.pace@unitybox.de,46,Female,"(52.407251552531264, 13.656252638975817)",Germany,Berlin,"['Spanish', 'Japanese', 'French', 'Mandarin Chinese', 'Arabic']",Within a Month,Within a week
+Emil,emil.sawko@mail.com,20,Female,"(52.339834333667575, 13.164532439467708)",Germany,Berlin,"['German ', 'German', 'Ukrainian', 'Portuguese', 'English']",Within a Month,Within 24 hours
+Francesco,francesco.hussain@arcor.de,26,Female,"(52.433206091292156, 13.377919840940402)",Germany,Berlin,"['German ', 'Russian', 'Mandarin Chinese', 'Polish', 'Italian']",Yesterday,Within a week
+Mathias,mathias.binaghi@gmail.com,48,Female,"(52.3905821610602, 13.306817138627698)",Germany,Berlin,"['English', 'Italian', 'Turkish ', 'Bengali']",Over a Month Ago,Within a month
+Frederick,frederick.webb@icloud.com,63,Male,"(52.473350360750324, 13.148795213272255)",Germany,Berlin,"['Bengali', 'Ukrainian', 'German']",Within a Month,Within 24 hours
+Marek,marek.fantoni@gmx.de,25,Male,"(52.606652184117976, 13.682090891930855)",Germany,Berlin,"['Bengali', 'Portuguese']",Yesterday,Within 24 hours
+Gianpietro,gianpietro.jones@t-online.de,60,Female,"(52.62996299752776, 13.3196642680017)",Germany,Berlin,['Ukrainian'],Recently,Within a month
+Monika,monika.gogola@mail.com,65,Male,"(52.384428523635385, 13.173242683132294)",Germany,Berlin,"['German ', 'Portuguese', 'French']",Yesterday,Within 24 hours
+Clive,clive.bilir@arcor.de,39,Male,"(52.48731767391245, 13.290957258150225)",Germany,Berlin,['Japanese'],Yesterday,Within 24 hours
+George,george.lee@unitybox.de,36,Female,"(52.35228777695404, 13.584286924186873)",Germany,Berlin,"['Bengali', 'Spanish', 'French']",Within a Month,Within a week
+Ewelina,ewelina.albers@hotmail.com,32,Other,"(52.460723404709114, 13.348685821431298)",Germany,Berlin,"['Italian', 'German', 'Turkish ', 'Hindi']",Today,Within a month
+Salvi,salvi.uzar@yahoo.com,59,Other,"(52.59841468442994, 13.30467491163069)",Germany,Berlin,"['Polish', 'Bengali', 'German ', 'German', 'Japanese']",Within a Week,Within a week
+Dina,dina.vasari@gmx.de,53,Male,"(52.450902482430095, 13.254650448683057)",Germany,Berlin,"['Hindi', 'Punjabi', 'English']",Yesterday,Within a month
+Mengi,mengi.fırat@icloud.com,51,Female,"(52.40705350565577, 13.15122749357755)",Germany,Berlin,"['Punjabi', 'Mandarin Chinese']",Recently,Within a month
+Nuyan,nuyan.turner@hotmail.com,27,Male,"(52.44807686609394, 13.227104522097562)",Germany,Berlin,"['Spanish', 'Portuguese', 'Mandarin Chinese']",Yesterday,Within a month
+Mateusz,mateusz.junck@gmx.de,41,Female,"(52.51266189319817, 13.503685818630487)",Germany,Berlin,"['Mandarin Chinese', 'Punjabi', 'Hindi', 'Italian']",Within a Week,Within 24 hours
+Dino,dino.woszczyna@unitybox.de,56,Other,"(52.43167273305402, 13.600796384587252)",Germany,Berlin,"['French', 'Punjabi', 'Romanian']",Yesterday,Within 24 hours
+İnsaf,i̇nsaf.micheletti@hotmail.com,40,Other,"(52.46230426736274, 13.694686341782056)",Germany,Berlin,['Spanish'],Recently,Within a week
+Natasha,natasha.jopich@gmx.de,30,Other,"(52.67540757217124, 13.463641719734234)",Germany,Berlin,"['Ukrainian', 'Portuguese', 'German ', 'Punjabi']",Recently,Within a month
+Michael,michael.piskor@hotmail.com,25,Male,"(52.48384713672146, 13.351317597871327)",Germany,Berlin,"['Bengali', 'Spanish']",Within a Week,Within a week
+Bruce,bruce.nugnes@aol.com,32,Other,"(52.52119430035971, 13.306056604433186)",Germany,Berlin,"['Romanian', 'Italian', 'Ukrainian', 'Bengali', 'Hindi']",Yesterday,Within a week
+Anna Maria,anna maria.webb@icloud.com,57,Other,"(52.485117237712174, 13.144311068838286)",Germany,Berlin,"['German ', 'Bengali', 'Punjabi']",Within a Month,Within a month
+Sandra,sandra.bilge@t-online.de,49,Male,"(52.349588481522396, 13.395896949143172)",Germany,Berlin,"['Mandarin Chinese', 'Ukrainian', 'Arabic', 'Hindi', 'Bengali']",Over a Month Ago,Within 24 hours
+Tanyolaç,tanyolaç.hendriks@gmx.de,56,Female,"(52.5505994441337, 13.339840969862049)",Germany,Berlin,"['Spanish', 'Turkish ', 'Ukrainian', 'Russian', 'Japanese']",Yesterday,Within a month
+Christine,christine.pavanello@freenet.de,61,Male,"(52.51467221078482, 13.55906596116821)",Germany,Berlin,['Punjabi'],Today,Within a week
+Algış,algış.vismara@zoho.com,47,Other,"(52.50989492738462, 13.572463709466872)",Germany,Berlin,"['Mandarin Chinese', 'Portuguese']",Yesterday,Within a month
+Sejda,sejda.moore@gmail.com,50,Female,"(52.36970627344274, 13.24098130534186)",Germany,Berlin,"['French', 'Italian', 'Hindi', 'Mandarin Chinese', 'Russian']",Within a Week,Within 24 hours
+Kacper,kacper.smith@mail.com,63,Male,"(52.590884341432854, 13.313123221221138)",Germany,Berlin,"['Turkish ', 'Italian', 'Hindi', 'Ukrainian']",Today,Within 24 hours
+Fortunata,fortunata.smyl@protonmail.com,57,Other,"(52.630291491958154, 13.232879105179052)",Germany,Berlin,"['Ukrainian', 'Japanese', 'Punjabi']",Within a Month,Within a week
+Dragan,dragan.gibilisco@gmail.com,39,Other,"(52.435279923382836, 13.437872905254041)",Germany,Berlin,['Italian'],Within a Month,Within 24 hours
+Gastone,gastone.killer@unitybox.de,48,Male,"(52.57597371149062, 13.271588274259578)",Germany,Berlin,"['Italian', 'Russian']",Recently,Within 24 hours
+Scott,scott.akçay@yahoo.com,42,Male,"(52.52788568495375, 13.502196956497182)",Germany,Berlin,"['Italian', 'Spanish', 'Romanian']",Over a Month Ago,Within a week
+Adrian,adrian.heba@protonmail.com,50,Other,"(52.43607349643547, 13.537709070895101)",Germany,Berlin,"['Hindi', 'Spanish', 'Turkish ', 'Mandarin Chinese']",Recently,Within a week
+Michał,michał.thompson@unitybox.de,42,Male,"(52.33861686970857, 13.441212371366959)",Germany,Berlin,['English'],Within a Week,Within a week
+Natan,natan.rogula@icloud.com,58,Female,"(52.34848847181685, 13.75863212000945)",Germany,Berlin,"['Mandarin Chinese', 'Spanish']",Over a Month Ago,Within a week
+Leigh,leigh.dumanlı@outlook.com,64,Female,"(52.53246115051639, 13.153880644413832)",Germany,Berlin,"['Romanian', 'Portuguese', 'German ']",Within a Month,Within a week
+Alex,alex.stochmal@gmx.de,42,Female,"(52.34672867446587, 13.521093223205716)",Germany,Berlin,"['Hindi', 'Japanese', 'Polish', 'Portuguese']",Today,Within a week
+Jonathan,jonathan.boaga@hotmail.com,60,Male,"(52.49163360161296, 13.588153271400799)",Germany,Berlin,"['Portuguese', 'Hindi']",Today,Within a month
+Federico,federico.arslan@t-online.de,52,Male,"(52.625573385097866, 13.167148656469953)",Germany,Berlin,"['French', 'English', 'Japanese']",Over a Month Ago,Within a month
+Abbie,abbie.daly@icloud.com,54,Other,"(52.426223982822016, 13.25285816217753)",Germany,Berlin,"['Turkish ', 'English']",Yesterday,Within 24 hours
+Mihin,mihin.korta@unitybox.de,55,Female,"(52.39570264483752, 13.51711407183013)",Germany,Berlin,"['Italian', 'Russian', 'Mandarin Chinese', 'Romanian']",Within a Month,Within 24 hours
+Sheila,sheila.ricciardi@1und1.de,23,Other,"(52.49049821049482, 13.37165221416384)",Germany,Berlin,"['Hindi', 'Bengali', 'Punjabi', 'Polish', 'Turkish ']",Over a Month Ago,Within 24 hours
+Karina,karina.barth@outlook.com,40,Male,"(52.674166165718496, 13.67759486849358)",Germany,Berlin,"['Spanish', 'Mandarin Chinese', 'Punjabi']",Yesterday,Within a week
+Hazel,hazel.scott@1und1.de,18,Male,"(52.49152733644754, 13.109085898512344)",Germany,Berlin,['Russian'],Within a Month,Within a week
+Eliza,eliza.fuller@icloud.com,38,Female,"(52.61380568730583, 13.353739407419106)",Germany,Berlin,"['Polish', 'German ']",Over a Month Ago,Within 24 hours
+Nanni,nanni.davies@t-online.de,42,Other,"(52.57736947589631, 13.490102987954367)",Germany,Berlin,['French'],Over a Month Ago,Within a month
+Alessandro,alessandro.dobrosz@arcor.de,25,Male,"(52.411529311440525, 13.171931087409279)",Germany,Berlin,"['German ', 'Russian', 'Polish', 'Mandarin Chinese']",Within a Month,Within 24 hours
+André,andré.żółtek@web.de,47,Female,"(52.40162673812062, 13.3246617512322)",Germany,Berlin,"['Spanish', 'Bengali', 'German', 'Portuguese', 'Japanese']",Within a Week,Within a week
+Tom,tom.ertaş@yahoo.com,40,Female,"(52.57991312865574, 13.416053876442723)",Germany,Berlin,"['Polish', 'Japanese']",Within a Month,Within 24 hours
+Viridiana,viridiana.kozieja@aol.com,23,Female,"(52.65613721835106, 13.188826948021775)",Germany,Berlin,"['German ', 'German', 'Bengali', 'Japanese']",Yesterday,Within a month
+Angelika,angelika.davies@1und1.de,35,Female,"(52.4340954154729, 13.512773935626813)",Germany,Berlin,"['Hindi', 'French']",Within a Month,Within a week
+Sergius,sergius.seddio@icloud.com,61,Other,"(52.45420007048389, 13.757342413516406)",Germany,Berlin,"['Mandarin Chinese', 'Ukrainian']",Yesterday,Within a month
+Meinolf,meinolf.lamb@gmx.de,65,Female,"(52.67496091151373, 13.54109232757236)",Germany,Berlin,"['Punjabi', 'French', 'Japanese', 'Romanian']",Yesterday,Within 24 hours
+Ada,ada.strangio@arcor.de,61,Male,"(52.66477771515551, 13.092682449223583)",Germany,Berlin,['Punjabi'],Yesterday,Within a week
+Angelika,angelika.öcalan@outlook.com,21,Male,"(52.37876709195453, 13.460434429223811)",Germany,Berlin,['French'],Within a Month,Within 24 hours
+Aurelia,aurelia.wojtach@yahoo.com,33,Female,"(52.60016842592565, 13.460602938785271)",Germany,Berlin,"['Mandarin Chinese', 'Ukrainian', 'Bengali', 'Turkish ']",Within a Month,Within 24 hours
+Aleks,aleks.martin@protonmail.com,55,Female,"(52.62666856046798, 13.518436161919677)",Germany,Berlin,"['French', 'Romanian', 'Japanese', 'Bengali', 'German ']",Today,Within a week
+Borys,borys.sezer@gmail.com,49,Female,"(52.41254875374303, 13.560261996193045)",Germany,Berlin,"['Romanian', 'English']",Within a Month,Within a week
+Alma,alma.bennett@web.de,18,Other,"(52.53218532014692, 13.1619229437411)",Germany,Berlin,"['Russian', 'Arabic']",Today,Within a month
+Jodie,jodie.weller@freenet.de,44,Male,"(52.645937824204985, 13.677594988619436)",Germany,Berlin,['Russian'],Recently,Within a week
+Łukasz,łukasz.bolander@arcor.de,61,Female,"(52.42335617036252, 13.420310465453)",Germany,Berlin,['Polish'],Recently,Within 24 hours
+Fryderyk,fryderyk.fidura@freenet.de,54,Female,"(52.56662611428527, 13.714673252527733)",Germany,Berlin,"['Japanese', 'Arabic', 'French']",Today,Within 24 hours
+Konrad,konrad.şensoy@icloud.com,25,Other,"(52.62806277422865, 13.405506719809566)",Germany,Berlin,"['Punjabi', 'Turkish ']",Within a Week,Within a month
+Swantje,swantje.białous@icloud.com,52,Female,"(52.3873004323724, 13.309560459545125)",Germany,Berlin,"['Spanish', 'Arabic', 'Turkish ', 'French', 'Mandarin Chinese']",Over a Month Ago,Within a month
+İlsu,i̇lsu.wende@web.de,22,Other,"(52.650143255446686, 13.159222294513995)",Germany,Berlin,"['Punjabi', 'Romanian']",Over a Month Ago,Within a week
+Maurycy,maurycy.ergül@icloud.com,47,Male,"(52.507143908219966, 13.282619520166799)",Germany,Berlin,"['Italian', 'Hindi']",Over a Month Ago,Within a week
+Vitus,vitus.kramer@web.de,30,Male,"(52.621864648779265, 13.398910188415519)",Germany,Berlin,"['Spanish', 'Punjabi', 'German', 'Italian', 'Hindi']",Within a Week,Within a month
+Işıkay,işıkay.soylu@gmail.com,56,Male,"(52.54013232227801, 13.479754384304266)",Germany,Berlin,"['Bengali', 'Mandarin Chinese', 'German', 'Italian']",Recently,Within a month
+Leonardo,leonardo.niemeier@yahoo.com,56,Other,"(52.468081715217316, 13.318362187082268)",Germany,Berlin,"['Russian', 'Portuguese']",Over a Month Ago,Within 24 hours
+Edoardo,edoardo.ellis@arcor.de,53,Other,"(52.46562663228287, 13.610992938611044)",Germany,Berlin,"['Hindi', 'French', 'Polish', 'Bengali', 'Italian']",Today,Within a week
+Martin,martin.trüb@yahoo.com,34,Male,"(52.60973696025092, 13.274384661585147)",Germany,Berlin,"['German ', 'Russian', 'German', 'Portuguese']",Yesterday,Within 24 hours
+Neil,neil.squarcione@gmail.com,35,Female,"(52.428817594740195, 13.403537695716972)",Germany,Berlin,"['Japanese', 'French', 'Turkish ']",Recently,Within a week
+Sinaida,sinaida.karz@mail.com,52,Other,"(52.51972639431133, 13.165167857172737)",Germany,Berlin,"['Punjabi', 'Portuguese', 'Japanese', 'German ', 'Ukrainian']",Over a Month Ago,Within a week
+Bradley,bradley.kade@aol.com,46,Male,"(52.382481706801094, 13.414125480364666)",Germany,Berlin,['Mandarin Chinese'],Yesterday,Within 24 hours
+Anneliese,anneliese.lee@mail.com,59,Female,"(52.61011804430807, 13.439027268088648)",Germany,Berlin,"['Italian', 'German']",Within a Month,Within a week
+Waldemar,waldemar.nolcini@hotmail.com,23,Other,"(52.59089523335182, 13.30427388207111)",Germany,Berlin,"['Ukrainian', 'Romanian', 'Italian', 'Arabic']",Over a Month Ago,Within a month
+Jake,jake.ülker@unitybox.de,52,Other,"(52.65192620289879, 13.283788932693286)",Germany,Berlin,"['Hindi', 'German ', 'Italian', 'Romanian', 'Ukrainian']",Within a Week,Within 24 hours
+Sara,sara.hawrylak@protonmail.com,18,Female,"(52.568178390500876, 13.188041983398806)",Germany,Berlin,"['Hindi', 'German ', 'Turkish ']",Within a Week,Within 24 hours
+Nurhayet,nurhayet.latko@hotmail.com,25,Male,"(52.57829694611566, 13.45504163157691)",Germany,Berlin,['Bengali'],Within a Month,Within a month
+Deborah,deborah.birnbaum@freenet.de,26,Other,"(52.448595562307624, 13.162265290055146)",Germany,Berlin,"['Polish', 'Italian', 'Bengali', 'Russian']",Within a Week,Within a week
+Zihni,zihni.cappelli@yahoo.com,21,Male,"(52.50539747165144, 13.608362684917495)",Germany,Berlin,"['German', 'Mandarin Chinese', 'Ukrainian', 'English', 'German ']",Over a Month Ago,Within 24 hours
+Olivia,olivia.hawro@mail.com,49,Other,"(52.60839229290247, 13.477761295244132)",Germany,Berlin,"['Hindi', 'French', 'Polish']",Recently,Within 24 hours
+Lotti,lotti.i̇hsanoğlu@arcor.de,43,Other,"(52.53583983260042, 13.238182393700288)",Germany,Berlin,['Romanian'],Over a Month Ago,Within 24 hours
+Maksymilian,maksymilian.dorynek@unitybox.de,54,Male,"(52.40176253441566, 13.359416100358185)",Germany,Berlin,"['Arabic', 'Punjabi', 'Italian', 'German']",Today,Within a week
+Fatigül,fatigül.botor@gmail.com,58,Female,"(52.61592215189343, 13.40880533932839)",Germany,Berlin,['Italian'],Yesterday,Within 24 hours
+Iwo,iwo.nikel@yahoo.com,60,Female,"(52.53543796801716, 13.618692541125206)",Germany,Berlin,"['Punjabi', 'Japanese', 'Russian']",Within a Week,Within 24 hours
+Alida,alida.wieloch@web.de,18,Other,"(52.565968580136364, 13.21347130467143)",Germany,Berlin,"['French', 'Hindi', 'Portuguese']",Today,Within 24 hours
+Alberico,alberico.korzeniak@web.de,38,Female,"(52.62317979791374, 13.69025309427771)",Germany,Berlin,"['Punjabi', 'Polish', 'Hindi']",Today,Within a week
+Aenne,aenne.camanni@web.de,35,Other,"(52.41746203782218, 13.098405698777317)",Germany,Berlin,"['German', 'English', 'Punjabi']",Within a Week,Within 24 hours
+Safinaz,safinaz.ehlert@unitybox.de,59,Male,"(52.375747019121654, 13.330771883932028)",Germany,Berlin,"['Russian', 'German ']",Yesterday,Within a week
+Giuliana,giuliana.taylor@freenet.de,47,Other,"(52.60482239423658, 13.52405832290468)",Germany,Berlin,"['Mandarin Chinese', 'Italian', 'Russian', 'Spanish']",Within a Week,Within 24 hours
+Chelsea,chelsea.roberts@freenet.de,57,Female,"(52.59316896452402, 13.619544909868527)",Germany,Berlin,"['Bengali', 'Japanese']",Today,Within a month
+Antonino,antonino.seifert@gmx.de,57,Other,"(52.36623260961524, 13.276136412098724)",Germany,Berlin,"['Russian', 'Japanese', 'Spanish', 'Mandarin Chinese', 'Ukrainian']",Over a Month Ago,Within a week
+Ewa,ewa.wawrzkiewicz@gmx.de,26,Other,"(52.547585879788734, 13.572942926989391)",Germany,Berlin,"['Turkish ', 'Spanish', 'German ', 'Italian', 'German']",Today,Within a week
+Victoria,victoria.palmer@hotmail.com,58,Female,"(52.55359671732852, 13.457993726829857)",Germany,Berlin,"['Portuguese', 'French', 'Arabic', 'Turkish ', 'Polish']",Today,Within 24 hours
+Sabatino,sabatino.allen@zoho.com,35,Male,"(52.478355020008365, 13.142462113162555)",Germany,Berlin,"['German ', 'Bengali']",Recently,Within a month
+Klaus-Werner,klaus-werner.arslan@zoho.com,55,Female,"(52.58340754088998, 13.177730142280168)",Germany,Berlin,"['Turkish ', 'English']",Today,Within a week
+Alina,alina.sinkiewicz@arcor.de,37,Female,"(52.574703149212475, 13.550110868976246)",Germany,Berlin,"['English', 'Turkish ', 'Russian', 'Polish', 'German']",Recently,Within a month
+Stanley,stanley.jędruszczak@hotmail.com,56,Other,"(52.40684675863958, 13.267849383948112)",Germany,Berlin,"['Polish', 'Italian']",Yesterday,Within a month
+Baptist,baptist.grygorcewicz@protonmail.com,45,Other,"(52.57436186304995, 13.196804963757527)",Germany,Berlin,"['Bengali', 'Polish', 'German ', 'Italian']",Today,Within a week
+Nataniel,nataniel.peciak@arcor.de,62,Other,"(52.4533293714538, 13.462784547039758)",Germany,Berlin,"['Punjabi', 'Bengali', 'German', 'French']",Within a Month,Within a month
+Heiko,heiko.ehlert@freenet.de,48,Female,"(52.621811749227795, 13.760869496560295)",Germany,Berlin,"['Punjabi', 'French', 'German', 'Spanish']",Within a Month,Within a week
+Thekla,thekla.marcacci@web.de,64,Female,"(52.53014983370676, 13.699807413610426)",Germany,Berlin,"['Portuguese', 'Punjabi', 'Arabic']",Today,Within 24 hours
+Vafir,vafir.hövel@outlook.com,30,Female,"(52.55603433672451, 13.606697135908682)",Germany,Berlin,"['Spanish', 'Mandarin Chinese']",Over a Month Ago,Within a week
+İşcan,i̇şcan.kłosiewicz@zoho.com,49,Female,"(52.57053627566798, 13.420485752837706)",Germany,Berlin,"['Spanish', 'Japanese', 'Russian', 'Portuguese', 'Hindi']",Within a Week,Within a month
+Alfredo,alfredo.czupryna@1und1.de,24,Male,"(52.41782368500663, 13.280214047629283)",Germany,Berlin,"['Russian', 'Polish']",Today,Within 24 hours
+Gülfeza,gülfeza.tevetoğlu@protonmail.com,35,Male,"(52.46309642897388, 13.36094407384982)",Germany,Berlin,"['German ', 'Italian', 'Russian', 'Hindi', 'Arabic']",Within a Week,Within a week
+Salih,salih.aloisio@protonmail.com,25,Other,"(52.415639289355006, 13.157748112156723)",Germany,Berlin,"['Mandarin Chinese', 'Arabic', 'Polish']",Today,Within a month
+Liliane,liliane.grosz@zoho.com,65,Other,"(52.65316434527206, 13.724217724267172)",Germany,Berlin,['Hindi'],Within a Week,Within a month
+Borahan,borahan.onisto@icloud.com,29,Female,"(52.57830565947152, 13.323699263155238)",Germany,Berlin,"['German', 'Hindi', 'Turkish ']",Today,Within 24 hours
+Duyguhan,duyguhan.jackson@freenet.de,47,Other,"(52.6129028195456, 13.562513364698201)",Germany,Berlin,"['French', 'English', 'Mandarin Chinese', 'Hindi']",Within a Week,Within a month
+Rosalia,rosalia.bernetti@zoho.com,18,Female,"(52.42715763525553, 13.165349651793491)",Germany,Berlin,"['English', 'German ', 'Spanish']",Yesterday,Within a month
+Joe,joe.mateusiak@aol.com,44,Female,"(52.44230674341955, 13.303839782148135)",Germany,Berlin,"['German ', 'Polish', 'Arabic']",Yesterday,Within 24 hours
+Ugolino,ugolino.hewitt@hotmail.com,56,Male,"(52.35054840731213, 13.364411024903411)",Germany,Berlin,['Italian'],Over a Month Ago,Within a week
+Timurtaş,timurtaş.gülen@aol.com,29,Other,"(52.66846075067926, 13.25822537149132)",Germany,Berlin,"['Romanian', 'Italian', 'English']",Recently,Within a week
+Hubert,hubert.sharpe@unitybox.de,41,Other,"(52.629379899894964, 13.59330090239547)",Germany,Berlin,"['Italian', 'Bengali']",Within a Month,Within a week
+Cyprian,cyprian.belletini@t-online.de,31,Male,"(52.48381594223012, 13.17890304314461)",Germany,Berlin,"['English', 'Hindi', 'Portuguese', 'German ', 'Arabic']",Within a Month,Within 24 hours
+Cilly,cilly.bernatowicz@gmx.de,50,Female,"(52.56935179721761, 13.353595933044518)",Germany,Berlin,"['Russian', 'Punjabi', 'French', 'Japanese', 'Hindi']",Today,Within 24 hours
+İsmet,i̇smet.paolucci@freenet.de,44,Other,"(52.64607996956922, 13.113448649393291)",Germany,Berlin,"['Arabic', 'Spanish', 'Punjabi']",Yesterday,Within a week
+Witold,witold.harper@outlook.com,46,Female,"(52.41152944508454, 13.564926764095343)",Germany,Berlin,"['Ukrainian', 'Portuguese', 'Arabic', 'Russian']",Within a Month,Within a month
+Robin,robin.güçlü@aol.com,43,Female,"(52.39061705896999, 13.171989035976203)",Germany,Berlin,"['Spanish', 'Hindi', 'Portuguese', 'Romanian']",Yesterday,Within a month
+Delfino,delfino.petrucelli@freenet.de,29,Female,"(52.48060566685515, 13.691039717767872)",Germany,Berlin,"['Bengali', 'Russian']",Over a Month Ago,Within a week
+Thomas,thomas.heinz@web.de,39,Female,"(52.43939054993457, 13.39052314538284)",Germany,Berlin,"['Italian', 'French', 'Japanese', 'Hindi', 'Punjabi']",Within a Month,Within 24 hours
+Erhardt,erhardt.sobisz@freenet.de,30,Male,"(52.43052137286942, 13.592525964852596)",Germany,Berlin,"['Turkish ', 'Ukrainian', 'Russian', 'Polish']",Within a Week,Within a month
+Romina,romina.williams@zoho.com,26,Other,"(52.35694457624797, 13.203160357407329)",Germany,Berlin,"['Russian', 'German']",Today,Within a month
+Christian,christian.wagner@web.de,31,Male,"(52.5888670302809, 13.218181382119969)",Germany,Berlin,"['Romanian', 'Hindi', 'Punjabi', 'Spanish', 'Italian']",Recently,Within 24 hours
+Wiktor,wiktor.lee@1und1.de,44,Female,"(52.463773013087554, 13.759655165362775)",Germany,Berlin,['Portuguese'],Today,Within a month
+Dagmara,dagmara.smith@unitybox.de,64,Male,"(52.56016809504533, 13.348990824781033)",Germany,Berlin,"['Japanese', 'Ukrainian']",Within a Week,Within a week
+Leone,leone.karadeniz@gmx.de,41,Other,"(52.34831165526546, 13.483819367563141)",Germany,Berlin,"['Italian', 'Japanese', 'Mandarin Chinese', 'Russian']",Recently,Within 24 hours
+Gerald,gerald.kruschwitz@freenet.de,39,Other,"(52.40056394839799, 13.183385150372885)",Germany,Berlin,"['Bengali', 'Turkish ', 'Polish']",Today,Within 24 hours
+Gülselin,gülselin.patel@zoho.com,50,Female,"(52.66335243648768, 13.381753893760786)",Germany,Berlin,"['Hindi', 'Japanese', 'French', 'Spanish', 'Russian']",Today,Within a week
+Kazimierz,kazimierz.luria@aol.com,44,Other,"(52.62974845330365, 13.166551861786548)",Germany,Berlin,"['Romanian', 'Japanese', 'Punjabi', 'Turkish ']",Within a Month,Within 24 hours
+Rosie,rosie.sztuczka@outlook.com,61,Other,"(52.53323281139475, 13.465377637088679)",Germany,Berlin,"['Romanian', 'Mandarin Chinese', 'Polish']",Yesterday,Within a month
+Tina,tina.eckbauer@yahoo.com,21,Female,"(52.530078076650824, 13.213337978322114)",Germany,Berlin,"['German ', 'Mandarin Chinese', 'French']",Recently,Within a week
+Cristina,cristina.demir@icloud.com,57,Other,"(52.43949892078054, 13.500073119828835)",Germany,Berlin,"['Polish', 'French', 'Romanian', 'Mandarin Chinese', 'German']",Recently,Within a week
+Patryk,patryk.walsh@gmail.com,46,Female,"(52.55219345493021, 13.588417290009046)",Germany,Berlin,"['German', 'Polish', 'Italian', 'Bengali', 'Punjabi']",Within a Week,Within a week
+Etta,etta.akar@zoho.com,18,Male,"(52.65582732376059, 13.165797971831298)",Germany,Berlin,['French'],Yesterday,Within a week
+İbrahim,i̇brahim.karpik@yahoo.com,41,Male,"(52.48258757584423, 13.38337136407337)",Germany,Berlin,"['Romanian', 'Polish', 'Portuguese', 'Arabic']",Within a Month,Within 24 hours
+Adrian,adrian.hughes@icloud.com,34,Other,"(52.65006339217441, 13.396407076989897)",Germany,Berlin,"['German', 'Mandarin Chinese']",Yesterday,Within a month
+Gaja,gaja.barzini@freenet.de,20,Female,"(52.63224401774529, 13.230071790911813)",Germany,Berlin,"['Russian', 'Italian']",Over a Month Ago,Within a month
+Petros,petros.bobrowicz@yahoo.com,29,Male,"(52.34936678327065, 13.635850933923395)",Germany,Berlin,"['Polish', 'Spanish']",Recently,Within 24 hours
+Maksymilian,maksymilian.złotnik@protonmail.com,56,Other,"(52.64480799752986, 13.217699567643363)",Germany,Berlin,"['English', 'Ukrainian', 'Japanese', 'Polish']",Within a Month,Within a week
+Natan,natan.zanzi@1und1.de,50,Female,"(52.514452241449696, 13.632484166701872)",Germany,Berlin,"['Italian', 'Punjabi', 'Portuguese', 'Bengali', 'Polish']",Over a Month Ago,Within a month
+Lawrence,lawrence.brzeźniak@hotmail.com,40,Male,"(52.573555865009446, 13.269281161959734)",Germany,Berlin,"['Mandarin Chinese', 'Italian']",Today,Within a month
+Pietro,pietro.i̇nönü@mail.com,25,Other,"(52.41336544985465, 13.541145788058847)",Germany,Berlin,"['Italian', 'Mandarin Chinese']",Within a Week,Within a month
+Fabian,fabian.hynek@gmx.de,52,Female,"(52.39941707153598, 13.583806456485714)",Germany,Berlin,['Hindi'],Yesterday,Within a month
+Liam,liam.kazubek@gmail.com,57,Male,"(52.59497954203444, 13.59869388622595)",Germany,Berlin,['Punjabi'],Yesterday,Within a week
+Kamil,kamil.zorlu@web.de,22,Female,"(52.49198252163749, 13.439764916242078)",Germany,Berlin,"['Russian', 'German', 'French', 'Mandarin Chinese', 'Italian']",Yesterday,Within a week
+Üstün,üstün.dean@protonmail.com,28,Other,"(52.338715066476134, 13.405804885290568)",Germany,Berlin,"['Punjabi', 'French', 'Italian', 'English']",Recently,Within a week
+Silvestro,silvestro.bonolis@t-online.de,36,Male,"(52.6258633349215, 13.60115319131918)",Germany,Berlin,"['Portuguese', 'French', 'Ukrainian', 'Arabic', 'Punjabi']",Today,Within a month
+Abdulbekir,abdulbekir.hörle@mail.com,50,Male,"(52.41552853122644, 13.295106562859269)",Germany,Berlin,"['Ukrainian', 'Mandarin Chinese']",Over a Month Ago,Within a month
+Joe,joe.poole@web.de,24,Male,"(52.517542863443964, 13.424575152221179)",Germany,Berlin,"['English', 'Romanian', 'Ukrainian', 'German ', 'Portuguese']",Within a Month,Within a month
+Rena,rena.khan@icloud.com,25,Female,"(52.66989322107605, 13.585171857086367)",Germany,Berlin,"['French', 'Arabic', 'Punjabi', 'German', 'Russian']",Within a Month,Within a month
+Gotthilf,gotthilf.kopiczko@yahoo.com,37,Male,"(52.59541665233541, 13.492099832698562)",Germany,Berlin,"['Japanese', 'Bengali', 'Turkish ', 'Hindi']",Recently,Within a week
+Michał,michał.knych@gmail.com,51,Female,"(52.40475836430558, 13.204083768077654)",Germany,Berlin,['Turkish '],Today,Within a month
+Kısmet,kısmet.karadeniz@freenet.de,24,Female,"(52.45226103588127, 13.154976479928951)",Germany,Berlin,"['French', 'Mandarin Chinese', 'Arabic']",Yesterday,Within a week
+Duncan,duncan.manço@freenet.de,46,Female,"(52.3671672600869, 13.7514990760662)",Germany,Berlin,['German'],Over a Month Ago,Within a month
+Damian,damian.ülker@arcor.de,20,Other,"(52.46248082280713, 13.276809621316119)",Germany,Berlin,"['Italian', 'Hindi', 'Japanese']",Yesterday,Within a week
+Birthe,birthe.bartoli@gmail.com,48,Male,"(52.6748717254448, 13.202383324596253)",Germany,Berlin,"['Punjabi', 'German ']",Within a Month,Within a month
+Sophie,sophie.senger@mail.com,47,Other,"(52.62103237943193, 13.453081820362737)",Germany,Berlin,"['Polish', 'German', 'German ', 'Bengali', 'Japanese']",Over a Month Ago,Within a week
+Gabi,gabi.drubin@aol.com,61,Female,"(52.66176064441288, 13.610610416749719)",Germany,Berlin,"['English', 'Romanian', 'Italian', 'French', 'Bengali']",Within a Week,Within a month
+Elvan,elvan.petruzzi@web.de,56,Other,"(52.409297388525815, 13.630212848871057)",Germany,Berlin,"['Turkish ', 'German ', 'Portuguese', 'German', 'Romanian']",Over a Month Ago,Within 24 hours
+Winfried,winfried.stephens@web.de,22,Female,"(52.350438596205244, 13.511640472007457)",Germany,Berlin,"['Spanish', 'Italian', 'French', 'German']",Over a Month Ago,Within a week
+Russell,russell.short@gmail.com,27,Other,"(52.57673093112332, 13.600537343081925)",Germany,Berlin,"['Polish', 'Portuguese', 'Romanian', 'Punjabi', 'Turkish ']",Yesterday,Within 24 hours
+Bartek,bartek.godfrey@outlook.com,65,Female,"(52.657923655650706, 13.708701516528942)",Germany,Berlin,"['Mandarin Chinese', 'Portuguese']",Yesterday,Within a month
+Şennur,şennur.saunders@hotmail.com,47,Female,"(52.52078948726795, 13.636397890119065)",Germany,Berlin,['French'],Yesterday,Within a month
+Michail,michail.matus@freenet.de,30,Male,"(52.432437846451485, 13.446000404425957)",Germany,Berlin,"['Punjabi', 'Japanese', 'Ukrainian', 'Russian']",Within a Week,Within a week
+Olga,olga.amato@zoho.com,55,Male,"(52.52539408582434, 13.207681553505264)",Germany,Berlin,"['Hindi', 'Romanian', 'Japanese', 'French', 'Russian']",Within a Week,Within a month
+Remo,remo.stumpf@mail.com,37,Female,"(52.43261214975429, 13.318856745843268)",Germany,Berlin,"['French', 'Russian', 'English', 'Turkish ']",Yesterday,Within 24 hours
+Marcelina,marcelina.treves@protonmail.com,38,Other,"(52.53941378068441, 13.594894682686462)",Germany,Berlin,"['Spanish', 'Bengali', 'English']",Within a Week,Within a week
+Tobias,tobias.dumanlı@web.de,23,Female,"(52.40310832402974, 13.551603318999748)",Germany,Berlin,"['Romanian', 'Hindi']",Today,Within 24 hours
+Yasan,yasan.kusek@arcor.de,38,Male,"(52.43109089694914, 13.293147394682089)",Germany,Berlin,"['Polish', 'Spanish']",Yesterday,Within 24 hours
+Darren,darren.seven@zoho.com,37,Female,"(52.540725360584446, 13.398835713986783)",Germany,Berlin,"['Arabic', 'Spanish', 'French']",Over a Month Ago,Within a week
+Julita,julita.bilir@outlook.com,21,Female,"(52.381749848792836, 13.23777581887395)",Germany,Berlin,"['Punjabi', 'Japanese', 'Bengali', 'Portuguese']",Yesterday,Within a month
+Şide,şide.gualtieri@icloud.com,58,Female,"(52.57418170643447, 13.406555219188991)",Germany,Berlin,"['Spanish', 'German ']",Over a Month Ago,Within a week
+Carl,carl.rohleder@1und1.de,56,Female,"(52.35690951436993, 13.112783032732459)",Germany,Berlin,"['German ', 'English', 'Italian', 'French', 'Bengali']",Today,Within 24 hours
+Cengiz,cengiz.elwart@1und1.de,23,Other,"(52.45290565630352, 13.616946406195204)",Germany,Berlin,"['Mandarin Chinese', 'Polish', 'French', 'Bengali']",Yesterday,Within 24 hours
+Janett,janett.palumbo@unitybox.de,36,Female,"(52.562036248647296, 13.583405113119921)",Germany,Berlin,"['Romanian', 'Italian', 'Russian']",Today,Within 24 hours
+Leon,leon.ebert@web.de,59,Other,"(52.53622026521071, 13.234871335232693)",Germany,Berlin,['German '],Within a Week,Within a month
+Katherine,katherine.borroni@protonmail.com,65,Male,"(52.65559515936704, 13.486836688251865)",Germany,Berlin,"['English', 'Arabic', 'Punjabi', 'Turkish ']",Today,Within 24 hours
+Arkadiusz,arkadiusz.wilms@t-online.de,40,Male,"(52.50846371737408, 13.272619469687596)",Germany,Berlin,"['Arabic', 'Romanian', 'Turkish ', 'Bengali', 'English']",Recently,Within a month
+German,german.orengo@freenet.de,27,Other,"(52.471807925892634, 13.599493609840234)",Germany,Berlin,"['Russian', 'Punjabi', 'Ukrainian', 'Bengali', 'Polish']",Within a Week,Within 24 hours
+Marek,marek.berlusconi@web.de,47,Male,"(52.40906074072988, 13.112913966832147)",Germany,Berlin,"['Ukrainian', 'Russian', 'Bengali']",Within a Month,Within a month
+Chelsea,chelsea.hornich@gmx.de,45,Female,"(52.40264962337234, 13.525353064831114)",Germany,Berlin,"['German', 'Ukrainian', 'Spanish', 'Turkish ']",Today,Within 24 hours
+Georgia,georgia.mangold@1und1.de,59,Female,"(52.60307081343088, 13.219200778783588)",Germany,Berlin,"['Polish', 'Spanish', 'German', 'Japanese']",Yesterday,Within 24 hours
+Ewelina,ewelina.şama@mail.com,39,Other,"(52.40486766342199, 13.146078527918993)",Germany,Berlin,"['German ', 'Russian', 'English']",Today,Within a month
+Ottilie,ottilie.bellini@mail.com,51,Other,"(52.532190638870226, 13.55325739413568)",Germany,Berlin,"['German', 'Italian', 'French', 'Mandarin Chinese']",Within a Month,Within 24 hours
+Besin,besin.mizia@protonmail.com,42,Female,"(52.564480812277935, 13.188121534083423)",Germany,Berlin,"['Polish', 'Turkish ', 'Spanish', 'Hindi', 'Japanese']",Recently,Within a week
+Roy,roy.kusik@gmx.de,62,Male,"(52.468912544017634, 13.502383768348778)",Germany,Berlin,"['Russian', 'Japanese', 'Turkish ', 'Portuguese']",Yesterday,Within 24 hours
+Urszula,urszula.kolanko@gmail.com,59,Other,"(52.5500194049719, 13.211118356200403)",Germany,Berlin,"['Ukrainian', 'Turkish ', 'Punjabi']",Recently,Within a month
+Ryszard,ryszard.whitehouse@hotmail.com,61,Female,"(52.35092567991232, 13.637639569067884)",Germany,Berlin,"['German', 'Romanian', 'Japanese', 'Polish']",Today,Within a week
+Cesare,cesare.galik@icloud.com,21,Male,"(52.46468447623432, 13.63778003885715)",Germany,Berlin,"['German', 'Punjabi', 'Portuguese', 'English', 'Italian']",Within a Month,Within 24 hours
+Abigail,abigail.armellini@aol.com,50,Male,"(52.515606561674325, 13.478167438207672)",Germany,Berlin,"['German', 'Bengali', 'Ukrainian', 'French']",Within a Week,Within 24 hours
+Tymoteusz,tymoteusz.lewis@arcor.de,53,Other,"(52.51883534674127, 13.318219764081013)",Germany,Berlin,"['Russian', 'Spanish', 'Mandarin Chinese', 'Portuguese', 'Turkish ']",Today,Within a week
+Trudi,trudi.flantz@icloud.com,23,Other,"(52.362957517573825, 13.449720151365096)",Germany,Berlin,"['German', 'Punjabi', 'Ukrainian', 'Hindi']",Yesterday,Within 24 hours
+Özüdoğru,özüdoğru.harvey@icloud.com,51,Female,"(52.53037443950388, 13.521920829812407)",Germany,Berlin,['Japanese'],Recently,Within a week
+Jolanda,jolanda.scheuermann@protonmail.com,32,Other,"(52.658154372005015, 13.561489709680012)",Germany,Berlin,"['Turkish ', 'German ', 'Polish', 'Bengali']",Recently,Within a week
+Nerim,nerim.hövel@outlook.com,45,Male,"(52.55624488022507, 13.726023975474734)",Germany,Berlin,"['English', 'Arabic', 'German', 'Japanese']",Today,Within a week
+Ewa,ewa.sus@gmx.de,39,Other,"(52.40255986654418, 13.706300858771296)",Germany,Berlin,"['Russian', 'Romanian', 'Punjabi', 'Portuguese']",Within a Month,Within 24 hours
+Ada,ada.eraslan@aol.com,61,Female,"(52.44875724692452, 13.639606323640777)",Germany,Berlin,"['Ukrainian', 'English', 'Polish', 'Punjabi', 'German ']",Recently,Within 24 hours
+Victoria,victoria.staude@mail.com,29,Male,"(52.37832913802851, 13.38949840313146)",Germany,Berlin,"['Mandarin Chinese', 'English']",Over a Month Ago,Within a week
+Harold,harold.ergül@arcor.de,20,Other,"(52.621722419984366, 13.39787360297431)",Germany,Berlin,"['Hindi', 'Spanish']",Yesterday,Within 24 hours
+Lutz,lutz.patberg@outlook.com,38,Other,"(52.53837592915196, 13.486634721098614)",Germany,Berlin,"['Italian', 'Bengali', 'Punjabi', 'Russian', 'Portuguese']",Over a Month Ago,Within 24 hours
+Gustaw,gustaw.i̇hsanoğlu@1und1.de,53,Other,"(52.41667917846446, 13.196043816238687)",Germany,Berlin,['French'],Recently,Within a month
+Carla,carla.kosak@1und1.de,51,Female,"(52.609999803036736, 13.203240801118968)",Germany,Berlin,"['Italian', 'Hindi', 'Arabic', 'Portuguese', 'Spanish']",Within a Month,Within 24 hours
+Franciszek,franciszek.borghese@arcor.de,26,Other,"(52.46895496350259, 13.549357598300396)",Germany,Berlin,"['Romanian', 'Punjabi', 'Polish']",Recently,Within a month
+Fabio,fabio.bilewicz@1und1.de,23,Other,"(52.37246631596587, 13.726500910305036)",Germany,Berlin,"['Romanian', 'Russian']",Within a Month,Within 24 hours
+Nabil,nabil.puglisi@hotmail.com,43,Female,"(52.48511332962809, 13.748049299059762)",Germany,Berlin,"['German', 'Ukrainian', 'Portuguese', 'Spanish', 'Russian']",Today,Within a week
+Miłosz,miłosz.demirel@t-online.de,27,Other,"(52.36930270649824, 13.189340243463798)",Germany,Berlin,"['Italian', 'Turkish ', 'Romanian']",Within a Month,Within a week
+Nili,nili.knappe@protonmail.com,40,Male,"(52.624967715380784, 13.730397196406338)",Germany,Berlin,"['Mandarin Chinese', 'Arabic', 'German ', 'Polish']",Yesterday,Within a month
+Ayşeana,ayşeana.madejczyk@gmx.de,44,Other,"(52.56922557982582, 13.09012521595168)",Germany,Berlin,"['Arabic', 'Japanese', 'English']",Today,Within a week
+Ippazio,ippazio.hornich@unitybox.de,62,Female,"(52.51143229175345, 13.219856229500014)",Germany,Berlin,"['Arabic', 'Ukrainian', 'French']",Recently,Within a week
+Melissa,melissa.payne@t-online.de,37,Female,"(52.65313677690097, 13.36848183356591)",Germany,Berlin,['English'],Recently,Within a week
+Gertrud,gertrud.bohlander@web.de,31,Other,"(52.55193445455611, 13.260893921711714)",Germany,Berlin,"['Portuguese', 'German', 'English', 'Romanian']",Today,Within a week
+Artur,artur.hammond@web.de,18,Male,"(52.59425427368534, 13.608104842349507)",Germany,Berlin,['Spanish'],Recently,Within 24 hours
+Eric,eric.scholl@t-online.de,23,Female,"(52.409992816097926, 13.33143279683712)",Germany,Berlin,"['Ukrainian', 'German ', 'Polish', 'Portuguese', 'Mandarin Chinese']",Today,Within a month
+Annemarie,annemarie.hughes@outlook.com,64,Female,"(52.4913273242377, 13.535713902021447)",Germany,Berlin,"['Japanese', 'English', 'German', 'French', 'Punjabi']",Over a Month Ago,Within a week
+Tiğin,tiğin.eraslan@gmail.com,20,Female,"(52.344611785211015, 13.46741808191786)",Germany,Berlin,"['Bengali', 'Ukrainian']",Within a Month,Within a month
+Nuyan,nuyan.gordon@yahoo.com,56,Male,"(52.443478467814415, 13.284198257800835)",Germany,Berlin,"['Mandarin Chinese', 'Italian', 'Portuguese', 'Punjabi']",Within a Month,Within a month
+Dennis,dennis.harding@arcor.de,61,Female,"(52.64269115405863, 13.673675325653774)",Germany,Berlin,['Romanian'],Within a Month,Within 24 hours
+Malwina,malwina.aslan@web.de,37,Other,"(52.62936583741915, 13.254117696460877)",Germany,Berlin,"['Italian', 'Punjabi', 'Romanian']",Within a Week,Within a week
+Lea,lea.pizzamano@protonmail.com,18,Female,"(52.396585237688264, 13.240301531299659)",Germany,Berlin,"['Romanian', 'Spanish', 'Turkish ']",Within a Month,Within 24 hours
+Keith,keith.ülker@gmail.com,44,Female,"(52.35849678041123, 13.35920234897427)",Germany,Berlin,"['Portuguese', 'Turkish ', 'Punjabi', 'German ', 'German']",Today,Within a week
+Federico,federico.yılmaz@unitybox.de,26,Female,"(52.52063986580602, 13.201276354782593)",Germany,Berlin,['Punjabi'],Recently,Within 24 hours
+Gabriel,gabriel.erdoğan@1und1.de,47,Male,"(52.47856147100944, 13.147601796923224)",Germany,Berlin,['Japanese'],Within a Week,Within a week
+Antonia,antonia.veneziano@web.de,46,Female,"(52.55407864731858, 13.101835816054859)",Germany,Berlin,"['Bengali', 'Mandarin Chinese', 'Hindi', 'Arabic']",Recently,Within 24 hours
+Adelinde,adelinde.hughes@outlook.com,56,Other,"(52.44776539255153, 13.570581538497063)",Germany,Berlin,"['Mandarin Chinese', 'Arabic', 'German ', 'Romanian', 'German']",Over a Month Ago,Within a month
+Valerio,valerio.taylor@unitybox.de,30,Female,"(52.59564716655171, 13.234084677241404)",Germany,Berlin,"['German ', 'Portuguese']",Recently,Within 24 hours
+Lucie,lucie.gonzaga@gmail.com,62,Male,"(52.41954339807913, 13.237799959036826)",Germany,Berlin,"['Russian', 'German ', 'German']",Over a Month Ago,Within a month
+Selime,selime.shaw@web.de,31,Other,"(52.4882550533441, 13.753938855195983)",Germany,Berlin,"['Hindi', 'Polish', 'German', 'Arabic', 'Portuguese']",Within a Month,Within a month
+Mateusz,mateusz.honkisz@hotmail.com,47,Male,"(52.50651341050051, 13.147532945822016)",Germany,Berlin,['French'],Within a Month,Within a week
+Uğurkan,uğurkan.wojsław@protonmail.com,51,Male,"(52.624429105635514, 13.62888448872245)",Germany,Berlin,"['Russian', 'Mandarin Chinese']",Over a Month Ago,Within 24 hours
+Uyanser,uyanser.pugliese@yahoo.com,22,Female,"(52.463880152221755, 13.319721643162762)",Germany,Berlin,"['German', 'Ukrainian', 'Bengali', 'English', 'Japanese']",Within a Week,Within a month
+Adrian,adrian.hall@t-online.de,65,Male,"(52.536701921273604, 13.589845670865186)",Germany,Berlin,"['English', 'Bengali', 'Arabic', 'Polish', 'Turkish ']",Yesterday,Within a week
+Bartek,bartek.gulotta@outlook.com,18,Male,"(52.6111341743351, 13.448019780073432)",Germany,Berlin,['Ukrainian'],Recently,Within 24 hours
+Eckard,eckard.wrześniak@protonmail.com,45,Male,"(52.46379900843389, 13.406846619965961)",Germany,Berlin,['Bengali'],Yesterday,Within a month
+Jochem,jochem.sezer@outlook.com,50,Female,"(52.35176550479596, 13.422212176117716)",Germany,Berlin,"['French', 'Turkish ']",Today,Within a month
+Julianna,julianna.mularz@freenet.de,28,Other,"(52.47553223831706, 13.314381949207897)",Germany,Berlin,['Spanish'],Within a Month,Within 24 hours
+Scott,scott.buonauro@aol.com,18,Other,"(52.53687013911207, 13.665756868621026)",Germany,Berlin,"['English', 'Portuguese', 'Mandarin Chinese', 'Arabic', 'Turkish ']",Within a Month,Within 24 hours
+Harry,harry.riehl@icloud.com,32,Male,"(52.47354892905079, 13.70199356020176)",Germany,Berlin,"['Punjabi', 'Mandarin Chinese', 'Bengali']",Within a Month,Within a month
+Stanisław,stanisław.dumanlı@hotmail.com,25,Male,"(52.614670782057026, 13.639420085345126)",Germany,Berlin,"['Ukrainian', 'Arabic']",Within a Week,Within 24 hours
+Şahmettin,şahmettin.grisoni@unitybox.de,65,Male,"(52.662055580396604, 13.514353828200939)",Germany,Berlin,"['Mandarin Chinese', 'Arabic', 'Portuguese', 'Hindi']",Within a Week,Within a month
+Roman,roman.lucas@unitybox.de,53,Male,"(52.63869287452415, 13.342132260170077)",Germany,Berlin,"['German', 'German ', 'Mandarin Chinese']",Within a Week,Within a week
+Natasza,natasza.durmuş@hotmail.com,40,Female,"(52.364392549375054, 13.397742067106911)",Germany,Berlin,"['Hindi', 'Spanish', 'German ']",Today,Within a week
+Paride,paride.segebahn@web.de,44,Other,"(52.523426258853824, 13.201861058281558)",Germany,Berlin,"['Spanish', 'Hindi']",Yesterday,Within a week
+Michel,michel.stein@gmail.com,59,Female,"(52.50965337677172, 13.548562963051383)",Germany,Berlin,"['Portuguese', 'Turkish ', 'Romanian', 'German']",Recently,Within a week
+Meleknur,meleknur.reichmann@outlook.com,26,Male,"(52.459740818504244, 13.646853721049714)",Germany,Berlin,"['Mandarin Chinese', 'Portuguese', 'Japanese', 'Bengali']",Yesterday,Within a month
+Tuğrulhan,tuğrulhan.akgündüz@gmail.com,60,Male,"(52.38763841443023, 13.461441863860326)",Germany,Berlin,"['Hindi', 'Ukrainian', 'Turkish ', 'French']",Over a Month Ago,Within a week
+Julita,julita.ossola@outlook.com,44,Male,"(52.558432729542204, 13.530225973245862)",Germany,Berlin,"['Bengali', 'Arabic', 'English']",Within a Week,Within a month
+Mikołaj,mikołaj.harrison@hotmail.com,28,Other,"(52.521821857517644, 13.446222921746601)",Germany,Berlin,"['Bengali', 'English', 'Hindi', 'Mandarin Chinese', 'Polish']",Within a Week,Within a week
+Azettin,azettin.ullmann@icloud.com,18,Male,"(52.53112541518945, 13.555584778492431)",Germany,Berlin,['Bengali'],Over a Month Ago,Within a week
+Daniel,daniel.stroh@outlook.com,63,Male,"(52.395499976251635, 13.169223562934498)",Germany,Berlin,"['French', 'Romanian', 'Ukrainian']",Yesterday,Within a month
+Kaja,kaja.i̇hsanoğlu@protonmail.com,36,Other,"(52.4622625162181, 13.427477156304864)",Germany,Berlin,"['Russian', 'German ', 'Hindi']",Within a Week,Within a week
+Nurullah,nurullah.grymuza@protonmail.com,23,Female,"(52.55538517054928, 13.10436225094558)",Germany,Berlin,"['Arabic', 'Punjabi']",Over a Month Ago,Within a month
+Nadeshda,nadeshda.cilea@aol.com,34,Female,"(52.38324147765792, 13.243983843324774)",Germany,Berlin,"['Punjabi', 'Ukrainian', 'English', 'French', 'Turkish ']",Yesterday,Within a month
+Gordon,gordon.ciepluch@aol.com,40,Female,"(52.38199329205187, 13.54996024833336)",Germany,Berlin,"['Portuguese', 'German', 'Hindi']",Within a Month,Within a month
+Jean,jean.józwik@freenet.de,37,Other,"(52.54438788118863, 13.204729415308229)",Germany,Berlin,['Turkish '],Today,Within a month
+Michał,michał.losekann@gmx.de,52,Other,"(52.54902018088719, 13.222569978613034)",Germany,Berlin,"['Spanish', 'Russian', 'Polish']",Recently,Within 24 hours
+Ersel,ersel.lindner@mail.com,50,Other,"(52.36027659399872, 13.120643178788805)",Germany,Berlin,['Polish'],Over a Month Ago,Within a month
+Beth,beth.szelest@gmx.de,29,Male,"(52.63892524179403, 13.447205730341091)",Germany,Berlin,"['Polish', 'French', 'German ', 'Arabic']",Yesterday,Within 24 hours
+Arıpınar,arıpınar.i̇hsanoğlu@outlook.com,40,Female,"(52.54487448764585, 13.39115023866395)",Germany,Berlin,"['Ukrainian', 'German ']",Over a Month Ago,Within a month
+Süvari,süvari.oczko@unitybox.de,56,Other,"(52.580456401651006, 13.519787997820229)",Germany,Berlin,"['Spanish', 'German ', 'French', 'English']",Yesterday,Within a week
+Zita,zita.lehmann@outlook.com,44,Other,"(52.51753608945954, 13.249272898781)",Germany,Berlin,"['Russian', 'Spanish', 'Hindi', 'German ']",Today,Within 24 hours
+Egon,egon.seifert@freenet.de,21,Female,"(52.41237207553, 13.45486248980037)",Germany,Berlin,"['Portuguese', 'Ukrainian', 'Arabic']",Yesterday,Within a month
+Oreste,oreste.bertoni@t-online.de,44,Male,"(52.65663232591334, 13.24461965077027)",Germany,Berlin,['Hindi'],Yesterday,Within 24 hours
+Kirsty,kirsty.barnes@gmail.com,57,Other,"(52.65689170809154, 13.651866163893096)",Germany,Berlin,"['German', 'Punjabi', 'German ', 'Arabic', 'Bengali']",Over a Month Ago,Within 24 hours
+Tanja,tanja.tognazzi@1und1.de,61,Other,"(52.67425633290362, 13.203460857107142)",Germany,Berlin,['Polish'],Recently,Within a month
+Mübetcel,mübetcel.bilir@zoho.com,20,Other,"(52.34808677526912, 13.275925773865175)",Germany,Berlin,"['German', 'Mandarin Chinese', 'Italian', 'Bengali']",Over a Month Ago,Within a month
+Antoni,antoni.weinhold@outlook.com,28,Male,"(52.64284994956301, 13.73083304431522)",Germany,Berlin,"['Portuguese', 'Turkish ', 'Arabic']",Recently,Within 24 hours
+Orazio,orazio.ciechowicz@yahoo.com,21,Other,"(52.45779585784204, 13.519901417821348)",Germany,Berlin,"['Polish', 'Bengali', 'German ', 'Ukrainian', 'Turkish ']",Within a Month,Within 24 hours
+Chelsea,chelsea.coppola@gmx.de,61,Other,"(52.66876055259932, 13.384109386507888)",Germany,Berlin,"['Hindi', 'Bengali', 'German ', 'Romanian', 'Italian']",Over a Month Ago,Within a week
+Oguş,oguş.bibi@1und1.de,45,Other,"(52.562239463425115, 13.551152983320394)",Germany,Berlin,"['German ', 'Italian', 'Punjabi']",Today,Within a week
+Dirican,dirican.faust@web.de,64,Male,"(52.62586238693507, 13.096841911064015)",Germany,Berlin,"['Arabic', 'Hindi', 'Portuguese']",Recently,Within a week
+Pamela,pamela.piane@hotmail.com,43,Other,"(52.59191395498621, 13.508136391263351)",Germany,Berlin,['Romanian'],Within a Week,Within a week
+Dylan,dylan.kierat@zoho.com,19,Male,"(52.385444599132875, 13.612975894411672)",Germany,Berlin,['Japanese'],Yesterday,Within a month
+Ingmar,ingmar.taylor@gmx.de,56,Female,"(52.471733329777294, 13.546528327281452)",Germany,Berlin,"['Spanish', 'Polish', 'Portuguese']",Over a Month Ago,Within a month
+Wilfried,wilfried.hauffer@web.de,38,Male,"(52.5779595103764, 13.186351723192681)",Germany,Berlin,"['Polish', 'English', 'Punjabi']",Recently,Within 24 hours
+Joel,joel.olewniczak@aol.com,60,Female,"(52.37732788619513, 13.575501567996582)",Germany,Berlin,"['Romanian', 'Bengali', 'Turkish ']",Today,Within a month
+Frances,frances.george@arcor.de,19,Other,"(52.56944450941039, 13.595907141820925)",Germany,Berlin,['Hindi'],Within a Month,Within a month
+Alina,alina.jałowiec@unitybox.de,19,Male,"(52.34440520887083, 13.533060184653841)",Germany,Berlin,"['Mandarin Chinese', 'Hindi', 'Spanish', 'Italian', 'Polish']",Within a Month,Within 24 hours
+Christian,christian.bertolucci@1und1.de,42,Other,"(52.496807559631655, 13.341815669158201)",Germany,Berlin,"['Polish', 'Russian', 'Turkish ', 'Arabic', 'Romanian']",Within a Month,Within a month
+Damian,damian.akça@1und1.de,52,Male,"(52.47226829637735, 13.714569045025318)",Germany,Berlin,"['Ukrainian', 'Bengali', 'Mandarin Chinese', 'Hindi']",Within a Month,Within 24 hours
+Fabian,fabian.schleich@unitybox.de,23,Female,"(52.62751566486869, 13.426648385524116)",Germany,Berlin,"['Portuguese', 'French', 'English', 'Romanian']",Within a Month,Within a week
+Gunnar,gunnar.loos@unitybox.de,41,Female,"(52.454840616878776, 13.412703232322853)",Germany,Berlin,"['Bengali', 'Turkish ']",Over a Month Ago,Within 24 hours
+Achim,achim.ülker@hotmail.com,30,Other,"(52.47335840953116, 13.279571353854033)",Germany,Berlin,"['Spanish', 'Russian']",Recently,Within a week
+Eleanor,eleanor.melcer@arcor.de,44,Male,"(52.456100173141714, 13.494898811708396)",Germany,Berlin,['Portuguese'],Recently,Within a month
+Lodovico,lodovico.rusticucci@icloud.com,60,Male,"(52.57311461612408, 13.562720368447126)",Germany,Berlin,['Punjabi'],Within a Month,Within a month
+Marianna,marianna.carr@zoho.com,46,Male,"(52.36979940950391, 13.514134296915545)",Germany,Berlin,"['Turkish ', 'Bengali']",Within a Week,Within a week
+Elisabeth,elisabeth.yüksel@aol.com,61,Male,"(52.523635207751575, 13.52820034741511)",Germany,Berlin,"['French', 'Hindi', 'Russian']",Within a Week,Within a week
+Dina,dina.kozubal@mail.com,60,Other,"(52.451535291354936, 13.56720661508422)",Germany,Berlin,"['Russian', 'Turkish ', 'Arabic']",Yesterday,Within 24 hours
+Mariusz,mariusz.rutowicz@web.de,54,Female,"(52.42382215394119, 13.217948328606674)",Germany,Berlin,['Turkish '],Within a Month,Within a month
+Ermenegildo,ermenegildo.adler@yahoo.com,58,Male,"(52.5753434776907, 13.255597662123066)",Germany,Berlin,['Italian'],Within a Week,Within 24 hours
+Aimee,aimee.alemdar@t-online.de,57,Male,"(52.638006052312186, 13.220931762142495)",Germany,Berlin,"['Portuguese', 'Romanian', 'French']",Recently,Within 24 hours
+Louis,louis.akgündüz@unitybox.de,32,Male,"(52.42975156823482, 13.090407945765165)",Germany,Berlin,"['Italian', 'Polish', 'Arabic']",Within a Month,Within a week
+Leopoldo,leopoldo.wojtczuk@arcor.de,64,Female,"(52.43979349723462, 13.230886756020533)",Germany,Berlin,"['Portuguese', 'English']",Over a Month Ago,Within 24 hours
+Kornelia,kornelia.gray@freenet.de,50,Other,"(52.615957518970255, 13.099389151320715)",Germany,Berlin,"['Turkish ', 'Polish', 'Japanese']",Within a Month,Within a week
+Aurelia,aurelia.knappe@unitybox.de,51,Other,"(52.6575668420803, 13.691596243970851)",Germany,Berlin,"['Mandarin Chinese', 'Romanian']",Within a Week,Within a week
+Ettore,ettore.gardiner@1und1.de,24,Other,"(52.449004454707755, 13.49090755995454)",Germany,Berlin,"['Japanese', 'Spanish', 'English', 'Portuguese']",Recently,Within a week
+Mengi,mengi.römer@zoho.com,42,Male,"(52.37984939193234, 13.365658513213415)",Germany,Berlin,"['English', 'German ', 'Portuguese', 'Arabic', 'Punjabi']",Yesterday,Within a month
+Daniel,daniel.pokrzywa@gmx.de,39,Female,"(52.63377075089179, 13.500389142971754)",Germany,Berlin,"['Polish', 'German']",Within a Month,Within 24 hours
+Jakob,jakob.welch@t-online.de,57,Female,"(52.395039044567504, 13.318959942923161)",Germany,Berlin,"['Turkish ', 'Japanese', 'Spanish', 'German']",Over a Month Ago,Within a week
+Annette,annette.ostafin@hotmail.com,27,Female,"(52.463086968299436, 13.221984713554678)",Germany,Berlin,"['English', 'Russian', 'Ukrainian', 'Bengali']",Recently,Within 24 hours
+Monique,monique.lazarek@gmx.de,29,Male,"(52.46234672749823, 13.681103791079124)",Germany,Berlin,"['Punjabi', 'Turkish ', 'French']",Recently,Within 24 hours
+Gabriele,gabriele.manço@1und1.de,19,Female,"(52.672516275294534, 13.489878560512446)",Germany,Berlin,"['Polish', 'Portuguese', 'Japanese', 'English']",Today,Within 24 hours
+Şehreban,şehreban.hill@mail.com,63,Female,"(52.54830528755603, 13.280113430346994)",Germany,Berlin,"['Romanian', 'Russian']",Over a Month Ago,Within a week
+Raymond,raymond.yorulmaz@mail.com,20,Male,"(52.62986576969279, 13.229568481238154)",Germany,Berlin,"['Mandarin Chinese', 'French']",Within a Week,Within a month
+Sevsevil,sevsevil.sezgin@zoho.com,31,Female,"(52.44062181534585, 13.305089501561204)",Germany,Berlin,"['Japanese', 'Portuguese', 'Romanian', 'Italian']",Yesterday,Within a week
+Dorle,dorle.white@t-online.de,21,Other,"(52.55867833167867, 13.470903231209022)",Germany,Berlin,"['Turkish ', 'Bengali', 'Portuguese']",Over a Month Ago,Within a week
+Liwia,liwia.smith@zoho.com,59,Female,"(52.36629633148577, 13.336140665504287)",Germany,Berlin,"['Spanish', 'Russian', 'Turkish ']",Over a Month Ago,Within a week
+Aniela,aniela.lamborghini@t-online.de,34,Male,"(52.51425337983177, 13.702393233333115)",Germany,Berlin,['French'],Over a Month Ago,Within a month
+Dale,dale.çamurcuoğlu@hotmail.com,21,Female,"(52.64755652181025, 13.172582853782513)",Germany,Berlin,"['Punjabi', 'French', 'Portuguese']",Over a Month Ago,Within a month
+Klaus Dieter,klaus dieter.raurica@freenet.de,28,Other,"(52.63153047909084, 13.741537508685905)",Germany,Berlin,"['German ', 'Russian', 'Ukrainian', 'Turkish ']",Today,Within 24 hours
+Mariele,mariele.aslan@icloud.com,43,Male,"(52.60096805343822, 13.11080791274576)",Germany,Berlin,"['Hindi', 'Turkish ']",Recently,Within a month
+Şeyda,şeyda.erdoğan@yahoo.com,31,Female,"(52.42233009240315, 13.36279781786398)",Germany,Berlin,"['Polish', 'German ', 'Romanian', 'Arabic', 'German']",Yesterday,Within 24 hours
+Grace,grace.jähn@gmx.de,36,Female,"(52.4096444564516, 13.401084328061179)",Germany,Berlin,['Romanian'],Over a Month Ago,Within a week
+Hubertine,hubertine.ülker@1und1.de,36,Other,"(52.388030521993, 13.25187158957862)",Germany,Berlin,"['Japanese', 'Bengali', 'French', 'Romanian']",Within a Month,Within a week
+Hatice,hatice.zengin@web.de,42,Other,"(52.60539516355442, 13.24480131389217)",Germany,Berlin,"['Russian', 'Japanese']",Over a Month Ago,Within 24 hours
+Tullio,tullio.türk@protonmail.com,29,Female,"(52.5788791176483, 13.282360448977107)",Germany,Berlin,['Polish'],Within a Month,Within 24 hours
+Shane,shane.kobos@gmail.com,42,Male,"(52.648183765601246, 13.692880654423503)",Germany,Berlin,"['Russian', 'Arabic']",Within a Week,Within 24 hours
+Ignazio,ignazio.fyda@gmx.de,28,Female,"(52.36042856125648, 13.47641235897577)",Germany,Berlin,"['Italian', 'Arabic', 'German', 'Spanish']",Within a Week,Within a month
+Mary,mary.naser@aol.com,32,Other,"(52.49693668015104, 13.674362585928812)",Germany,Berlin,"['French', 'Spanish']",Within a Week,Within 24 hours
+Marcantonio,marcantonio.pergande@aol.com,43,Male,"(52.44320906056119, 13.627456269652761)",Germany,Berlin,"['Bengali', 'Punjabi', 'Mandarin Chinese']",Yesterday,Within 24 hours
+Julianna,julianna.mazik@mail.com,59,Female,"(52.37696548596697, 13.16055843672418)",Germany,Berlin,"['German', 'Turkish ', 'Romanian', 'German ']",Within a Month,Within 24 hours
+Beyzade,beyzade.mills@hotmail.com,29,Male,"(52.495066862664146, 13.38786487508419)",Germany,Berlin,"['Italian', 'English', 'German ']",Within a Month,Within 24 hours
+Geoffrey,geoffrey.boucsein@mail.com,60,Other,"(52.50820546013916, 13.404881382273233)",Germany,Berlin,"['Arabic', 'English', 'Polish', 'Ukrainian', 'Turkish ']",Within a Week,Within a month
+Apolonia,apolonia.robertson@protonmail.com,36,Male,"(52.452041754891816, 13.677994717969433)",Germany,Berlin,"['Portuguese', 'Turkish ', 'Japanese']",Yesterday,Within a month
+Mohammad,mohammad.orsini@hotmail.com,45,Male,"(52.34670137081951, 13.502614992935062)",Germany,Berlin,"['Hindi', 'Romanian', 'German ', 'Arabic', 'Punjabi']",Over a Month Ago,Within a week
+Ülküm,ülküm.stumpf@zoho.com,30,Other,"(52.513655858040536, 13.64627327778277)",Germany,Berlin,"['Hindi', 'Spanish']",Today,Within 24 hours
+Balthasar,balthasar.krebs@gmx.de,59,Other,"(52.41127152434808, 13.632328662455407)",Germany,Berlin,"['Ukrainian', 'Mandarin Chinese']",Yesterday,Within 24 hours
+Massimo,massimo.karadeniz@aol.com,19,Male,"(52.55765959937656, 13.404288075180423)",Germany,Berlin,"['Romanian', 'German ', 'German', 'Arabic', 'English']",Over a Month Ago,Within a week
+Selâtin,selâtin.scaduto@icloud.com,46,Male,"(52.46272265430911, 13.186836648795977)",Germany,Berlin,"['Mandarin Chinese', 'Turkish ']",Yesterday,Within a week
+Lidia,lidia.crispi@arcor.de,47,Other,"(52.432373449346315, 13.207099673249736)",Germany,Berlin,"['Polish', 'French']",Today,Within a month
+Jeremi,jeremi.cappelli@gmail.com,25,Female,"(52.54142629523224, 13.318786045658694)",Germany,Berlin,"['Turkish ', 'Romanian']",Over a Month Ago,Within a month
+Mohammad,mohammad.akça@gmx.de,53,Female,"(52.392620544458175, 13.152307359551132)",Germany,Berlin,"['Japanese', 'Bengali', 'Spanish', 'Mandarin Chinese', 'Italian']",Today,Within 24 hours
+Maurycy,maurycy.çamurcuoğlu@outlook.com,31,Other,"(52.45198571685244, 13.218736634090664)",Germany,Berlin,"['Japanese', 'Bengali', 'Italian', 'Arabic', 'German']",Within a Week,Within a month
+Allegra,allegra.collier@aol.com,44,Other,"(52.583620293803406, 13.443231603906932)",Germany,Berlin,"['Mandarin Chinese', 'Ukrainian']",Over a Month Ago,Within 24 hours
+Altuğ,altuğ.kaul@t-online.de,61,Other,"(52.51739095761669, 13.43671611063207)",Germany,Berlin,"['German ', 'Ukrainian', 'Romanian', 'Hindi']",Over a Month Ago,Within a week
+Rosalia,rosalia.garzoni@1und1.de,54,Female,"(52.45572784183925, 13.558709570923572)",Germany,Berlin,"['Ukrainian', 'Hindi', 'Japanese', 'Arabic', 'Italian']",Today,Within 24 hours
+Letizia,letizia.garibaldi@zoho.com,21,Female,"(52.57620495211922, 13.644779103531185)",Germany,Berlin,['Romanian'],Recently,Within a month
+Kornel,kornel.wereda@unitybox.de,18,Female,"(52.63756695240001, 13.11121880444767)",Germany,Berlin,"['Hindi', 'Polish', 'Punjabi', 'Italian', 'German ']",Within a Month,Within a month
+Leonardo,leonardo.yorulmaz@freenet.de,18,Other,"(52.64082921453125, 13.466561989019008)",Germany,Berlin,"['Turkish ', 'Japanese']",Over a Month Ago,Within a month
+Daniele,daniele.zengin@freenet.de,43,Male,"(52.45783235513925, 13.509109261673045)",Germany,Berlin,"['Spanish', 'Russian']",Within a Week,Within a month
+Annetta,annetta.adams@t-online.de,28,Female,"(52.438272138629316, 13.31210165907985)",Germany,Berlin,['Spanish'],Today,Within a month
+Judith,judith.madera@zoho.com,49,Other,"(52.532511165084614, 13.7351036298167)",Germany,Berlin,"['Spanish', 'Bengali']",Within a Week,Within a month
+Donna,donna.williams@freenet.de,51,Female,"(52.55927968092415, 13.733722692489824)",Germany,Berlin,"['Japanese', 'German ', 'German']",Within a Week,Within a month
+Lilian,lilian.klemens@arcor.de,20,Other,"(52.3627892071738, 13.214130201703489)",Germany,Berlin,"['Polish', 'German ']",Within a Week,Within a month
+Andrzej,andrzej.yıldırım@zoho.com,62,Other,"(52.39296136332877, 13.097435417480442)",Germany,Berlin,"['English', 'Japanese', 'Mandarin Chinese']",Over a Month Ago,Within a week
+Heinfried,heinfried.hanzel@web.de,30,Other,"(52.44237449918411, 13.534670302171259)",Germany,Berlin,['Spanish'],Within a Month,Within a month
+Dagmara,dagmara.hornig@freenet.de,59,Female,"(52.49069998499185, 13.258519054634203)",Germany,Berlin,"['German', 'German ']",Within a Week,Within a week
+Nurhayet,nurhayet.akça@freenet.de,28,Female,"(52.590308606368744, 13.09393534528741)",Germany,Berlin,"['Punjabi', 'Bengali', 'Japanese', 'Italian', 'Mandarin Chinese']",Today,Within 24 hours
+Fazul,fazul.heuser@hotmail.com,44,Other,"(52.4905025058922, 13.348966379563402)",Germany,Berlin,"['Bengali', 'Turkish ', 'German', 'Punjabi', 'Ukrainian']",Within a Month,Within a week
+Benek,benek.harding@1und1.de,19,Other,"(52.58516894114196, 13.68640390573683)",Germany,Berlin,"['German', 'Bengali', 'Russian', 'Hindi', 'English']",Recently,Within a week
+Elmar,elmar.kısakürek@web.de,65,Male,"(52.66326449994994, 13.186042532224853)",Germany,Berlin,['English'],Yesterday,Within a week
+Altuğ,altuğ.thanel@outlook.com,59,Male,"(52.549414836557006, 13.33414916045639)",Germany,Berlin,"['Mandarin Chinese', 'Hindi', 'Turkish ']",Within a Week,Within 24 hours
+Friedericke,friedericke.margol@gmx.de,23,Male,"(52.43658901368221, 13.401376893515755)",Germany,Berlin,"['French', 'Portuguese', 'Spanish']",Within a Week,Within a week
+Gemma,gemma.humphries@web.de,57,Female,"(52.40871295446808, 13.093988600064874)",Germany,Berlin,"['Ukrainian', 'Polish', 'Bengali', 'German ', 'Arabic']",Recently,Within a week
+Charlene,charlene.kreusel@outlook.com,32,Female,"(52.35899079792327, 13.626168879295568)",Germany,Berlin,"['English', 'Arabic']",Over a Month Ago,Within 24 hours
+Diethelm,diethelm.sorgatz@icloud.com,37,Other,"(52.56958226111485, 13.132517170799147)",Germany,Berlin,"['Mandarin Chinese', 'Polish', 'Turkish ']",Yesterday,Within a week
+Fehim,fehim.tarhan@web.de,45,Female,"(52.38627408054418, 13.672273380656117)",Germany,Berlin,['Portuguese'],Within a Month,Within 24 hours
+Angela,angela.sutton@1und1.de,62,Female,"(52.445788085984915, 13.653065291004356)",Germany,Berlin,"['Ukrainian', 'English']",Recently,Within a week
+Jonas,jonas.fracci@1und1.de,41,Other,"(52.56108556753799, 13.737324699339128)",Germany,Berlin,['Mandarin Chinese'],Within a Week,Within a month
+Gülgen,gülgen.bärer@gmx.de,48,Male,"(52.54107953908456, 13.108549409190367)",Germany,Berlin,['Romanian'],Over a Month Ago,Within a month
+Nicolò,nicolò.ertaş@zoho.com,53,Female,"(52.566540560727304, 13.296708006383678)",Germany,Berlin,"['Italian', 'Polish', 'German']",Within a Month,Within a month
+Luigina,luigina.korutürk@icloud.com,22,Other,"(52.62473648880318, 13.264899071225377)",Germany,Berlin,"['Spanish', 'French', 'German', 'Bengali', 'Polish']",Recently,Within 24 hours
+Federico,federico.aksu@arcor.de,33,Other,"(52.59844681143007, 13.191608352948311)",Germany,Berlin,"['Russian', 'Bengali', 'Japanese']",Yesterday,Within a month
+Amanda,amanda.infantino@t-online.de,49,Female,"(52.46260646729539, 13.756001177300712)",Germany,Berlin,"['Turkish ', 'Portuguese', 'Punjabi']",Recently,Within a month
+Sigismund,sigismund.geißler@yahoo.com,21,Other,"(52.366995390161875, 13.672998172608043)",Germany,Berlin,"['Hindi', 'Portuguese']",Within a Week,Within a month
+Cemil,cemil.roberts@gmx.de,19,Other,"(52.671434351905255, 13.388445961654883)",Germany,Berlin,"['Ukrainian', 'Bengali', 'Punjabi', 'German ']",Recently,Within a week
+Kathleen,kathleen.tamburini@t-online.de,44,Female,"(52.55466163162571, 13.553739141430324)",Germany,Berlin,['Romanian'],Recently,Within 24 hours
+Nicole,nicole.aumann@yahoo.com,44,Male,"(52.521256851650094, 13.45804423381199)",Germany,Berlin,"['Arabic', 'Japanese', 'Hindi', 'English']",Recently,Within a week
+Harald,harald.bilgin@unitybox.de,27,Male,"(52.64836593614881, 13.530215064482451)",Germany,Berlin,['Bengali'],Within a Week,Within 24 hours
+Józef,józef.szeja@icloud.com,61,Other,"(52.51528634892425, 13.24797352097031)",Germany,Berlin,['Russian'],Within a Month,Within 24 hours
+Thies,thies.rogers@freenet.de,18,Male,"(52.60753421757494, 13.141314186009696)",Germany,Berlin,['Punjabi'],Recently,Within a week
+Nanni,nanni.dodd@zoho.com,32,Male,"(52.579619231003825, 13.727912860398877)",Germany,Berlin,"['Japanese', 'Romanian', 'Italian', 'Spanish', 'Portuguese']",Recently,Within 24 hours
+Fuzuli,fuzuli.anguillara@icloud.com,42,Male,"(52.49754041952059, 13.548053796343181)",Germany,Berlin,"['French', 'Portuguese', 'English', 'Spanish', 'Bengali']",Over a Month Ago,Within 24 hours
+Krzysztof,krzysztof.akgündüz@arcor.de,51,Male,"(52.64699289953101, 13.3104471986535)",Germany,Berlin,['French'],Recently,Within a week
+Enrico,enrico.korzeniak@yahoo.com,38,Male,"(52.50463009403352, 13.114879841870607)",Germany,Berlin,"['Polish', 'Turkish ']",Recently,Within 24 hours
+Wilhelmine,wilhelmine.einaudi@freenet.de,43,Female,"(52.482607420990526, 13.327395117462773)",Germany,Berlin,"['German', 'French']",Within a Week,Within a week
+Vincenzo,vincenzo.kabza@t-online.de,45,Other,"(52.55270687950682, 13.700100211092973)",Germany,Berlin,"['Romanian', 'Turkish ']",Within a Month,Within 24 hours
+Sara,sara.kopiczko@mail.com,25,Female,"(52.66708135601664, 13.572510095045171)",Germany,Berlin,"['Spanish', 'English', 'Ukrainian']",Recently,Within a week
+Jeremy,jeremy.täsche@outlook.com,19,Male,"(52.41475277757002, 13.406479033359188)",Germany,Berlin,"['Spanish', 'Ukrainian', 'German', 'Japanese', 'Arabic']",Today,Within a month
+Gustav,gustav.pirelli@zoho.com,37,Other,"(52.62326862164411, 13.659482249892966)",Germany,Berlin,['Ukrainian'],Recently,Within a week
+Borys,borys.textor@unitybox.de,39,Other,"(52.41868434940876, 13.112187628398056)",Germany,Berlin,"['Romanian', 'German ']",Recently,Within 24 hours
+Fabian,fabian.tuzzolino@t-online.de,51,Female,"(52.38249361576722, 13.740100261730039)",Germany,Berlin,"['French', 'Romanian', 'English', 'Italian', 'German ']",Recently,Within a month
+Alice,alice.rogers@web.de,53,Other,"(52.6549671169709, 13.47395112442324)",Germany,Berlin,['Japanese'],Over a Month Ago,Within a week
+Doğanalp,doğanalp.pechel@hotmail.com,41,Other,"(52.59586550747727, 13.54927948465762)",Germany,Berlin,"['Mandarin Chinese', 'English']",Yesterday,Within a week
+Nicola,nicola.schmiedecke@zoho.com,29,Female,"(52.600071096816365, 13.508324029526117)",Germany,Berlin,"['Romanian', 'Italian']",Yesterday,Within a week
+Tunahan,tunahan.tadla@aol.com,50,Other,"(52.485212010274466, 13.56271938759162)",Germany,Berlin,"['Ukrainian', 'Italian', 'Spanish', 'Turkish ']",Over a Month Ago,Within a week
+Barbara,barbara.öcalan@gmx.de,44,Male,"(52.4038217790587, 13.611167957064966)",Germany,Berlin,"['Ukrainian', 'Hindi', 'German']",Over a Month Ago,Within a month
+Adrian,adrian.frydel@gmx.de,51,Female,"(52.58273684223148, 13.279527367327745)",Germany,Berlin,"['French', 'Polish', 'Hindi', 'Spanish']",Within a Month,Within 24 hours
+Aniela,aniela.noble@zoho.com,38,Other,"(52.34526358290172, 13.538604302523131)",Germany,Berlin,"['English', 'Hindi', 'French', 'Turkish ']",Yesterday,Within a week
+Raffaele,raffaele.radzio@1und1.de,35,Other,"(52.567175787335415, 13.450991584617721)",Germany,Berlin,"['French', 'English', 'Polish']",Recently,Within a week
+Baykan,baykan.mansız@icloud.com,54,Other,"(52.63796521243833, 13.140772777205251)",Germany,Berlin,"['Punjabi', 'Portuguese']",Today,Within 24 hours
+Safura,safura.frost@mail.com,28,Female,"(52.5012170912768, 13.166952322996444)",Germany,Berlin,"['Portuguese', 'Turkish ', 'Japanese', 'Mandarin Chinese']",Today,Within a week
+Atilhan,atilhan.opioła@gmx.de,27,Male,"(52.530224580441704, 13.354767207729068)",Germany,Berlin,"['Polish', 'Italian', 'Hindi']",Recently,Within a month
+Merva,merva.byrne@unitybox.de,57,Other,"(52.612335979716896, 13.54372528728861)",Germany,Berlin,"['Hindi', 'Ukrainian', 'Russian', 'Turkish ']",Over a Month Ago,Within 24 hours
+Sabine,sabine.jones@t-online.de,57,Male,"(52.43838126539334, 13.420573074382812)",Germany,Berlin,"['Romanian', 'Bengali']",Within a Week,Within a week
+Alaaddin,alaaddin.niscoromni@yahoo.com,37,Male,"(52.34653229979678, 13.510217852528852)",Germany,Berlin,"['French', 'Arabic', 'German ', 'German', 'Italian']",Within a Week,Within a week
+Bartolomeo,bartolomeo.gaito@mail.com,29,Other,"(52.52633609683916, 13.344029040183683)",Germany,Berlin,"['English', 'German']",Within a Week,Within a month
+Dogan,dogan.noble@outlook.com,32,Male,"(52.49376734155794, 13.585284750815372)",Germany,Berlin,"['Polish', 'Italian', 'Spanish', 'French', 'Russian']",Today,Within a week
+Halidun,halidun.broschi@protonmail.com,28,Other,"(52.468132701767935, 13.222434094733853)",Germany,Berlin,"['Russian', 'Punjabi', 'Bengali', 'German']",Within a Month,Within 24 hours
+Nuriyet,nuriyet.ziegert@1und1.de,35,Other,"(52.421390367228966, 13.510044227961522)",Germany,Berlin,['Russian'],Yesterday,Within 24 hours
+Colin,colin.traversa@zoho.com,19,Female,"(52.422969693093194, 13.308718676816774)",Germany,Berlin,"['Bengali', 'Turkish ', 'Hindi', 'German', 'Portuguese']",Yesterday,Within 24 hours
+Melanie,melanie.ponti@yahoo.com,21,Female,"(52.47319948254064, 13.504033021269457)",Germany,Berlin,"['Italian', 'Japanese', 'Romanian']",Within a Week,Within 24 hours
+Eryk,eryk.karz@gmx.de,60,Other,"(52.66199190861361, 13.66811999883092)",Germany,Berlin,"['German', 'Punjabi', 'Polish']",Yesterday,Within a week
+Georgina,georgina.williams@t-online.de,43,Other,"(52.641795956108695, 13.672627572922147)",Germany,Berlin,"['English', 'Romanian', 'Ukrainian', 'Arabic', 'Polish']",Within a Week,Within 24 hours
+Gözel,gözel.ruszczak@t-online.de,48,Male,"(52.51007863570285, 13.485013006999582)",Germany,Berlin,"['Hindi', 'Mandarin Chinese', 'Ukrainian', 'Bengali', 'Portuguese']",Within a Week,Within a month
+Carlo,carlo.holt@zoho.com,22,Male,"(52.46438061496476, 13.402721217658273)",Germany,Berlin,['Hindi'],Recently,Within 24 hours
+Akbaş,akbaş.yüksel@gmail.com,50,Male,"(52.61681066755781, 13.199035656334063)",Germany,Berlin,"['Japanese', 'Spanish', 'English', 'Russian', 'Punjabi']",Today,Within a month
+Nihan,nihan.etzler@freenet.de,35,Female,"(52.57617134382482, 13.094097571952528)",Germany,Berlin,['Arabic'],Today,Within a month
+Angelika,angelika.pagnotto@outlook.com,47,Other,"(52.42839023870535, 13.216838135420936)",Germany,Berlin,"['Polish', 'Portuguese', 'English', 'Spanish', 'Bengali']",Within a Week,Within a month
+Robin,robin.fiołka@unitybox.de,42,Female,"(52.35740408076688, 13.102008469978808)",Germany,Berlin,"['Italian', 'Japanese', 'Portuguese']",Within a Month,Within a month
+Liesel,liesel.güçlü@zoho.com,63,Female,"(52.474836439356245, 13.335265359276736)",Germany,Berlin,"['Turkish ', 'Portuguese', 'Japanese']",Today,Within a week
+Marek,marek.korutürk@aol.com,39,Other,"(52.57335366187459, 13.129349772090823)",Germany,Berlin,['Arabic'],Within a Week,Within a week
+Elli,elli.baroffio@protonmail.com,52,Female,"(52.555640152914215, 13.671484675546951)",Germany,Berlin,"['Punjabi', 'Hindi', 'Bengali']",Today,Within a week
+Gino,gino.şafak@1und1.de,22,Male,"(52.66442858189598, 13.32599277348941)",Germany,Berlin,"['Italian', 'Turkish ', 'Romanian', 'Russian', 'Polish']",Today,Within a week
+Jasmina,jasmina.świerszcz@t-online.de,53,Male,"(52.565793583067766, 13.690745373671312)",Germany,Berlin,['Russian'],Today,Within a month
+Nevise,nevise.jażdżyk@outlook.com,43,Female,"(52.44660042111309, 13.33212457216191)",Germany,Berlin,"['Arabic', 'German', 'Italian', 'Spanish', 'Hindi']",Yesterday,Within a month
+Uberto,uberto.cagnotto@gmail.com,46,Other,"(52.518865949775915, 13.713235523175175)",Germany,Berlin,"['Japanese', 'Portuguese']",Today,Within a week
+Amadeo,amadeo.mądro@t-online.de,26,Female,"(52.61750658253913, 13.749806816567814)",Germany,Berlin,"['Hindi', 'Punjabi', 'Polish', 'Russian']",Today,Within a month
+Adrianna,adrianna.hering@protonmail.com,23,Female,"(52.528095375470734, 13.721012107968363)",Germany,Berlin,['Italian'],Within a Week,Within a week
+Kocabaş,kocabaş.dowerg@protonmail.com,60,Female,"(52.60698570605099, 13.511384201796428)",Germany,Berlin,"['Bengali', 'German ', 'Ukrainian', 'Japanese', 'Mandarin Chinese']",Today,Within a week
+Tibor,tibor.sagese@t-online.de,48,Female,"(52.55620404793047, 13.311472021214696)",Germany,Berlin,"['Bengali', 'Mandarin Chinese', 'Punjabi', 'German ']",Over a Month Ago,Within a week
+Rohat,rohat.butcher@icloud.com,41,Other,"(52.43695361570778, 13.296658464689655)",Germany,Berlin,"['Russian', 'Spanish', 'German', 'Turkish ', 'Japanese']",Recently,Within a week
+Fryderyk,fryderyk.hänel@hotmail.com,43,Female,"(52.35120422272367, 13.519084233246714)",Germany,Berlin,"['Turkish ', 'Hindi', 'German', 'Russian']",Recently,Within a week
+Siegmund,siegmund.hayrioğlu@outlook.com,53,Male,"(52.497395203820915, 13.61091541337315)",Germany,Berlin,['Mandarin Chinese'],Recently,Within 24 hours
+Samuel,samuel.ergül@protonmail.com,62,Female,"(52.52607408137085, 13.597469323832186)",Germany,Berlin,['Portuguese'],Within a Week,Within 24 hours
+Pauline,pauline.barker@freenet.de,38,Other,"(52.578694330917024, 13.502091581641519)",Germany,Berlin,"['Hindi', 'French', 'Romanian', 'Russian', 'English']",Within a Week,Within 24 hours
+Johanna,johanna.christoph@aol.com,21,Other,"(52.36155686007469, 13.625837050764101)",Germany,Berlin,"['French', 'German', 'Japanese']",Yesterday,Within a week
+Ilaria,ilaria.zengin@web.de,60,Other,"(52.557774025997986, 13.189025774230167)",Germany,Berlin,['Russian'],Today,Within a week
+Mirjana,mirjana.taylor@freenet.de,57,Other,"(52.65023040658494, 13.339636041711366)",Germany,Berlin,"['Hindi', 'English']",Within a Month,Within a month
+Ülküm,ülküm.biegała@yahoo.com,48,Female,"(52.413936928157696, 13.437187906782947)",Germany,Berlin,['Japanese'],Within a Week,Within a week
+Meik,meik.dale@arcor.de,39,Other,"(52.35754768967024, 13.169829902525105)",Germany,Berlin,['Arabic'],Within a Month,Within a month
+Annette,annette.griffiths@unitybox.de,54,Male,"(52.47923617708911, 13.711828653804888)",Germany,Berlin,"['Arabic', 'Italian', 'Spanish']",Recently,Within 24 hours
+Büget,büget.jackson@protonmail.com,21,Other,"(52.39096105874724, 13.542200080824088)",Germany,Berlin,"['Polish', 'Arabic', 'Ukrainian', 'Romanian']",Within a Month,Within a week
+Julita,julita.brown@protonmail.com,33,Other,"(52.50130258242227, 13.097955856711398)",Germany,Berlin,"['Arabic', 'German', 'Italian']",Yesterday,Within a month
+Norman,norman.milanesi@gmx.de,33,Other,"(52.450210860889996, 13.319150189968388)",Germany,Berlin,"['English', 'Italian']",Over a Month Ago,Within a month
+Carlo,carlo.spinelli@unitybox.de,58,Male,"(52.62890491064169, 13.401526851101426)",Germany,Berlin,"['Portuguese', 'Italian', 'Bengali', 'Punjabi', 'Arabic']",Over a Month Ago,Within 24 hours
+Piero,piero.maccanelli@yahoo.com,57,Other,"(52.49444837932309, 13.106634361503254)",Germany,Berlin,['Ukrainian'],Recently,Within a week
+Lando,lando.şener@1und1.de,65,Male,"(52.57534763491491, 13.476239734162426)",Germany,Berlin,"['Russian', 'Turkish ', 'Bengali', 'Romanian', 'Japanese']",Recently,Within a month
+Wayne,wayne.wulff@hotmail.com,63,Female,"(52.577935387190024, 13.53422760846874)",Germany,Berlin,['English'],Over a Month Ago,Within a month
+Giorgio,giorgio.polesel@freenet.de,25,Male,"(52.627791050077086, 13.143721532741505)",Germany,Berlin,"['Portuguese', 'Turkish ']",Yesterday,Within 24 hours
+Georgina,georgina.heidrich@t-online.de,22,Female,"(52.64741862204352, 13.470020546836741)",Germany,Berlin,"['French', 'Hindi']",Over a Month Ago,Within 24 hours
+Ludovica,ludovica.raurica@outlook.com,30,Female,"(52.64454780299308, 13.264812536279607)",Germany,Berlin,"['Japanese', 'Spanish', 'Punjabi']",Today,Within 24 hours
+Maks,maks.cacko@mail.com,21,Other,"(52.482224303189255, 13.342319967613264)",Germany,Berlin,"['Spanish', 'Portuguese']",Within a Week,Within a month
+Maura,maura.franke@mail.com,65,Other,"(52.47856173796128, 13.50234311469564)",Germany,Berlin,"['English', 'Mandarin Chinese']",Within a Week,Within a week
+Abiye,abiye.türk@1und1.de,43,Male,"(52.58006716602887, 13.289827472132139)",Germany,Berlin,"['Hindi', 'Spanish']",Within a Month,Within 24 hours
+Sean,sean.gołek@gmx.de,30,Male,"(52.55086857798852, 13.329455112307109)",Germany,Berlin,"['Punjabi', 'Russian', 'Japanese', 'Bengali']",Yesterday,Within a month
+Rachael,rachael.manço@unitybox.de,54,Other,"(52.339946498869175, 13.747202222330252)",Germany,Berlin,"['Punjabi', 'German ', 'English']",Recently,Within a week
+Nico,nico.walker@web.de,30,Other,"(52.44216916857983, 13.484507606239514)",Germany,Berlin,['German'],Recently,Within 24 hours
+Monika,monika.kostek@t-online.de,55,Other,"(52.58952022419374, 13.24802254209293)",Germany,Berlin,"['German ', 'Spanish', 'Russian']",Within a Week,Within a week
+Adrian,adrian.karadeniz@freenet.de,26,Female,"(52.554769341293074, 13.596116193268697)",Germany,Berlin,"['Polish', 'German ']",Recently,Within 24 hours
+Gionata,gionata.groborz@gmail.com,54,Female,"(52.65863885912957, 13.524548783756668)",Germany,Berlin,['Portuguese'],Yesterday,Within a week
+Sören,sören.rosemann@hotmail.com,44,Other,"(52.510714775469125, 13.149206674390715)",Germany,Berlin,['Italian'],Yesterday,Within a month
+Bianka,bianka.güçlü@unitybox.de,53,Male,"(52.47957622058091, 13.740765858950677)",Germany,Berlin,"['Ukrainian', 'Romanian', 'Spanish', 'Polish']",Within a Month,Within a week
+Erika,erika.cabała@unitybox.de,61,Female,"(52.54074577209833, 13.169331952625521)",Germany,Berlin,"['Hindi', 'English']",Within a Week,Within 24 hours
+Laze,laze.johnson@hotmail.com,25,Other,"(52.42516568033254, 13.412283234917638)",Germany,Berlin,"['Hindi', 'Turkish ', 'Japanese', 'English']",Recently,Within 24 hours
+Özkutlu,özkutlu.morgan@gmx.de,38,Other,"(52.49391109651161, 13.503051918724408)",Germany,Berlin,"['Bengali', 'Portuguese', 'Romanian']",Over a Month Ago,Within a week
+Fryderyk,fryderyk.fantozzi@gmail.com,25,Male,"(52.45241126000808, 13.520397662636313)",Germany,Berlin,['German'],Yesterday,Within 24 hours
+Angelina,angelina.şafak@protonmail.com,18,Male,"(52.35477413818277, 13.385401299154298)",Germany,Berlin,"['Ukrainian', 'Spanish', 'French', 'English', 'Arabic']",Within a Week,Within a month
+Hansjörg,hansjörg.kasak@1und1.de,26,Male,"(52.64084250374957, 13.627481650623926)",Germany,Berlin,"['Romanian', 'Portuguese']",Recently,Within a week
+Frank,frank.ludwin@aol.com,61,Male,"(52.45526477976801, 13.647852905785115)",Germany,Berlin,"['Russian', 'Mandarin Chinese', 'Japanese', 'Arabic']",Over a Month Ago,Within a month
+Clare,clare.mordal@freenet.de,51,Male,"(52.629731246115234, 13.191396010181752)",Germany,Berlin,"['Japanese', 'English']",Recently,Within 24 hours
+Sheila,sheila.taylor@hotmail.com,23,Male,"(52.34454458918476, 13.42654768991045)",Germany,Berlin,"['German ', 'Spanish', 'Bengali', 'German']",Yesterday,Within 24 hours
+Marcantonio,marcantonio.krebs@hotmail.com,51,Other,"(52.660636961907755, 13.219359893879597)",Germany,Berlin,"['French', 'Hindi', 'Bengali', 'Russian', 'Turkish ']",Within a Month,Within a week
+Oruç,oruç.dumanlı@hotmail.com,61,Male,"(52.467687361404096, 13.662198049528135)",Germany,Berlin,"['Romanian', 'Polish', 'Bengali', 'Japanese']",Yesterday,Within 24 hours
+Sejda,sejda.edwards@1und1.de,35,Male,"(52.403493957450614, 13.552738410633154)",Germany,Berlin,['Russian'],Recently,Within a week
+Fermuta,fermuta.cagnin@freenet.de,26,Male,"(52.476437045973256, 13.22586491892342)",Germany,Berlin,"['Russian', 'Japanese']",Within a Month,Within a month
+Maciej,maciej.buckley@freenet.de,23,Other,"(52.43342283881452, 13.170925499620893)",Germany,Berlin,"['Romanian', 'Arabic', 'German ', 'Italian']",Over a Month Ago,Within a month
+Raymund,raymund.smith@icloud.com,65,Other,"(52.3645696045371, 13.133626074005903)",Germany,Berlin,"['Spanish', 'English', 'French', 'Turkish ']",Within a Month,Within a month
+Katy,katy.gibson@t-online.de,34,Other,"(52.64917030748437, 13.372550557035824)",Germany,Berlin,"['Punjabi', 'Turkish ', 'Polish']",Today,Within a week
+Onurcan,onurcan.mälzer@gmx.de,30,Female,"(52.401546032964845, 13.27583171106373)",Germany,Berlin,['Turkish '],Today,Within a week
+Freya,freya.posłuszna@aol.com,30,Female,"(52.38928902963368, 13.374950613035333)",Germany,Berlin,"['English', 'Italian', 'German', 'Portuguese', 'Romanian']",Within a Week,Within 24 hours
+Rosa,rosa.read@arcor.de,24,Male,"(52.62265242890526, 13.627680846659153)",Germany,Berlin,"['Japanese', 'Russian', 'Polish', 'Romanian']",Over a Month Ago,Within a month
+Adele,adele.tartaglia@web.de,34,Male,"(52.57258256528104, 13.088447219496228)",Germany,Berlin,"['Arabic', 'Mandarin Chinese']",Yesterday,Within a month
+Barbara,barbara.bähr@gmail.com,36,Male,"(52.44186515772839, 13.199119173718353)",Germany,Berlin,"['Spanish', 'Turkish ']",Recently,Within a week
+Neval,neval.fras@unitybox.de,44,Female,"(52.6244280363281, 13.729030623153124)",Germany,Berlin,"['Spanish', 'Mandarin Chinese']",Yesterday,Within 24 hours
+Yücel,yücel.holloway@1und1.de,25,Other,"(52.496742715447816, 13.300142155058023)",Germany,Berlin,"['Arabic', 'French']",Over a Month Ago,Within a week
+Giulietta,giulietta.gutknecht@yahoo.com,43,Female,"(52.434562326741336, 13.378484527150341)",Germany,Berlin,"['Ukrainian', 'German', 'French']",Recently,Within 24 hours
+Aziz,aziz.bilge@gmx.de,51,Female,"(52.3996792641955, 13.727446800041745)",Germany,Berlin,"['Romanian', 'Japanese', 'French']",Yesterday,Within 24 hours
+Bertram,bertram.surdel@freenet.de,46,Female,"(52.41234185411168, 13.23547539728589)",Germany,Berlin,"['German ', 'Turkish ', 'Polish', 'Ukrainian']",Today,Within a week
+Yetişal,yetişal.tarhan@outlook.com,59,Female,"(52.39842282494605, 13.537331784125172)",Germany,Berlin,"['Ukrainian', 'Russian', 'French', 'Arabic']",Today,Within 24 hours
+Anastazja,anastazja.hartmann@mail.com,41,Female,"(52.62754887695915, 13.754265175687019)",Germany,Berlin,"['Mandarin Chinese', 'Russian', 'German', 'Arabic', 'Polish']",Today,Within a week
+Enes,enes.tarhan@gmail.com,23,Other,"(52.4960647937406, 13.302796969312244)",Germany,Berlin,"['German', 'Spanish', 'Japanese']",Yesterday,Within 24 hours
+Mieszko,mieszko.smith@aol.com,58,Male,"(52.55515426517708, 13.379497196845481)",Germany,Berlin,['Spanish'],Yesterday,Within a week
+Melania,melania.inzaghi@icloud.com,52,Male,"(52.583217730293725, 13.10327605238816)",Germany,Berlin,"['Romanian', 'Hindi']",Within a Month,Within a month
+Valerio,valerio.parker@mail.com,47,Other,"(52.39466972531821, 13.350577838132486)",Germany,Berlin,"['Polish', 'English']",Recently,Within 24 hours
+Caroline,caroline.allen@hotmail.com,24,Other,"(52.41706385502051, 13.296825176950462)",Germany,Berlin,"['Polish', 'Ukrainian']",Within a Month,Within a month
+Geronimo,geronimo.stroh@web.de,41,Other,"(52.363925383036744, 13.309711702760726)",Germany,Berlin,"['Punjabi', 'Japanese', 'Spanish', 'French', 'Italian']",Within a Month,Within a week
+Sevcan,sevcan.thomas@t-online.de,21,Female,"(52.385036139203166, 13.100191804469851)",Germany,Berlin,['German '],Within a Week,Within a week
+Guarino,guarino.gray@protonmail.com,26,Male,"(52.66862893911205, 13.665031750652561)",Germany,Berlin,"['Italian', 'Romanian', 'Bengali']",Yesterday,Within 24 hours
+Alex,alex.smith@t-online.de,35,Male,"(52.40979143843718, 13.62820263391395)",Germany,Berlin,"['Romanian', 'Punjabi', 'Italian', 'Hindi', 'Turkish ']",Yesterday,Within a month
+Sebastian,sebastian.martin@arcor.de,23,Other,"(52.61242069896373, 13.452124441182468)",Germany,Berlin,"['Arabic', 'Japanese', 'Portuguese']",Today,Within a month
+Aurelia,aurelia.zengin@web.de,52,Other,"(52.435549189321065, 13.161448481161807)",Germany,Berlin,"['Mandarin Chinese', 'German ', 'English', 'Italian']",Yesterday,Within 24 hours
+Corinna,corinna.kott@yahoo.com,41,Other,"(52.59599069353186, 13.744541904485644)",Germany,Berlin,"['Turkish ', 'Japanese', 'Russian', 'Punjabi']",Within a Week,Within 24 hours
+Tükelalp,tükelalp.kısakürek@gmail.com,43,Other,"(52.598202562393894, 13.334881420394913)",Germany,Berlin,"['Ukrainian', 'Japanese', 'Polish']",Today,Within 24 hours
+Federica,federica.dumanlı@t-online.de,36,Other,"(52.36926845758665, 13.696327479305795)",Germany,Berlin,['English'],Within a Week,Within 24 hours
+Enzo,enzo.bruder@gmail.com,40,Female,"(52.35366249348089, 13.404039153434617)",Germany,Berlin,"['Romanian', 'Bengali']",Within a Week,Within a month
+Zofia,zofia.gatto@gmail.com,44,Female,"(52.62790590786795, 13.21477107305121)",Germany,Berlin,"['English', 'German']",Today,Within a month
+Donatello,donatello.sullivan@freenet.de,56,Other,"(52.36649314476082, 13.672335608541447)",Germany,Berlin,"['Italian', 'Russian', 'Spanish', 'French', 'Portuguese']",Recently,Within 24 hours
+Helmut,helmut.gülen@yahoo.com,24,Female,"(52.42302077639803, 13.567279848056973)",Germany,Berlin,"['Punjabi', 'Romanian']",Over a Month Ago,Within a month
+Danny,danny.gülen@freenet.de,46,Male,"(52.51507055590795, 13.357993255210285)",Germany,Berlin,"['Russian', 'Bengali', 'Portuguese']",Over a Month Ago,Within 24 hours
+Philip,philip.tevetoğlu@outlook.com,55,Other,"(52.40682525906042, 13.452067570177839)",Germany,Berlin,['French'],Yesterday,Within a week
+Tina,tina.stachów@aol.com,46,Male,"(52.63891343530923, 13.71247821971898)",Germany,Berlin,"['Mandarin Chinese', 'Japanese', 'German', 'Spanish']",Recently,Within 24 hours
+Blanka,blanka.łuczka@outlook.com,53,Male,"(52.365709885664984, 13.369410023955707)",Germany,Berlin,"['Ukrainian', 'Polish', 'Punjabi', 'Bengali']",Within a Week,Within a month
+Derkay,derkay.szeja@gmx.de,54,Female,"(52.611299425775, 13.255018629570085)",Germany,Berlin,"['Ukrainian', 'Polish', 'Hindi']",Recently,Within a week
+Fabrizia,fabrizia.tadla@t-online.de,19,Other,"(52.50727254450904, 13.639658740605975)",Germany,Berlin,"['Japanese', 'Russian']",Today,Within a week
+Paweł,paweł.karsznia@freenet.de,58,Male,"(52.34087456113394, 13.246741990818787)",Germany,Berlin,"['Spanish', 'German', 'Punjabi']",Yesterday,Within a week
+Jessica,jessica.şensoy@gmx.de,57,Male,"(52.50946010477911, 13.225292055581503)",Germany,Berlin,"['Mandarin Chinese', 'Hindi']",Within a Week,Within 24 hours
+Arturo,arturo.wiza@gmx.de,42,Other,"(52.413161663874874, 13.099978379930048)",Germany,Berlin,"['Ukrainian', 'English', 'German ', 'Bengali', 'Japanese']",Yesterday,Within a week
+Ina,ina.frost@gmail.com,22,Male,"(52.529597572087916, 13.274505024018964)",Germany,Berlin,"['Mandarin Chinese', 'German ', 'Romanian', 'French', 'Polish']",Within a Month,Within a month
+Tekbay,tekbay.jüttner@freenet.de,51,Female,"(52.46282872063513, 13.269752924080095)",Germany,Berlin,"['Hindi', 'French', 'German', 'Bengali', 'Spanish']",Today,Within 24 hours
+Lee,lee.kuryś@1und1.de,24,Male,"(52.61622747426201, 13.553539172987271)",Germany,Berlin,['Bengali'],Recently,Within a week
+Oğurata,oğurata.masny@yahoo.com,36,Male,"(52.37490428160819, 13.634089317391421)",Germany,Berlin,"['Portuguese', 'Punjabi', 'Polish', 'German', 'Bengali']",Today,Within a week
+Recepali,recepali.collins@zoho.com,60,Male,"(52.56374502494863, 13.734834354987694)",Germany,Berlin,"['Romanian', 'Polish', 'Bengali', 'French', 'Japanese']",Today,Within 24 hours
+Şali,şali.nicholls@hotmail.com,35,Female,"(52.4391538985224, 13.510296113589282)",Germany,Berlin,"['English', 'Mandarin Chinese']",Within a Week,Within a week
+Peren,peren.fo@yahoo.com,46,Male,"(52.36088824391574, 13.107082407555245)",Germany,Berlin,"['Hindi', 'Portuguese', 'Russian', 'German ', 'Spanish']",Recently,Within a week
+Hilde,hilde.petrassi@yahoo.com,19,Other,"(52.653413451797014, 13.532343044433144)",Germany,Berlin,"['Bengali', 'Hindi', 'French', 'Spanish', 'Portuguese']",Yesterday,Within 24 hours
+Güldünya,güldünya.serraglio@unitybox.de,33,Male,"(52.41929991981524, 13.299211052091335)",Germany,Berlin,"['Punjabi', 'German', 'Russian']",Recently,Within a month
+Bruce,bruce.walker@zoho.com,32,Female,"(52.60117186992695, 13.421161628531962)",Germany,Berlin,"['Mandarin Chinese', 'Russian', 'Polish', 'English']",Yesterday,Within a month
+Kazimierz,kazimierz.tanzini@icloud.com,25,Male,"(52.643190469253, 13.656640872818555)",Germany,Berlin,['Polish'],Recently,Within a month
+Lisette,lisette.rismondo@t-online.de,56,Male,"(52.42950748514669, 13.27220458480102)",Germany,Berlin,"['Portuguese', 'Russian', 'German', 'French']",Today,Within a week
+Douglas,douglas.zengin@web.de,40,Other,"(52.52731554054191, 13.703035095437498)",Germany,Berlin,"['Punjabi', 'Spanish', 'Italian']",Today,Within a month
