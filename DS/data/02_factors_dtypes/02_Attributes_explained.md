@@ -40,7 +40,7 @@
     - Possible answers: "Recently", "Today", "Yesterday", "Within a Week", "Within a Month", "Over a Month Ago".
 
 11. **Response_Time:**
-    - Possible answers: "Within 24 hours", "Within a week", "Within a month".
+    - Possible answers: "Within 24 hours", "Within a week", "Within a month", "More than a month".
 
 ## 02 Skill Rating
 
