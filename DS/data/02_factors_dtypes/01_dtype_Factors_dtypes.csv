@@ -1,4 +1,4 @@
-Factor,User Data,Data Type
+Factor,Attribute,Data Type
 Personal_Info,First_Name,object
 Personal_Info,EMail,object
 Personal_Info,Age,int64
