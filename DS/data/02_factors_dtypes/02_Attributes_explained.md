@@ -1,4 +1,4 @@
-# Overview of Assumptions and Answer Opportunities
+# Overview of Assumptions and Answer Options
 
 ## 01 Personal Info
 
@@ -44,7 +44,7 @@
 
 ## 02 Skill Rating
 
-### Answer Opportunities for Rating One's Skill Level in a Skill Category
+### Answer options for rating one's skill level in each skill category
 
 - **NaN:**
   Individuals who are not interested in or don't offer the respective skill.
@@ -78,7 +78,7 @@
 
 ## 04 Feedback 
 
-- **Rating Options for every Feedback category:**
+- **Rating options for every Feedback category:**
    - Possible answers:
      1. Very Dissatisfied
      2. Dissatisfied
