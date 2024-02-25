@@ -64,6 +64,30 @@
 - **Expert:**
   Individuals who possess extensive experience and profound knowledge in the skill area, capable of providing mentorship and performing tasks at the highest level of proficiency.
 
+  ### Approach
+  
+  #### Skills offered
+  1. Everybody has relevant knowledge in at least one and maximum 3 Skill Domains
+      - Pick a number between 1 and 3
+      - Take this number and select (1 to 3) random skill Domains
+  2. Everybody is expert in at least one skill
+      - Select the sub-skills from the selected domains
+      - Make sure that a person is an expert in one skill 
+  3. The skill levels in the remaining sub-skills from the selected domains where the person has some knowledge are normally distributed 
+  4. The sub-skills from the remaining domains get an NaN value
+  5. Assumption
+      - On average, people are beginners in the fields where they are not experts (That's why they are on the platform)
+
+  
+  #### Skills demanded 
+  1. Everybody has interests in at least one and maximum 5 Skill Domains
+      - Pick a number between 1 and 5
+      - Take this number and select (1 to 5) random skill Domains
+  2. The demanded skill levels are normally distributed 
+  3. The skills from the remaining domains get an NaN value
+  4. Assumption
+      - On average, people tend to seek for people that are rather experienced to teach them skills
+
 
 ## 03 Track Record
 
@@ -78,10 +102,12 @@
 
 ## 04 Feedback 
 
-- **Rating options for every Feedback category:**
+- **Normally distributed Rating options for every Feedback category:**
    - Possible answers:
      1. Very Dissatisfied
      2. Dissatisfied
      3. Neutral or Average
      4. Satisfied
      5. Very Satisfied
+   - Assumption
+      -  On average, people rate something between "Neutral or Average" and "Satisfied"
