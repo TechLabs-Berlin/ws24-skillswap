@@ -64,6 +64,18 @@
 - **Expert:**
   Individuals who possess extensive experience and profound knowledge in the skill area, capable of providing mentorship and performing tasks at the highest level of proficiency.
 
+### Skill Domains
+
+- Professional Skills
+- Creative Skills
+- Language Skills
+- Technical Skills
+- Social Skills
+- Practical Skills
+- Academic Skills
+- Life Skills
+
+
 ### Approach
   
   #### Skills offered
