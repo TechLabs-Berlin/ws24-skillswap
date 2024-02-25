@@ -64,12 +64,12 @@
 - **Expert:**
   Individuals who possess extensive experience and profound knowledge in the skill area, capable of providing mentorship and performing tasks at the highest level of proficiency.
 
-  ### Approach
+### Approach
   
   #### Skills offered
-  1. Everybody has relevant knowledge in at least one and maximum 3 Skill Domains
+  1. Everybody has relevant knowledge in at least one and maximum 3 skill domains
       - Pick a number between 1 and 3
-      - Take this number and select (1 to 3) random skill Domains
+      - Take this number and select (1 to 3) random skill domains
   2. Everybody is expert in at least one skill
       - Select the sub-skills from the selected domains
       - Make sure that a person is an expert in one skill 
@@ -80,11 +80,11 @@
 
   
   #### Skills demanded 
-  1. Everybody has interests in at least one and maximum 5 Skill Domains
+  1. Everybody has interests in at least one and maximum 5 skill domains
       - Pick a number between 1 and 5
-      - Take this number and select (1 to 5) random skill Domains
+      - Take this number and select (1 to 5) random skill domains
   2. The demanded skill levels are normally distributed 
-  3. The skills from the remaining domains get an NaN value
+  3. The sub-skills from the remaining domains get an NaN value
   4. Assumption
       - On average, people tend to seek for people that are rather experienced to teach them skills
 
