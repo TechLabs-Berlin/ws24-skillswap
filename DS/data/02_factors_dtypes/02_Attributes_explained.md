@@ -76,7 +76,7 @@
 - Life Skills
 
 
-### Approach
+### Approach Data Creation
   
   #### Skills offered
   1. Everybody has relevant knowledge in at least one and maximum 3 skill domains
