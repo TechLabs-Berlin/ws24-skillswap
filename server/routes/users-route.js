@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const passport = require('passport');
 const User = require('../models/user');
-const { register } = require('../Auth/auth');
+const { register, login, update, deleteUser } = require('../Auth/auth');
 
 
 
@@ -16,7 +16,7 @@ app.use(cors());
 
 router.route('/register').post(register);
 
-/*
+/* old code
 router.post('/api/register', async (req, res) => {
     try {
         const { email, username, password } = req.body;
@@ -31,7 +31,10 @@ router.post('/api/register', async (req, res) => {
 
 
 //login routes
-/*
+
+router.route('/login').post(login);
+
+/* old code
 router.get('/login', (req, res) => {
     res.render('users/login');
 })
@@ -59,7 +62,19 @@ https://www.youtube.com/watch?v=g7SaXCYCgXU
 
 */
 
+// Update route
+
+router.route('/update').put(update);
+
+
+// Delete route
+
+router.route('/delete').delete(deleteUser);
+
 //logout route 
+
+
+/* old code
 
 router.get('/logout', (req, res, next) => {
     req.logout(function (err) {
@@ -70,6 +85,6 @@ router.get('/logout', (req, res, next) => {
         res.redirect('/'); // back to homepage
     });
 });
-
+*/
 
 module.exports = router;

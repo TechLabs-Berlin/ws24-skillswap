@@ -5,16 +5,11 @@ const Schema = mongoose.Schema;
 const passportLocalMongoose = require('passport-local-mongoose');
 
 const UserSchema = new Schema({
-    /*    id: {
-            type: String,
-            required: true,
-            unique: true,
-        },
-        // probably not needed if we have unique username?*/
+    //_id is set automatically by MongoDB
     email: {
         type: String,
         required: true,
-        unique: true,
+        //   unique: true,
     },
     role: {
         type: String,
@@ -23,7 +18,7 @@ const UserSchema = new Schema({
     },
     username: {
         type: String,
-        unique: true,
+        //    unique: true,
         required: true,
     },
     password: {
