@@ -46,15 +46,15 @@ exports.register = async (req, res, next) => {
 // login:
 
 exports.login = async (req, res, next) => {
-    const { username, password } = req.body;
+    const { email, password } = req.body;
     // check if username and passwort are provided
-    if (!username || !password) {
+    if (!email || !password) {
         return res.status(400).json({
             message: 'Username or Password not present',
         })
     }
     try {
-        const user = await User.findOne({ username })
+        const user = await User.findOne({ email })
         if (!user) {
             res.status(401).json({
                 message: 'Login not successful',
@@ -65,7 +65,7 @@ exports.login = async (req, res, next) => {
                 if (result) {
                     const maxAge = 3 * 60 * 60;
                     const token = jwt.sign(
-                        { id: user._id, username, role: user.role },
+                        { id: user._id, email, role: user.role },
                         jwtSecret,
                         {
                             expiresIn: maxAge, // 3hrs in sec
