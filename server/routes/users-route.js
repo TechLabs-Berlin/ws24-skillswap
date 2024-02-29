@@ -64,7 +64,7 @@ https://www.youtube.com/watch?v=g7SaXCYCgXU
 
 // Update route
 
-router.route('/update').put(update);
+router.route('/update/:id').put(update);
 
 
 // Delete route

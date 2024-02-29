@@ -108,32 +108,66 @@ exports.update = async (req, res, next) => {
     
     
     for full list see models/user.js */
+    /* old code
+        if (!id || !updates) {
+            return res.status(400).json({
+                message: 'Missing required fields'
+            });
+        }
+    
+        try {
+            const user = await User.findById(id);
+    
+            if (!user) {
+                return res.status(404).json({ message: 'User not found' });
+            }
+    
+            // apply updates
+            for (let key in updates) {
+                user[key] = updates[key];
+            }
+    
+            await user.save();
+            res.status(201).json({ message: 'Update successful', user });
+        } catch (error) {
+            res.status(400).json({ message: 'An error occurred', error: error.message });
+        }
+    
+    };
+    */
 
-    if (!id || !updates) {
-        return res.status(400).json({
-            message: 'Missing required fields'
-        });
-    }
+    exports.update = async (req, res, next) => {
+        // Access the ID from the URL parameters instead of the body
+        const id = req.params.id;
+        const updates = req.body; // Now 'req.body' only contains the fields to update
 
-    try {
-        const user = await User.findById(id);
-
-        if (!user) {
-            return res.status(404).json({ message: 'User not found' });
+        if (!id || !updates || Object.keys(updates).length === 0) {
+            return res.status(400).json({
+                message: 'Missing required fields or no updates provided'
+            });
         }
 
-        // apply updates
-        for (let key in updates) {
-            user[key] = updates[key];
+        try {
+            const user = await User.findById(id);
+
+            if (!user) {
+                return res.status(404).json({ message: 'User not found' });
+            }
+
+            // Apply updates
+            for (let key in updates) {
+                if (user[key] !== undefined) { // Ensure only existing fields are updated
+                    user[key] = updates[key];
+                }
+            }
+
+            await user.save();
+            res.status(200).json({ message: 'Update successful', user: user.toObject() }); // Use 200 for successful updates
+        } catch (error) {
+            res.status(400).json({ message: 'An error occurred', error: error.message });
         }
-
-        await user.save();
-        res.status(201).json({ message: 'Update successful', user });
-    } catch (error) {
-        res.status(400).json({ message: 'An error occurred', error: error.message });
-    }
-
-};
+    };
+}
 
 // delete function to delete specific users
 
