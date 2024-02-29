@@ -4,6 +4,7 @@ const path = require('path');
 require('dotenv').config({ path: './mongodb_access.env' });
 const connectDB = require('./db');
 const cookieParser = require('cookie-parser');
+const { adminAuth, userAuth } = require('./Auth/auth-middleware.js');
 
 //connect database
 

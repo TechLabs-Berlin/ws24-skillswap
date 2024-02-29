@@ -2,7 +2,8 @@ const express = require('express');
 const router = express.Router();
 const passport = require('passport');
 const User = require('../models/user');
-const { register, login, update, deleteUser } = require('../Auth/auth');
+const { register, login, update, deleteUser, getAllUsers, getOneUser } = require('../Auth/auth');
+const { adminAuth, userAuth } = require('../Auth/auth-middleware');
 
 
 
@@ -62,29 +63,24 @@ https://www.youtube.com/watch?v=g7SaXCYCgXU
 
 */
 
-// Update route
+// Update route (logged-in user only))
 
-router.route('/update/:id').put(update);
+router.route('/update/:id').put(userAuth, update);
 
 
-// Delete route
+// Delete route (admin only)
 
-router.route('/delete').delete(deleteUser);
+router.route('/delete/:id').delete(adminAuth, deleteUser);
 
 //logout route 
+// is handled in Frontend --> destroy Token
 
+// Get All User Data Route (admin only)
 
-/* old code
+router.route('/all_users').get(adminAuth, getAllUsers);
 
-router.get('/logout', (req, res, next) => {
-    req.logout(function (err) {
-        if (err) {
-            return next(err);
-        }
-        req.flash('success', 'Goodbye!');
-        res.redirect('/'); // back to homepage
-    });
-});
-*/
+// Get Specific User Data Route (logged-in user only)
+
+router.route('/:id').get(userAuth, getOneUser);
 
 module.exports = router;
