@@ -42,8 +42,11 @@ app.get('/message', (req, res) => {
 });
 
 
-//register post route
-app.use("/api/auth", require("./routes/users-route"));
+//authentication & user data routes
+app.use('/api/auth', require('./routes/users-route'));
+
+//other routes: skills, preferences, messages
+app.use('/api', require('./routes/skills-route.js'));
 
 //run server on port 8000:
 
