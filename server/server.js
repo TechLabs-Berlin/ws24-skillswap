@@ -48,6 +48,8 @@ app.use('/api/auth', require('./routes/users-route'));
 //other routes: skills, preferences, messages
 app.use('/api', require('./routes/skills-route.js'));
 app.use('/api', require('./routes/preferences-route.js'));
+app.use('/api', require('./routes/messages-route.js'));
+
 //run server on port 8000:
 
 app.listen(8000, () => {
