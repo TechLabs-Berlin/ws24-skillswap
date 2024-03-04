@@ -86,3 +86,12 @@ router.route('/skills/delete/:id').delete(/*adminAuth,*/ async (req, res, next) 
 });
 
 module.exports = router;
+
+/*
+
+test skill:
+{
+  "name": "guitar"
+}
+
+*/
