@@ -96,52 +96,9 @@ exports.login = async (req, res, next) => {
 
 // update a user & userdata
 
-//exports.update = async (req, res, next) => {
-//const { id, updates } = req.body;
-/* 'updates' is an object with key value pairs, consisting of one or more of the following:
-email: new_email
-role: new_role
-username: new_username
-password: new_password
-firstName: new_firstName
-lastName: new_lastName
-description: new_description
-isAvailable: new_isAvailable(Boolean) 
- 
- 
-for full list see models/user.js */
-/* old code
-    if (!id || !updates) {
-        return res.status(400).json({
-            message: 'Missing required fields'
-        });
-    }
- 
-    try {
-        const user = await User.findById(id);
- 
-        if (!user) {
-            return res.status(404).json({ message: 'User not found' });
-        }
- 
-        // apply updates
-        for (let key in updates) {
-            user[key] = updates[key];
-        }
- 
-        await user.save();
-        res.status(201).json({ message: 'Update successful', user });
-    } catch (error) {
-        res.status(400).json({ message: 'An error occurred', error: error.message });
-    }
- 
-};
-*/
-
 exports.update = async (req, res, next) => {
-    // Access the ID from the URL parameters instead of the body
     const id = req.params.id;
-    const updates = req.body; // Now 'req.body' only contains the fields to update
+    const updates = req.body;
 
     if (!id || !updates || Object.keys(updates).length === 0) {
         return res.status(400).json({
@@ -156,9 +113,9 @@ exports.update = async (req, res, next) => {
             return res.status(404).json({ message: 'User not found' });
         }
 
-        // Apply updates
+        // apply updates
         for (let key in updates) {
-            if (user[key] !== undefined) { // Ensure only existing fields are updated
+            if (user[key] !== undefined) { // ensure only existing fields are updated
                 user[key] = updates[key];
             }
         }
@@ -176,7 +133,6 @@ exports.update = async (req, res, next) => {
 exports.deleteUser = async (req, res, next) => {
     const id = req.params.id;
     await User.findByIdAndDelete(id)
-        //.then(user => user.deleteOne({ _id: id }))
         .then(user =>
             res.status(201).json({ message: 'User successfully deleted', user })
         )
@@ -192,19 +148,22 @@ exports.deleteUser = async (req, res, next) => {
 exports.getAllUsers = async (req, res, next) => {
     try {
         const users = await User.find(); // Fetch all users
-        res.json(users);
+        res.status(200).json(users);
     } catch (err) {
         res.status(500).json({ message: "An error occurred", error: err.message });
     }
 }
 
+// get data for a specific user(by user id)
+
 exports.getOneUser = async (req, res, next) => {
     const userId = req.params.id;
-    if (req.user.id === userId || req.user.role === 'admin') { // Check if it's the user's own data or if the user is an admin
+    // only admins or the specific user themself can get the user data --> might need to change this so any user can get all user data if the app requires it
+    if (req.user.id.toString() === userId.toString() || req.user.role === 'admin') { // Check if it's the user's own data or if the user is an admin
         try {
             const user = await User.findById(userId);
             if (user) {
-                res.json(user);
+                res.status(200).json(user);
             } else {
                 res.status(404).json({ message: "User not found" });
             }
@@ -218,15 +177,14 @@ exports.getOneUser = async (req, res, next) => {
 
 /*
 
+test user:
 {
-  "username": "RegEx666",
-  "email": "ho123@olong.cn",
-  "password": "12rfg34556dfdf"
+  "username": "Testuser",
+  "email": "testuser@gmail.com",
+  "password": "1234567abcde!"
 }
-
 
 */
 
-//next step:
-// Authenticate Users with JSON Web Token (JWT)
+// user auth is mostly based on this manual:
 // https://www.loginradius.com/blog/engineering/guest-post/nodejs-authentication-guide/

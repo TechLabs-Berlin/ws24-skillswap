@@ -22,7 +22,7 @@ app.use(cors());
 app.use(express.json());
 app.use(cookieParser());
 
-/*
+/* commented out because currently not using passport for Auth
 // app.use Auser Authentication:
 
 app.use(passport.initialize());
@@ -33,9 +33,10 @@ passport.use(new LocalStrategy(User.authenticate()));
 
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
+*/
 
 //set standard server message for trial purpose:
-*/
+
 app.get('/message', (req, res) => {
     res.json({ message: "Hello from server!" });
 });

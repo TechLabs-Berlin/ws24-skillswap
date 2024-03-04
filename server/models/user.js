@@ -26,8 +26,6 @@ const UserSchema = new Schema({
         minlength: 6,
         required: true,
     },
-    firstName: String,
-    lastName: String,
     description: String,
     isAvailable: Boolean,
 });
