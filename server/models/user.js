@@ -28,6 +28,18 @@ const UserSchema = new Schema({
     },
     description: String,
     isAvailable: Boolean,
+    preference: {
+        type: Schema.Types.ObjectId,
+        ref: 'Preference' // ID of preference model --> user can only have 1 preference
+    },
+    skillsOffered: [{
+        type: Schema.Types.ObjectId,
+        ref: 'Skill' // ID of skills model --> array of skills (_id) the user offers to teach
+    }],
+    skillsWanted: [{
+        type: Schema.Types.ObjectId,
+        ref: 'Skill' // ID of skills model --> array of skills (_id) the user wants to learn
+    }]
 });
 // *using passport* UserSchema.plugin(passportLocalMongoose); //adds username + password to UserSchema
 
