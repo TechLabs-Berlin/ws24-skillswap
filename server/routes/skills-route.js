@@ -27,6 +27,8 @@ router.route('/skills/create').post(/*adminAuth,*/ async (req, res, next) => {
 });
 
 // retrieve skill (users or admins)
+// one skill by ID:
+
 router.route('/skills/:id').get(/*userAuth,*/ async (req, res, next) => {
     const skillId = req.params.id;
     try {
@@ -36,6 +38,17 @@ router.route('/skills/:id').get(/*userAuth,*/ async (req, res, next) => {
         } else {
             res.status(404).json({ message: "Skill not found" });
         }
+    } catch (err) {
+        res.status(500).json({ message: "An error occurred", error: err.message });
+    }
+});
+
+//all skills in the database:
+
+router.route('/skills').get(/*userAuth,*/ async (req, res, next) => {
+    try {
+        const skills = await Skill.find(); // fetch all skills
+        res.status(200).json(skills); // array of skills in JSON response
     } catch (err) {
         res.status(500).json({ message: "An error occurred", error: err.message });
     }

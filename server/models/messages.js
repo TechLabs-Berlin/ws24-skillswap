@@ -6,11 +6,13 @@ const Schema = mongoose.Schema;
 const MessageSchema = new Schema({
     // _id is set automatically by MongoDB
     senderId: {
-        type: String, //User ID of sender
+        type: Schema.Types.ObjectId,
+        ref: 'User', // User ID of sender
         required: true
     },
     receiverId: {
-        type: String, //User ID of receiver
+        type: Schema.Types.ObjectId,
+        ref: 'User', // User ID of receiver
         required: true
     },
     sentAt: {
@@ -25,18 +27,3 @@ const MessageSchema = new Schema({
 });
 
 module.exports = mongoose.model('Message', MessageSchema);
-
-/*
-add-on for later: directly connect sender and receiver to User database:
-
-senderId: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'User', // Assuming you have a User model
-    required: true
-},
-receiverId: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'User',
-    required: true
-},
-*/
