@@ -1,3 +1,6 @@
+// this is no longer used, instead the users preference is written directly in the user data
+
+/*
 const express = require('express');
 const router = express.Router();
 const Preference = require('../models/preferences');
@@ -7,8 +10,8 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 
-// create preference (admin only)
-router.route('/preferences/create').post(/*adminAuth,*/ async (req, res, next) => {
+//create preference (admin only)
+router.route('/preferences/create').post(adminAuth, async (req, res, next) => {
     const { name } = req.body;
     await Preference.create({
         name,
@@ -27,7 +30,7 @@ router.route('/preferences/create').post(/*adminAuth,*/ async (req, res, next) =
 });
 
 // retrieve preference (users or admins)
-router.route('/preferences/:id').get(/*userAuth,*/ async (req, res, next) => {
+router.route('/preferences/:id').get(userAuth, async (req, res, next) => {
     const preferenceId = req.params.id;
     try {
         const preference = await Preference.findById(preferenceId);
@@ -42,7 +45,7 @@ router.route('/preferences/:id').get(/*userAuth,*/ async (req, res, next) => {
 });
 
 // update preference (admin only)
-router.route('/preferences/update/:id').put(/*adminAuth,*/ async (req, res, next) => {
+router.route('/preferences/update/:id').put(adminAuth, async (req, res, next) => {
     const id = req.params.id;
     const updates = req.body;
 
@@ -74,7 +77,7 @@ router.route('/preferences/update/:id').put(/*adminAuth,*/ async (req, res, next
 });
 
 // delete preference (admin only)
-router.route('/preferences/delete/:id').delete(/*adminAuth,*/ async (req, res, next) => {
+router.route('/preferences/delete/:id').delete(adminAuth, async (req, res, next) => {
     const id = req.params.id;
     await Preference.findByIdAndDelete(id)
         .then(preference =>
@@ -87,6 +90,7 @@ router.route('/preferences/delete/:id').delete(/*adminAuth,*/ async (req, res, n
 
 module.exports = router;
 
+*/
 /*
 
 test preference:

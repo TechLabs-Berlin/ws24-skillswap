@@ -13,3 +13,5 @@ const SkillSchema = new Schema({
 });
 
 module.exports = mongoose.model('Skill', SkillSchema);
+
+// each skill also needs a skill category, to be implemented

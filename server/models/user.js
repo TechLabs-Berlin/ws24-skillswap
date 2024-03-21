@@ -28,9 +28,31 @@ const UserSchema = new Schema({
     },
     description: String,
     isAvailable: Boolean,
-    preference: {
-        type: Schema.Types.ObjectId,
-        ref: 'Preference' // ID of preference model --> user can only have 1 preference
+    swapPreference: {
+        type: [{
+            type: String,
+            enum: ['in-person', 'online', 'hybrid']
+        }],
+        validate: [arrayLimit, '{PATH} exceeds the limit of 3'] //can select all 3
+    },
+    langPreference: {
+        type: [{
+            type: String,
+            enum: ['English', 'French', 'German', 'Spanish', 'Arabic', 'Mandarin']
+        }],
+        validate: [arrayLimit, '{PATH} exceeds the limit of 6'] // can select all 6
+    },
+    location: {
+        type: {
+            type: String,
+            enum: ['Point'],
+            required: true // Only required if 'location' is provided
+        },
+        coordinates: {
+            type: [Number], // example: [-73.856077, 40.848447]
+            required: true // Only required if 'location' is provided
+        }
+        // 'location' itself is optional by not being marked as required
     },
     skillsOffered: [{
         type: Schema.Types.ObjectId,
@@ -42,5 +64,9 @@ const UserSchema = new Schema({
     }]
 });
 // *using passport* UserSchema.plugin(passportLocalMongoose); //adds username + password to UserSchema
+
+
+// The coordinates field is indexed as 2dsphere to enable MongoDB's geospatial queries on this field
+UserSchema.index({ "location.coordinates": "2dsphere" });
 
 module.exports = mongoose.model('User', UserSchema);
