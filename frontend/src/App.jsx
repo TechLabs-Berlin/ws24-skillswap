@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css';
+import './components/atoms/Colors.css';
 import { Login } from './form/login/Login';
 import { Register } from './form/registration/Register';
 
