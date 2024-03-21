@@ -51,6 +51,17 @@ router.route('/users/create').post(/*adminAuth,*/ async (req, res, next) => {
 
 // Retrieve/Get route
 
+// Get All User Data Route (logged-in user or admin only)
+
+router.route('/users').get(/*userAuth,*/ async (req, res, next) => {
+    try {
+        const users = await User.find(); // Fetch all users
+        res.status(200).json(users);
+    } catch (err) {
+        res.status(500).json({ message: "An error occurred", error: err.message });
+    }
+});
+
 // Get Specific User Data Route (logged-in user or admin only)
 
 router.route('/users/:id').get(/*userAuth,*/ async (req, res, next) => {
@@ -62,17 +73,6 @@ router.route('/users/:id').get(/*userAuth,*/ async (req, res, next) => {
         } else {
             res.status(404).json({ message: "User not found" });
         }
-    } catch (err) {
-        res.status(500).json({ message: "An error occurred", error: err.message });
-    }
-});
-
-// Get All User Data Route (logged-in user or admin only)
-
-router.route('/users/all').get(/*userAuth,*/ async (req, res, next) => {
-    try {
-        const users = await User.find(); // Fetch all users
-        res.status(200).json(users);
     } catch (err) {
         res.status(500).json({ message: "An error occurred", error: err.message });
     }

@@ -30,6 +30,18 @@ router.route('/messages/create').post(/*userAuth,*/ async (req, res, next) => {
 });
 
 // retrieve message (users or admins)
+
+// all messages in the database:
+
+router.route('/messages').get(/*userAuth,*/ async (req, res, next) => {
+    try {
+        const messages = await Message.find(); // fetch all messages
+        res.status(200).json(messages); // array of messages in JSON response
+    } catch (err) {
+        res.status(500).json({ message: "An error occurred", error: err.message });
+    }
+});
+
 // one message by ID:
 
 router.route('/messages/:id').get(/*userAuth,*/ async (req, res, next) => {
@@ -41,17 +53,6 @@ router.route('/messages/:id').get(/*userAuth,*/ async (req, res, next) => {
         } else {
             res.status(404).json({ message: "Message not found" });
         }
-    } catch (err) {
-        res.status(500).json({ message: "An error occurred", error: err.message });
-    }
-});
-
-// all messages in the database:
-
-router.route('/messages').get(/*userAuth,*/ async (req, res, next) => {
-    try {
-        const messages = await Message.find(); // fetch all messages
-        res.status(200).json(messages); // array of messages in JSON response
     } catch (err) {
         res.status(500).json({ message: "An error occurred", error: err.message });
     }
