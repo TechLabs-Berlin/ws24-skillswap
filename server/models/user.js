@@ -2,7 +2,14 @@
 
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-const passportLocalMongoose = require('passport-local-mongoose');
+const passportLocalMongoose = require('passport-local-mongoose'); // currently not in use
+
+function arrayLimit(limit) {
+    return function (validator) {
+        // Checks if the array's length is within the allowed limit
+        return validator.length >= 1 && validator.length <= limit;
+    };
+}
 
 const UserSchema = new Schema({
     //_id is set automatically by MongoDB
@@ -33,14 +40,14 @@ const UserSchema = new Schema({
             type: String,
             enum: ['in-person', 'online', 'hybrid']
         }],
-        validate: [arrayLimit, '{PATH} exceeds the limit of 3'] //can select all 3
+        validate: [arrayLimit(3), '{PATH} exceeds the limit of 3'] //can select all 3
     },
     langPreference: {
         type: [{
             type: String,
             enum: ['English', 'French', 'German', 'Spanish', 'Arabic', 'Mandarin']
         }],
-        validate: [arrayLimit, '{PATH} exceeds the limit of 6'] // can select all 6
+        validate: [arrayLimit(6), '{PATH} exceeds the limit of 6'] // can select all 6
     },
     location: {
         type: {
