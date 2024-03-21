@@ -1,5 +1,5 @@
 import React from "react";
-const MyInterests = () => {
+const MyInterests = ({ interest}) => {
 
   const handleMyIntrestsData = (val) =>{
     const myIntrestsData = (val.target.value)
@@ -9,7 +9,7 @@ const MyInterests = () => {
     <section>
     <h3>My interests</h3>
     <div className='interestsData'>
-    <input  onChange={handleMyIntrestsData} type="text" className="myIntrestsData"/>
+    <input  onChange={handleMyIntrestsData} type="text" className="myIntrestsData" defaultValue={interest.forEach(element => ', ' + element)}/>
     </div>
     </section>
 

@@ -12,7 +12,7 @@ function ProfilePicture() {
     return(
         <section className="profileSection">
         <div className="profileContainer">
-          <img src="./Assets/logo.png" id='profilePic' className="profilePic"/>
+          <img src={picture} id='profilePic' className="profilePic"/>
            <label htmlFor="profileU" className="picU">Edit</label>
           
 
@@ -27,3 +27,8 @@ function ProfilePicture() {
 
 
 export default ProfilePicture;
+
+
+
+
+

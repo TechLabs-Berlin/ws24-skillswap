@@ -60,6 +60,8 @@
 
   /* ProfilePicture css */
 
+
+  
 .profileSection{
    
     justify-content: center;
@@ -97,16 +99,9 @@
   margin: 0px;
 
 }
-/* 
-abput and intrests */
 
- .aboutSec input{
-  width: 90%;
-  padding-bottom: 70px;
-  border:1px solid gray;
-  border-radius: 10px;
+/* about and intrests */
 
-}
 
  .myIntrestsData{
   width: 90%;
@@ -114,6 +109,26 @@ abput and intrests */
   border:1px solid gray;
   border-radius: 10px;
 } 
+
+
+.aboutSec h3 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.aboutMe {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.aboutMe::placeholder {
+  color: #999;
+}
+
 
 
 

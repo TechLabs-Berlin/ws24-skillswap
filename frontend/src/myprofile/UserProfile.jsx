@@ -1,9 +1,28 @@
 import ProfilePicture from './ProfilePicture';
-import MySkills from './SkillSection';
+
 import AboutMe from './AboutMe';
 import MyInterests from './MyIntrests';
 import CurrentSwap from './CurrentSwap';
 import '../myprofile/UserProfile.css'
+import MySkills from './SkillSection';
+
+
+const person = {
+  name: 'Elena',
+  picture: 'src/myprofile/Assets/logo.png',
+  skilss: [
+    'piano',
+    'cooking',
+    'Language'
+  ],
+  about: 'Been playing piano for 10 years ...',
+  interests: [
+    'music',
+    'lenguage'
+  ]
+}
+
+
 
 
 const UserProfileTwo = () => {
@@ -13,13 +32,13 @@ const UserProfileTwo = () => {
     <>
       <h1 className="page-title">My Profile</h1>
 
-      <ProfilePicture/>
+      <ProfilePicture picture={person.picture}/>
 
       <MySkills/>
 
-      <AboutMe/>
+      <AboutMe description={person.about} name={'me'}/>
 
-      <MyInterests/>
+      <MyInterests interest={person.interests}/>
 
       <CurrentSwap/>
       <section>

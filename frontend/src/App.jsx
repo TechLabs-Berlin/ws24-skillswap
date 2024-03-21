@@ -1,5 +1,7 @@
 import React from "react";
-import UserProfile from "./myprofile/UserProfile";
+import HomePage from "./homepage/HomePage";
+
+
 
 
 
@@ -9,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-      <UserProfile/>
+        <HomePage/>
       </div>
     </div>
   );
