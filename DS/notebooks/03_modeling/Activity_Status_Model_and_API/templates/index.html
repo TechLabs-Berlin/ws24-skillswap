@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Status</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>How to find out your activity status</h1>
+    <form action='/predict' method='POST'>
+    <label for ="LastSeenInput">Last Seen:</label>
+    <input type="text" id="LastSeenInput" name="Last_Seen"><br>
+
+    <label for="ResponseTimeInput">Response Time:</label>
+    <input type="text" id="ResponseTimeInput"name="Response_Time"><br>
+
+    <label for="AboveAverageInput">Track Record:</label>
+    <input type="text" id="AboveAverageInput"name="Sum_Skills_Off_ab_avg"><br>
+    <button type="submit">Get Activity Status</button>
+    </form>
+</body>
+</html>
