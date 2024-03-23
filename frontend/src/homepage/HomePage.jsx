@@ -22,7 +22,7 @@ const HomePage = () => {
 
     return (
         <>
-            <h1 className="page-title">SkillSwaps</h1>
+            <h1 className="page-title">SkillSwap</h1>
 
             <Picture picture={person.picture} />
 

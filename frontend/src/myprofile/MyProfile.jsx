@@ -3,8 +3,8 @@ import ProfilePicture from './ProfilePicture';
 import AboutMe from './AboutMe';
 import MyInterests from './MyIntrests';
 import CurrentSwap from './CurrentSwap';
-import '../myprofile/UserProfile.css'
 import MySkills from './SkillSection';
+import '../myprofile/MyProfile.css'
 
 
 const person = {
@@ -25,14 +25,14 @@ const person = {
 
 
 
-const UserProfileTwo = () => {
+const MyProfile = () => {
 
 
   return (
     <>
       <h1 className="page-title">My Profile</h1>
-
-      <ProfilePicture picture={person.picture}/>
+      
+      <ProfilePicture picture={person.picture} />
 
       <MySkills/>
 
@@ -51,4 +51,4 @@ const UserProfileTwo = () => {
   );
 };
 
-export default UserProfileTwo;
+export default MyProfile;

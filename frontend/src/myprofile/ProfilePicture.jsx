@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function ProfilePicture() {
+function ProfilePicture( {picture} ) {
     function profileUpdate() {
         const profilePic =document.getElementById("profilePic");
         const profileU =document.getElementById("profileU");

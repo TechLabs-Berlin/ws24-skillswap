@@ -9,7 +9,7 @@ const AboutMe = ({ description }) => {
     <section className='aboutSec'>
       <h3>About me</h3>
       <div>
-      <input onChange={handleAboutMe} name="aboutMe" id="aboutMe" className='aboutMe' defaultValue={description} />
+      <textarea onChange={handleAboutMe} name="aboutMe" id="aboutMe" className='aboutMe' defaultValue={description}/>
       </div>
     </section>
   );
