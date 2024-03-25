@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import axios from 'axios';
-import './Login.css'; 
+import './Login.css';
+import InputBox from '../../components/comps/input/InputBox';
+import Buttons from "../../components/comps/buttons/Buttons";
 
 export const Login = (props) => {
   const [email, setEmail] = useState('');
@@ -10,6 +12,13 @@ export const Login = (props) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // // Check if email and password are filled
+    // if (!email || !password) {
+    //   setError('Please fill in all fields.');
+    //   return;
+    // }
+
     setIsLoading(true);
     try {
       const response = await axios.post('https://ws24-skillswap.onrender.com/api/auth/login', {
@@ -28,36 +37,35 @@ export const Login = (props) => {
   return (
     <div className="auth-form-container">
       <p className="heading-text">Log in</p>
-      <p className="body-text">Welcome back!</p>
+      <p className="body-text">Welcome back! <br /> Don't have an account? <button className="txt-btn" onClick={() => props.onFormSwitch('register')}>Sign up!</button> </p>
+      
+      {/* {error && <p className="error-tooltip">{error}</p>} */}
+
       <form className="login-form" onSubmit={handleSubmit}>
-        <label htmlFor="email">Email</label>
-        <input 
-          value={email} 
-          type="email" 
-          placeholder="yourname@gmail.com" 
-          id="email" 
-          name="email"
+        <InputBox
+          label="Email"
+          type="text"
+          placeholder="Your Email"
+          value={name}
           onChange={(e) => setEmail(e.target.value)}
-          className="input-box" 
           required
         />
-        <label htmlFor="password">Password</label>
-        <input 
-          value={password} 
-          type="password" 
-          placeholder="Enter your password" 
-          id="password" 
-          name="password"
+        
+        <InputBox
+          label="Password"
+          type="password"
+          placeholder="Enter your password"
+          value={password}
           onChange={(e) => setPassword(e.target.value)}
-          className="input-box" 
           required
         />
         {error && <p className="error-message">{error}</p>}
         <br />
-        <button type="submit" disabled={isLoading}>{isLoading ? 'Logging in...' : 'Log in'}</button>
+        <br />
+        <Buttons type="submit" onClick={handleSubmit} disabled={isLoading}>{isLoading ? 'Logging in...' : 'Log in'}</Buttons>
+
       </form>
-      <p className="body-text">Don't have an account?</p>
-      <button className="txt-btn" onClick={() => props.onFormSwitch('register')}>Sign up!</button>
+      
     </div>
   )
 }

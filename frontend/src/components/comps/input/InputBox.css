@@ -1,9 +1,9 @@
 .input-container {
-  margin-bottom: 1rem;
+  margin: 0 
 }
 
 .input-label {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0.5rem;
   display: block;
 }
@@ -17,7 +17,14 @@
   padding: 0.5rem;
   border: 1px solid DADADA;
   border-radius: 4px;
+  display: flex;
+  /* width: calc(100% - 56px); Subtracting the width of the button */
+  height: 56px; /* Adjust height as needed */
+  /* margin: 0 28px; Margin on top, right, and bottom */
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
+
+
 
 .toggle-password {
   position: absolute;
@@ -37,4 +44,8 @@
   color: red;
   font-size: 12px;
   margin-top: 0.5rem;
+}
+
+.input-box::placeholder {
+  font-size: 16px;
 }

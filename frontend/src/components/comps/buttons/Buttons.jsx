@@ -1,10 +1,8 @@
 import React from 'react';
-import styles from './Buttons.css';
+import './Buttons.css'; // Import the CSS file
 
-const Button = ({ size, state, onClick, children }) => {
-  const className = `${styles.button} ${styles[size]} ${styles[state]}`;
-
-  return <button className={className} onClick={onClick}>{children}</button>;
+const Buttons = ({ onClick, children }) => {
+  return <button className="button" onClick={onClick}>{children}</button>;
 };
 
 export default Buttons;

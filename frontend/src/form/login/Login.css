@@ -1,3 +1,8 @@
 .input-box {
-  color: black; /* Set font color to black */
+  color: #707070; 
+  font-size: 16px;
+}
+
+.input-container {
+  margin-bottom: 12px;
 }
