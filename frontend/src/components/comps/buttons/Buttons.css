@@ -1,28 +1,12 @@
 .button {
-  display: inline-flex;
-  height: 48px;
-  padding: 16px 30px;
-  font-size: 14px;
-  flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
+  height: 56px; /* Adjust height as needed */
+  /* margin: 20px; */
+  background-color: #40605A; /* Primary color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 8px; /* Adjust border radius as needed */
   cursor: pointer;
-}
-
-.big {
-  display: flex;
-  padding: 16px 122px;
-}
-
-.small {
-  display: flex;
-  padding: 16px 32px;
-}
-
-
-.active {
-  background-color: var(--primary-color);
-  color: #fff;
 }

@@ -18,10 +18,10 @@
   align-items: center;
   justify-content: center;
   background-color: #F7F7F7;
-  padding: 2rem;
+  padding: 20px;
 }
 
-.auth-form-container {
+.auth-form-container, .input-container {
   display: flex;
   flex-direction: column;
   /* align-items: center;
@@ -55,7 +55,7 @@ input {
   width: 250px;
 }
 
-spacing {
+.spacing {
   height: 2rem;
 }
 
@@ -85,6 +85,7 @@ font: */
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
+  margin: 20 auto;
 }
 
 .heading-text {
