@@ -36,7 +36,7 @@ const UserSchema = new Schema({
     },
     description: String,
     isAvailable: Boolean,
-    swapPreference: {
+    /*swapPreference: {
         type: [{
             type: String,
             enum: ['in-person', 'online', 'hybrid']
@@ -61,7 +61,7 @@ const UserSchema = new Schema({
             required: true // Only required if 'location' is provided
         }
         // 'location' itself is optional by not being marked as required
-    },
+    },*/
     skillsOffered: [{
         type: Schema.Types.ObjectId,
         ref: 'Skill' // ID of skills model --> array of skills (_id) the user offers to teach
