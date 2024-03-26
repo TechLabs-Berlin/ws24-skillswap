@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./App.css";
 import { Login } from "./form/login/Login";
 import { Register } from "./form/registration/Register";
+import HomePage from "./homepage/HomePage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -20,14 +20,14 @@ function App() {
             element={<Register onFormSwitch={toggleForm} />}
           />
           <Route path="login" element={<Login onFormSwitch={toggleForm} />} />
+          //Homepage
+          <Route path="/" element={<HomePage />} />
           {/* //Onboarding
            <Route path="/Onboarding" element={<Onboarding/>}/>
      <Route path="step-1" element={<OnboardingStep1/>}/>
      <Route path="step-2" element={<OnboardingStep2/>}/>  
           // etc for each onboarding step 
           
-          //Homepage
-          <Route path="/" element={<Homepage/>}/>
           
           //Connecting Pages
           <Route path="/connect" element={<Connecting/>}>
