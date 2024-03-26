@@ -3,14 +3,18 @@ import ProfilePicture from './ProfilePicture';
 import AboutMe from './AboutMe';
 import MyInterests from './MyIntrests';
 import CurrentSwap from './CurrentSwap';
-import MySkills from './SkillSection';
+import MySkills from './MySkills';
+import Frame from './Frame';
+import Saved from './saves';
+import Header from './Header';
 import '../myprofile/MyProfile.css'
+
 
 
 const person = {
   name: 'Elena',
-  picture: 'src/myprofile/Assets/logo.png',
-  skilss: [
+  picture: 'src/Assets/logo.png',
+  skils: [
     'piano',
     'cooking',
     'Language'
@@ -30,23 +34,23 @@ const MyProfile = () => {
 
   return (
     <>
-      <h1 className="page-title">My Profile</h1>
+     <Header image={person.picture} />
+        <h1 className="page-title">My Profile</h1>
+    
       
       <ProfilePicture picture={person.picture} />
 
+      <MyInterests interest={person.interests} />
+
       <MySkills/>
 
-      <AboutMe description={person.about} name={'me'}/>
+      <AboutMe description={person.about} name={'me'} />
 
-      <MyInterests interest={person.interests}/>
+      <Frame/>
 
       <CurrentSwap/>
-      <section>
-        <dl>
-          <dt>Last active</dt>
-          <dd>Online</dd>
-        </dl>
-      </section>
+
+      <Saved/>
     </>
   );
 };

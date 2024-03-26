@@ -13,7 +13,7 @@ const CurrentSwap = () => {
   
 
   return(
-    <section>
+    <section className="currentSwap">
     <h3>Current Swap</h3>
     <p>Piano with Bjorn</p>
     <div className={'completed-toggle'}>
@@ -27,3 +27,5 @@ const CurrentSwap = () => {
 }
 
 export default CurrentSwap;
+
+

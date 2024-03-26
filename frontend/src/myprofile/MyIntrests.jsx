@@ -1,15 +1,26 @@
 import React from "react";
-const MyInterests = ({ interest}) => {
+import svgplus from '../assets/icons/plus.svg';
+
+
+
+const MyInterests = ({ description }) => {
 
   const handleMyIntrestsData = (val) =>{
     const myIntrestsData = (val.target.value)
     console.log(myIntrestsData);
   }
   return ( 
+    
     <section>
-    <h3>My interests</h3>
-    <div className='interestsData'>
-    <input  onChange={handleMyIntrestsData} type="text" className="myIntrestsData" defaultValue={interest.forEach(element => ', ' + element)}/>
+    
+    <h3>My Interests (3 Of 5)</h3>
+    <div className='Myinterests'>
+    <button onChange={handleMyIntrestsData} type="text" defaultValue={description} className="addButton">
+    <img src={svgplus} alt='plus icon'/>
+ 
+    </button>
+   
+   
     </div>
     </section>
 
@@ -18,3 +29,5 @@ const MyInterests = ({ interest}) => {
  
 export default MyInterests;
 
+
+// {interest.forEach(element => ', ' + element)}
