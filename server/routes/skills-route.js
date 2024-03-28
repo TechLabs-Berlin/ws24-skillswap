@@ -12,6 +12,7 @@ router.route('/skills/create').post(/*adminAuth,*/ async (req, res, next) => {
     const { name, category } = req.body;
     await Skill.create({
         name,
+        category,
     }).then((skill) => {
         res.status(201).json({
             message: 'New skill successfully created',
@@ -106,7 +107,7 @@ module.exports = router;
 test skill:
 {
   "name": "guitar",
-  "category": "category_ID"
+  "category": "6605b12c182c4d32d87223ba"
 }
 
 */
