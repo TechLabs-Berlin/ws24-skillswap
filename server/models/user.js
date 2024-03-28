@@ -7,7 +7,7 @@ const passportLocalMongoose = require('passport-local-mongoose'); // currently n
 function arrayLimit(limit) {
     return function (validator) {
         // Checks if the array's length is within the allowed limit
-        return validator.length >= 1 && validator.length <= limit;
+        return validator.length <= limit;
     };
 }
 
