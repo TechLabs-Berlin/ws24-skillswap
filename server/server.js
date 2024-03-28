@@ -55,6 +55,7 @@ app.use('/api', require('./routes/users-route.js'));
 app.use('/api', require('./routes/skills-route.js'));
 // app.use('/api', require('./routes/preferences-route.js')); //no longer in use
 app.use('/api', require('./routes/messages-route.js'));
+app.use('/api', require('./routes/categories-route.js'));
 
 //run server on port 8000:
 

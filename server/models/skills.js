@@ -9,9 +9,12 @@ const SkillSchema = new Schema({
         type: String,
         required: true,
         unique: true
+    },
+    category: {
+        type: Schema.Types.ObjectId,
+        ref: 'Category', // ID of categories model
+        required: true
     }
 });
 
 module.exports = mongoose.model('Skill', SkillSchema);
-
-// each skill also needs a skill category, to be implemented
