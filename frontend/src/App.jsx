@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import './components/atoms/Colors.css';
 import { Login } from './form/login/Login';
@@ -12,11 +13,13 @@ function App() {
   }
 
   return (
-      <div className='App'>
-        {
-          currentForm === "login" ? <Login onFormSwitch = {toggleForm} /> : <Register onFormSwitch = {toggleForm} />
-        }
-      </div>
+    <Router>
+      <Switch>
+        <Route path="/login" component={Login} />
+        <Route path="/onboarding" component={Onboarding} />
+        {/* Other routes */}
+      </Switch>
+    </Router>
   )
 }
 

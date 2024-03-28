@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import axios from 'axios';
+import { useHistory } from 'react-router-dom'; 
 import './Login.css';
 import InputBox from '../../components/comps/input/InputBox';
 import Buttons from "../../components/comps/buttons/Buttons";
 
 export const Login = (props) => {
+  const history = useHistory(); // Initialize useHistory hook
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -13,12 +16,6 @@ export const Login = (props) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // // Check if email and password are filled
-    // if (!email || !password) {
-    //   setError('Please fill in all fields.');
-    //   return;
-    // }
-
     setIsLoading(true);
     try {
       const response = await axios.post('https://ws24-skillswap.onrender.com/api/auth/login', {
@@ -26,6 +23,8 @@ export const Login = (props) => {
         password: password
       });
       console.log(response.data); // handle successful response from backend
+      // Redirect to onboarding page upon successful login
+      history.push('/onboarding');
     } catch (error) {
       console.error('Error logging in:', error); // handle error response from backend
       setError('Invalid email or password. Please try again.');
@@ -39,14 +38,12 @@ export const Login = (props) => {
       <p className="heading-text">Log in</p>
       <p className="body-text">Welcome back! <br /> Don't have an account? <button className="txt-btn" onClick={() => props.onFormSwitch('register')}>Sign up!</button> </p>
       
-      {/* {error && <p className="error-tooltip">{error}</p>} */}
-
       <form className="login-form" onSubmit={handleSubmit}>
         <InputBox
           label="Email"
           type="text"
           placeholder="Your Email"
-          value={name}
+          value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
         />
