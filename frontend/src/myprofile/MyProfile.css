@@ -3,12 +3,15 @@
 
   justify-content: center;
   align-items: center;
+
+
 }
 
 .profileContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 
 }
 
@@ -84,6 +87,7 @@
   align-items: flex-start;
   padding: 30px 29px;
   gap: 10px;
+  margin: 20px;
 
   width: 80.5px;
   height: 82.5px;
@@ -96,7 +100,14 @@
   order: 1;
   flex-grow: 0;
 
+
+
 }
+
+.contain{
+  display: flex;
+}
+
 
 /* Frame */
 .level {
@@ -106,6 +117,7 @@
 }
 
 /* toggle */
+
 
 .page-title {
   font-size: 2.5rem;
@@ -128,7 +140,8 @@
   position: relative;
   width: 60px;
   height: 20px;
-  background-color: lightgray;
+  background-color: rgba(112, 112, 112, 1);
+  ;
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -144,7 +157,8 @@
     display: block;
     width: 30px;
     height: 30px;
-    background-color: #3d3d3d;
+    background-color: rgba(255, 176, 29, 1);
+    ;
     border-radius: 50%;
     border-color: #707070;
   }
@@ -164,27 +178,27 @@ span{
 
 .saved{
   
-  box-sizing: border-box;
+box-sizing: border-box;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
 gap: 10px;
-width: 100px;
-height: 100px;
-
-
+border: #FF6B6B;
 }
 
 
-.saved-button {
 
-  background: #F2F2F7;
-border: 1px solid #FF6B6B;
-border-radius: 13px;
+#H3{
+  display: inline-block;
 
 }
 
+.seeAll{
+  margin-left: 150px;
+  color: rgba(255, 107, 107, 1);
 
+
+}
 
 
 

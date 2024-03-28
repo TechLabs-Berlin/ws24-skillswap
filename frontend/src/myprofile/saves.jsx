@@ -7,17 +7,22 @@ import '../myprofile/MyProfile.css'
 const Saved = () => {
   return (
     <section>
-      <h3>Saved (10)</h3>
+      <h3 id="H3">Saved (10)</h3>
+      <a href="www.google.com" className="seeAll">See All</a>
+
+   
+     
+      
       <div className="saved">
-        <button className="saved-button">
-          <img src={svggardning} alt="gardening button" />
-        </button>
-        <button className="saved-button">
-          <img src={svgsewing} alt="sewing button" />
-        </button>
-        <button className="saved-button">
-          <img src={svgsewing2} alt="sewing button 2" />
-        </button>
+    
+          <img src={svggardning} alt="gardening button" className="icon"/>
+   
+     
+          <img src={svgsewing} alt="sewing button"  />
+  
+    
+          <img src={svgsewing2} alt="sewing button 2"  />
+       
       </div>
     </section>
   );

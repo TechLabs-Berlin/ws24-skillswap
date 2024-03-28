@@ -3,6 +3,7 @@ import svgplus from '../assets/icons/plus.svg';
 
 
 
+
 const MyInterests = ({ description }) => {
 
   const handleMyIntrestsData = (val) =>{
@@ -15,7 +16,9 @@ const MyInterests = ({ description }) => {
     
     <h3>My Interests (3 Of 5)</h3>
     <div className='Myinterests'>
-    <button onChange={handleMyIntrestsData} type="text" defaultValue={description} className="addButton">
+    <button onChange={handleMyIntrestsData} type="text" defaultValue={description} className="addButton" >
+    
+   
     <img src={svgplus} alt='plus icon'/>
  
     </button>

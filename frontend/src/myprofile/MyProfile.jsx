@@ -7,6 +7,8 @@ import MySkills from './MySkills';
 import Frame from './Frame';
 import Saved from './saves';
 import Header from './Header';
+
+
 import '../myprofile/MyProfile.css'
 
 
@@ -36,7 +38,6 @@ const MyProfile = () => {
     <>
      <Header image={person.picture} />
         <h1 className="page-title">My Profile</h1>
-    
       
       <ProfilePicture picture={person.picture} />
 

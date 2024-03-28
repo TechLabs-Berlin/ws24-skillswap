@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { Multiselect } from "multiselect-react-dropdown";
 import svgplus from '../assets/icons/plus.svg';
+import svgcooking from '../assets/icons/cooking.svg';
 
 const MySkills = () => { 
 
@@ -23,10 +24,12 @@ const MySkills = () => {
   return(
     <section className='mySkills'>
     <h3>My skills</h3>
+    <div className="contain">
     <button className='plusButton' onClick={()=>setToggleSkill(!toggleSkill)}>
       <img src={svgplus} alt='plus icon'/>
     </button>
-
+    <img src={svgcooking} alt="cooking icon" />
+    </div>
      
     {toggleSkill &&  <div className="skillSection">
         <Multiselect options = {options} displayValue='skill'/>

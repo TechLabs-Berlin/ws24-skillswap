@@ -15,6 +15,7 @@ const CurrentSwap = () => {
   return(
     <section className="currentSwap">
     <h3>Current Swap</h3>
+
     <p>Piano with Bjorn</p>
     <div className={'completed-toggle'}>
       <p>{completed ? 'completed ' : 'incomplete' }</p>
@@ -22,6 +23,8 @@ const CurrentSwap = () => {
         <input type="checkbox" checked={completed} id={'toggle-button'} onChange={handleToggle}/>
       </div>
     </div>
+
+   
   </section>
   )
 }

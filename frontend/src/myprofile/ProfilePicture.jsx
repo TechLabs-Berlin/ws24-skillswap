@@ -13,9 +13,9 @@ function ProfilePicture( {picture} ) {
         <section className="profileSection">
         <div className="profileContainer">
           <img src={picture} id='profilePic' className="profilePic"/>
-           <label htmlFor="profileU" className="picU"> edit</label>
-          
-
+        
+          <label htmlFor="profileU" className="picU">edit</label>
+      
          <input  type="file" accept='image/*' id='profileU' onChange={profileUpdate} className='profileU'/>
          
         </div>
@@ -28,6 +28,7 @@ function ProfilePicture( {picture} ) {
 
 
 export default ProfilePicture;
+
 
 
 
