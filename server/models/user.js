@@ -54,11 +54,11 @@ const UserSchema = new Schema({
         type: {
             type: String,
             enum: ['Point'],
-            required: true // Only required if 'location' is provided
+            //required: true // Only required if 'location' is provided
         },
         coordinates: {
             type: [Number], // example: [-73.856077, 40.848447]
-            required: true // Only required if 'location' is provided
+            //required: true // Only required if 'location' is provided
         }
         // 'location' itself is optional by not being marked as required
     },*/

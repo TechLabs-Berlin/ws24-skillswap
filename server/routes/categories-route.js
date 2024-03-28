@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Skill = require('../models/categories');
+const Category = require('../models/categories');
 const { adminAuth, userAuth } = require('../Auth/auth-middleware');
 
 const cors = require('cors');

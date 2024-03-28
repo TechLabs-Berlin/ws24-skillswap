@@ -9,7 +9,7 @@ app.use(cors());
 
 // create skill (admin only)
 router.route('/skills/create').post(/*adminAuth,*/ async (req, res, next) => {
-    const { name } = req.body;
+    const { name, category } = req.body;
     await Skill.create({
         name,
     }).then((skill) => {
@@ -105,7 +105,8 @@ module.exports = router;
 
 test skill:
 {
-  "name": "guitar"
+  "name": "guitar",
+  "category": "category_ID"
 }
 
 */
