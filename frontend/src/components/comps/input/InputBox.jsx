@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import "./InputBox.css";
 
-const InputBox = ({ type, placeholder, label, value, onChange }) => {
+const InputBox = ({ type, placeholder, label }) => {
+  const [value, setValue] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState("");
+
+  const handleInputChange = (e) => {
+    setValue(e.target.value);
+  };
 
   const handlePasswordVisibility = () => {
     setShowPassword(!showPassword);
@@ -17,7 +22,7 @@ const InputBox = ({ type, placeholder, label, value, onChange }) => {
           type={type === "password" && !showPassword ? "password" : "text"}
           placeholder={placeholder}
           value={value}
-          onChange={onChange}
+          onChange={handleInputChange}
           className={`input-box ${error ? "error" : ""}`}
         />
         {type === "password" && (

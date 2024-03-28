@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import axios from 'axios';
-import { useHistory } from 'react-router-dom'; 
+import { useHistory } from 'react-router-dom';
 import './Login.css';
 import InputBox from '../../components/comps/input/InputBox';
 import Buttons from "../../components/comps/buttons/Buttons";
 
 export const Login = (props) => {
-  const history = useHistory(); // Initialize useHistory hook
-
+  const history = useHistory(); 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');

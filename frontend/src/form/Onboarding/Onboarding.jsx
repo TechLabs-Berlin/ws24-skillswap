@@ -31,10 +31,19 @@ const Onboarding = () => {
     }
   };
 
-  const handleContinue = () => {
-    // Send selectedSkills to backend
-    console.log('Selected skills:', selectedSkills);
+  const handleContinue = async () => {
+    try {
+      // Send selectedSkills to backend
+      console.log('Selected skills:', selectedSkills);
+  
+      // Assuming successful submission to backend, redirect to homepage
+      history.push('/homepage');
+    } catch (error) {
+      console.error('Error:', error);
+      // Handle error if submission fails
+    }
   };
+  
 
   return (
     <div>
