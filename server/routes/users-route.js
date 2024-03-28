@@ -126,3 +126,15 @@ router.route('/users/delete/:id').delete(/*adminAuth,*/ async (req, res, next) =
 
 
 module.exports = router;
+
+/*
+
+example user:
+
+{
+    "username": "test1234",
+    "email": "test1234@gmail.com",
+    "password": "testpassword1234"
+}
+
+*/

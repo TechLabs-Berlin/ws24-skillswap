@@ -53,14 +53,11 @@ const UserSchema = new Schema({
     location: {
         type: {
             type: String,
-            enum: ['Point'],
-            required: true // Only required if 'location' is provided
+            enum: ['Point']
         },
         coordinates: {
-            type: [Number], // example: [-73.856077, 40.848447]
-            required: true // Only required if 'location' is provided
+            type: [Number] // example: [-73.856077, 40.848447]
         }
-        // 'location' itself is optional by not being marked as required
     },
     skillsOffered: [{
         type: Schema.Types.ObjectId,
