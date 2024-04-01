@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 
 // create category (admin only)
-router.route('/categories/create').post(/*adminAuth,*/ async (req, res, next) => {
+router.route('/categories/create').post(adminAuth, async (req, res, next) => {
     const { name } = req.body;
     await Category.create({
         name,
@@ -56,7 +56,7 @@ router.route('/categories/:id').get(/*userAuth,*/ async (req, res, next) => {
 });
 
 // update category (admin only)
-router.route('/categories/update/:id').put(/*adminAuth,*/ async (req, res, next) => {
+router.route('/categories/update/:id').put(adminAuth, async (req, res, next) => {
     const id = req.params.id;
     const updates = req.body;
 
@@ -88,7 +88,7 @@ router.route('/categories/update/:id').put(/*adminAuth,*/ async (req, res, next)
 });
 
 // delete category (admin only)
-router.route('/categories/delete/:id').delete(/*adminAuth,*/ async (req, res, next) => {
+router.route('/categories/delete/:id').delete(adminAuth, async (req, res, next) => {
     const id = req.params.id;
     await Category.findByIdAndDelete(id)
         .then(category =>

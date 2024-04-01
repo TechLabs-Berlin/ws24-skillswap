@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 
 // create skill (admin only)
-router.route('/skills/create').post(/*adminAuth,*/ async (req, res, next) => {
+router.route('/skills/create').post(adminAuth, async (req, res, next) => {
     const { name, category } = req.body;
     await Skill.create({
         name,
@@ -57,7 +57,7 @@ router.route('/skills/:id').get(/*userAuth,*/ async (req, res, next) => {
 });
 
 // update skill (admin only)
-router.route('/skills/update/:id').put(/*adminAuth,*/ async (req, res, next) => {
+router.route('/skills/update/:id').put(adminAuth, async (req, res, next) => {
     const id = req.params.id;
     const updates = req.body;
 
@@ -89,7 +89,7 @@ router.route('/skills/update/:id').put(/*adminAuth,*/ async (req, res, next) => 
 });
 
 // delete skill (admin only)
-router.route('/skills/delete/:id').delete(/*adminAuth,*/ async (req, res, next) => {
+router.route('/skills/delete/:id').delete(adminAuth, async (req, res, next) => {
     const id = req.params.id;
     await Skill.findByIdAndDelete(id)
         .then(skill =>

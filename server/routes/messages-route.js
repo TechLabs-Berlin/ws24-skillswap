@@ -58,8 +58,8 @@ router.route('/messages/:id').get(/*userAuth,*/ async (req, res, next) => {
     }
 });
 
-// update message (admin only)
-router.route('/messages/update/:id').put(/*adminAuth,*/ async (req, res, next) => {
+// update message
+router.route('/messages/update/:id').put(/*userAuth,*/ async (req, res, next) => {
     const id = req.params.id;
     const updates = req.body;
 

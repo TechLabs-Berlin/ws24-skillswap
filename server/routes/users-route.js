@@ -24,7 +24,7 @@ router.route('/login').post(login);
 
 // Create route --> similar to Auth/register route, but won't send cookie for Auth
 
-router.route('/users/create').post(/*adminAuth,*/ async (req, res, next) => {
+router.route('/users/create').post(adminAuth, async (req, res, next) => {
     const { username, email, password } = req.body;
     if (password && password.length < 6) {
         return res.status(400).json({ message: 'Password less than 6 characters' })
@@ -49,33 +49,6 @@ router.route('/users/create').post(/*adminAuth,*/ async (req, res, next) => {
     })
 });
 
-
-// route to create new admin user
-router.route('/users/create/admin').post(/*adminAuth,*/ async (req, res, next) => {
-    const { username, email, password } = req.body;
-    if (password && password.length < 6) {
-        return res.status(400).json({ message: 'Password less than 6 characters' })
-    }
-    bcrypt.hash(password, 10).then(async (hash) => {
-        await User.create({
-            username,
-            email,
-            password: hash,
-            role: 'admin',
-        }).then((user) => {
-            res.status(201).json({
-                message: 'New user successfully created',
-                user: user._id,
-            })
-        })
-            .catch((err) => {
-                res.status(400).json({
-                    message: 'User could not be created',
-                    error: err.message,
-                })
-            })
-    })
-});
 
 // Retrieve/Get route
 
@@ -108,7 +81,7 @@ router.route('/users/:id').get(/*userAuth,*/ async (req, res, next) => {
 
 // Update route (logged-in user or admin only))
 
-router.route('/users/update/:id').put(/*adminAuth,*/ async (req, res, next) => {
+router.route('/users/update/:id').put(/*userAuth,*/ async (req, res, next) => {
     const id = req.params.id;
     const updates = req.body;
 
@@ -141,7 +114,7 @@ router.route('/users/update/:id').put(/*adminAuth,*/ async (req, res, next) => {
 
 // Delete route (admin only)
 
-router.route('/users/delete/:id').delete(/*adminAuth,*/ async (req, res, next) => {
+router.route('/users/delete/:id').delete(adminAuth, async (req, res, next) => {
     const id = req.params.id;
     await User.findByIdAndDelete(id)
         .then(user =>
@@ -163,6 +136,13 @@ example user:
     "username": "test1234",
     "email": "test1234@gmail.com",
     "password": "testpassword1234"
+}
+
+admin user:
+{
+  "username": "admin",
+  "email": "admin@skillswap.com",
+  "password": "skillswap"
 }
 
 */
