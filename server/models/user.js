@@ -1,4 +1,4 @@
-//users model used for authentication & to save user data in mongoDB
+//users model used for authentication & for user data in mongoDB
 
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
@@ -66,7 +66,22 @@ const UserSchema = new Schema({
     skillsWanted: [{
         type: Schema.Types.ObjectId,
         ref: 'Skill' // ID of skills model --> array of skills (_id) the user wants to learn
-    }]
+    }],
+    skillSwaps: [{
+        swapSkill: {
+            type: Schema.Types.ObjectId,
+            ref: 'Skill' // ID of skills model --> skill (_id) the user is swapping or has swapped
+        },
+        swapUser: {
+            type: Schema.Types.ObjectId,
+            ref: 'User' // ID of user model --> user (_id) the user swaps or has swapped with
+        },
+        isActive: Boolean
+    }],
+    skillLevel: {
+        type: String,
+        enum: ['beginner', 'intermediate', 'advanced', 'expert']
+    }
 });
 // *using passport* UserSchema.plugin(passportLocalMongoose); //adds username + password to UserSchema
 
