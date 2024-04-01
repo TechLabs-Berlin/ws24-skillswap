@@ -30,6 +30,18 @@ router.route('/messages/create').post(/*userAuth,*/ async (req, res, next) => {
 });
 
 // retrieve message (users or admins)
+
+// all messages in the database:
+
+router.route('/messages').get(/*userAuth,*/ async (req, res, next) => {
+    try {
+        const messages = await Message.find(); // fetch all messages
+        res.status(200).json(messages); // array of messages in JSON response
+    } catch (err) {
+        res.status(500).json({ message: "An error occurred", error: err.message });
+    }
+});
+
 // one message by ID:
 
 router.route('/messages/:id').get(/*userAuth,*/ async (req, res, next) => {
@@ -46,19 +58,8 @@ router.route('/messages/:id').get(/*userAuth,*/ async (req, res, next) => {
     }
 });
 
-// all messages in the database:
-
-router.route('/messages').get(/*userAuth,*/ async (req, res, next) => {
-    try {
-        const messages = await Message.find(); // fetch all messages
-        res.status(200).json(messages); // array of messages in JSON response
-    } catch (err) {
-        res.status(500).json({ message: "An error occurred", error: err.message });
-    }
-});
-
-// update message (admin only)
-router.route('/messages/update/:id').put(/*adminAuth,*/ async (req, res, next) => {
+// update message
+router.route('/messages/update/:id').put(/*userAuth,*/ async (req, res, next) => {
     const id = req.params.id;
     const updates = req.body;
 
