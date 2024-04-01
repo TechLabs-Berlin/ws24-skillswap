@@ -49,6 +49,34 @@ router.route('/users/create').post(/*adminAuth,*/ async (req, res, next) => {
     })
 });
 
+
+// route to create new admin user
+router.route('/users/create/admin').post(/*adminAuth,*/ async (req, res, next) => {
+    const { username, email, password } = req.body;
+    if (password && password.length < 6) {
+        return res.status(400).json({ message: 'Password less than 6 characters' })
+    }
+    bcrypt.hash(password, 10).then(async (hash) => {
+        await User.create({
+            username,
+            email,
+            password: hash,
+            role: 'admin',
+        }).then((user) => {
+            res.status(201).json({
+                message: 'New user successfully created',
+                user: user._id,
+            })
+        })
+            .catch((err) => {
+                res.status(400).json({
+                    message: 'User could not be created',
+                    error: err.message,
+                })
+            })
+    })
+});
+
 // Retrieve/Get route
 
 // Get All User Data Route (logged-in user or admin only)
