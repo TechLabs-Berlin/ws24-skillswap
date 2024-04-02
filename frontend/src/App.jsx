@@ -15,12 +15,11 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route
+          {/* <Route
             path="register"
             element={<Register onFormSwitch={toggleForm} />}
           />
-          <Route path="login" element={<Login onFormSwitch={toggleForm} />} />
-          //Homepage
+          <Route path="login" element={<Login onFormSwitch={toggleForm} />} /> */}
           <Route path="/" element={<HomePage />} />
           {/* //Onboarding
            <Route path="/Onboarding" element={<Onboarding/>}/>

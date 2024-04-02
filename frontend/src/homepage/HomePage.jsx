@@ -9,6 +9,7 @@ import discardIcon from "../assets/icons/discard.png";
 import crossIcon from "../assets/icons/cross.png";
 import confirmIcon from "../assets/icons/confirm.png";
 import axios from "axios";
+import { useEffect, useState } from "react";
 
 const person = {
   name: "Bjorn",
@@ -24,13 +25,64 @@ const person = {
 };
 
 const HomePage = () => {
+  const [me, setMe] = useState({});
+  const [swapInfo, setSwapInfo] = useState({});
+  const [wantedSwaps, setWantedSwaps] = useState([]);
+
+  useEffect(() => {
+    const fetchMe = () => {
+      axios
+        .get(
+          "https://ws24-skillswap.onrender.com/api/users/65e07d4e79299bba4480d73a"
+        )
+        .then(function (response) {
+          // handle success
+          console.log(response);
+          setMe(response.data);
+          setWantedSwaps(response.data.skillsWanted);
+        })
+        .catch(function (error) {
+          // handle error
+          console.log(error);
+        });
+      // .finally(function () {
+      //   // always executed
+      // });
+    };
+    fetchMe();
+  }, []);
+
+  useEffect(() => {
+    const fetchSwap = () => {
+      axios
+        .get(`https://ws24-skillswap.onrender.com/skills/api/${wantedSwaps[0]}`)
+        .then(function (response) {
+          // handle success
+          console.log(response);
+          setSwapInfo(response.data);
+        })
+        .catch(function (error) {
+          // handle error
+          console.log(error);
+        });
+      // .finally(function () {
+      //   // always executed
+      // });
+    };
+    console.log("hello", wantedSwaps);
+    if (wantedSwaps && wantedSwaps.length > 0) {
+      console.log("hey");
+      fetchSwap();
+    }
+  }, [JSON.stringify(wantedSwaps)]);
+
   return (
     <>
       <h1 className="page-title">SkillSwap</h1>
       <Picture picture={person.picture} />
       {/* temporary Bjorn piano lesson */}
       <h2 className="person-skill">
-        {person.name}-{person.skill}
+        {person.name}-{swapInfo.name}
       </h2>
 
       <AboutMe description={person.about} name={person.name} />
