@@ -1,4 +1,0 @@
-Factor,User Data,Data Type
-Track_Record,Count_Skills_Rec,int64
-Track_Record,Count_Skills_Off,int64
-Track_Record,Rec_to_Off_Ratio,float64
