@@ -1,15 +1,13 @@
 import ProfilePicture from './ProfilePicture';
-
 import AboutMe from './AboutMe';
 import MyInterests from './MyIntrests';
 import CurrentSwap from './CurrentSwap';
 import MySkills from './MySkills';
 import Frame from './Frame';
 import Saved from './saves';
-import Header from './Header';
-
-
 import '../myprofile/MyProfile.css'
+import { Link } from 'react-router-dom';
+import svgsettings from '../assets/icons/settings.svg';
 
 
 
@@ -31,15 +29,25 @@ const person = {
 
 
 
+
+
 const MyProfile = () => {
 
 
   return (
     <>
-     <Header image={person.picture} />
+    <nav>  
+      <Link to="/settings" style={{ color: 'white' }}>
+          <button><img src={svgsettings} alt="" /></button>
+      </Link>
+    </nav>
+
+     
         <h1 className="page-title">My Profile</h1>
+
+          <ProfilePicture picture={person.picture} />
       
-      <ProfilePicture picture={person.picture} />
+      
 
       <MyInterests interest={person.interests} />
 
@@ -52,6 +60,8 @@ const MyProfile = () => {
       <CurrentSwap/>
 
       <Saved/>
+
+
     </>
   );
 };

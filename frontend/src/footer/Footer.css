@@ -1,0 +1,21 @@
+/* Footer.css */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #40605A;
+    color: #fff;
+    padding: 10px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+}

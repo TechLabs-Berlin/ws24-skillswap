@@ -10,8 +10,10 @@
 .profileContainer {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
-  
+  height: 400px;
+  width: 400px;
 
 }
 
@@ -49,8 +51,7 @@
   z-index: -1;
   filter: blur(8px);
   -webkit-filter: blur(8px);
-  width: 100%;
-  height: auto;
+  
 
 }
 
@@ -177,13 +178,14 @@ span{
 
 
 .saved{
-  
+
 box-sizing: border-box;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
 gap: 10px;
 border: #FF6B6B;
+margin-bottom: 50px;
 }
 
 
