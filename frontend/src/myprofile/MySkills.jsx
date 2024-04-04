@@ -12,15 +12,15 @@ const MySkills = () => {
     {skill:"skill3" ,id:3},
   ]
 
-  const navigateToSearch = () => {
-    navigate("/search")
+  const navigateToSkills = () => {
+    navigate("/skills")
   };
 
   return(
     <section className='mySkills'>
     <h3>My skills</h3>
     <div className="contain">
-    <button className='plusButton' onClick={navigateToSearch}>
+    <button className='plusButton' onClick={navigateToSkills}>
       <img src={svgplus} alt='plus icon'/>
     </button>
     <img src={svgcooking} alt="cooking icon" />
