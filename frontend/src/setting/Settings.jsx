@@ -1,4 +1,5 @@
 import React from 'react';
+import './settings.css'
 
 class SettingsPage extends React.Component {
   render() {

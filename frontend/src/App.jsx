@@ -5,6 +5,7 @@ import MyProfile from "./myprofile/MyProfile";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from "./footer/Footer.jsx";
 import Settings from "./setting/Settings.jsx";
+import Message from "./message/message.jsx";
 
 const App = () => {
     return (
@@ -17,6 +18,8 @@ const App = () => {
                             <Route path="/home" element={<Home />} />
                             <Route path="/search" element={<Search />} />
                             <Route path="/settings" element={<Settings />} />
+                            <Route path="/message" element={<Message />} />
+
                          </Routes>
                     </div>
 

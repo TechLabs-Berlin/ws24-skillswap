@@ -4,7 +4,7 @@ const Home = () => {
 
             <div>
 
-                    <span>Hello World</span>
+                <h1>Home</h1>
 
             </div>
 
