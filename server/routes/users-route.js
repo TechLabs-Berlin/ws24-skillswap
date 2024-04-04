@@ -24,7 +24,7 @@ router.route('/login').post(login);
 
 // Create route --> similar to Auth/register route, but won't send cookie for Auth
 
-router.route('/users/create').post(adminAuth, async (req, res, next) => {
+router.route('/users/create').post(/*adminAuth,*/ async (req, res, next) => {
     const { username, email, password } = req.body;
     if (password && password.length < 6) {
         return res.status(400).json({ message: 'Password less than 6 characters' })
