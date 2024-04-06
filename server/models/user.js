@@ -81,7 +81,9 @@ const UserSchema = new Schema({
     skillLevel: {
         type: String,
         enum: ['beginner', 'intermediate', 'advanced', 'expert']
-    }
+    },
+    profilePic: String, // name? URL? of Profile Picture - could otherwise also save as Image
+    notifications: Boolean // saves whether user wants to get notifications or not
 });
 // *using passport* UserSchema.plugin(passportLocalMongoose); //adds username + password to UserSchema
 
