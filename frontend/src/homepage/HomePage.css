@@ -1,10 +1,123 @@
-.aboutSec .homePageAboutSec {
+/* .aboutSec .homePageAboutSec {
   border: 1px solid black;
   border-radius: 5px;
   padding: 25px;
+} */
+
+.wholeScreen {
+  width: 100%;
+  height: 120%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+
+header {
+  background: #40605a;
+  width: 375px;
+  height: 235px;
+  color: rgba(247, 247, 247, 1);
+  text-align: center;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 44.46px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: center;
+  font-family: Prosto One;
+}
+
+.aboutSec .homePageAboutSec {
+  padding: 5px;
+  margin-top: 5px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: rgba(112, 112, 112, 1);
+}
+
+.info-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.information {
+  width: 343px;
+  height: 649px;
+  top: 220px;
+  align-self: center;
+  border-radius: 16px 0px 0px 0px;
+  background: ffffff;
+  border: 1px solid rgba(193, 192, 192, 1);
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.descritopn {
+  margin-top: 30%;
 }
 
 .pictureContainer img {
-  width: 100px;
-  height: 100px;
+  display: block;
+  position: absolute;
+  left: 17%;
+  bottom: 80%;
+  width: 200px;
+  height: 200px;
+  border: 10px 0px 0px 0px;
+  border-radius: 50%;
+  border: 10px solid rgba(92, 141, 133, 1);
+}
+
+.swaper-info {
+  width: Hug (240px) px;
+  height: Hug (148.5px) px;
+  top: 605px;
+  left: 37px;
+  gap: 19px;
+  opacity: 0px;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+.icons {
+  width: Fixed (240px) px;
+  height: Hug (22.5px) px;
+  gap: 4px;
+  border: 0px 0px 1px 0px;
+  opacity: 0px;
+  padding: 10px;
+  border-bottom: 1px solid rgba(112, 112, 112, 0.3);
+}
+
+.profile {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+button {
+  margin-top: 10%;
+  display: inline;
+  align-self: center;
+  justify-content: center;
+  margin: 10px;
+  background-color: #ffffff;
+}
+
+.person-skill {
+  padding-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: center;
+  color: rgba(64, 96, 90, 1);
 }

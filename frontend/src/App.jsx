@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Login } from "./form/login/Login";
 import { Register } from "./form/registration/Register";
 import HomePage from "./homepage/HomePage";
+import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
 function App() {
   const [currentForm, setCurrentForm] = useState("login");
 
@@ -15,12 +15,16 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          {/* <Route
+          <Route
             path="register"
             element={<Register onFormSwitch={toggleForm} />}
           />
-          <Route path="login" element={<Login onFormSwitch={toggleForm} />} /> */}
+          <Route path="login" element={<Login onFormSwitch={toggleForm} />} />
           <Route path="/" element={<HomePage />} />
+          {/* <Route path="/swap" element={<Swap />} /> */}
+          {/* 
+          <Route path="/swappages" element={<Swappages />} /> */}
+
           {/* //Onboarding
            <Route path="/Onboarding" element={<Onboarding/>}/>
      <Route path="step-1" element={<OnboardingStep1/>}/>
@@ -35,11 +39,6 @@ function App() {
             // etc for each connecting process page
           </Route>
           
-          //Swappages
-          <Route path="/swappages" element={<Swappages/>}>
-            //
-          <Route path="confirm" element={<ConfirmSwap/>}/>
-            // etc for swap pages
           </Route>
           <Route path="/profile" element={<Profile/>}/> */}
         </Routes>

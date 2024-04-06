@@ -1,21 +1,16 @@
 #root {
   width: 100%;
   margin: 20 auto;
-  padding: 0rem;
-  text-align: center;
+  /* padding: 0rem;
+  text-align: center; */
   max-width: 1280px;
 }
 
 .App {
-  text-align: center;
   min-height: 100vh;
-  margin: 20 auto;
-  /* min-width: 320px; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(233, 231, 223);
-  padding: 2rem;
+  min-width: 320px;
+  background-color: ffffff;
+  padding: 0 2rem;
 }
 
 .auth-form-container {
@@ -23,10 +18,10 @@
   flex-direction: column;
   /* align-items: center;
   text-align: left; */
-  
 }
 
-.login-form, .reg-form {
+.login-form,
+.reg-form {
   display: flex;
   flex-direction: column;
   padding-bottom: 1rem;
@@ -55,16 +50,16 @@ input {
 spacing {
   height: 2rem;
 }
-
+/* 
 button {
   background-color: darkgreen;
   padding: 2rem;
-}
-
+} */
+/* 
 .txt-btn {
   background: none;
   color: #006400;
   text-decoration: underline;
   font-weight: bold;
   padding: 0rem;
-}
+} */
