@@ -1,0 +1,34 @@
+.settings ul {
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+}
+
+.settings li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+ 
+}
+
+.settings li:hover {
+  background-color: #f0f0f0;
+}
+
+.settings li svg {
+  margin-right: 10px;
+}
+
+/* .settings{
+  align-items: center;
+} */
+
+
+
+
+
+
+/* https://ws24-skillswap.onrender.com/api/users/660e9b92453cad62e9a4f568 */
+
+/* where i can find all these icons for these skills */
