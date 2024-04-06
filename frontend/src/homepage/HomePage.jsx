@@ -35,7 +35,7 @@ const HomePage = () => {
       skill: "Piano Lesson",
       picture: "src/Assets/icons/logo.png",
       skilss: ["piano", "cooking", "Language"],
-      about: " another thing...",
+      about: " I have been playing piano for 5 years.",
       interests: ["music"],
       skillLevel: "intermidiate",
       completedSwaps: 5,
