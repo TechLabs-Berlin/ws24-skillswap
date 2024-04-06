@@ -8,12 +8,13 @@ import Saved from './saves';
 import '../myprofile/MyProfile.css'
 import { Link } from 'react-router-dom';
 import svgsettings from '../assets/icons/settings.svg';
+import { MdEdit } from "react-icons/md";
 
 
 
 const person = {
   name: 'Elena',
-  picture: 'src/Assets/logo.png',
+  picture: 'src/Assets/photo.png',
   skils: [
     'piano',
     'cooking',
@@ -36,18 +37,22 @@ const MyProfile = () => {
 
   return (
     <>
-    <nav>  
+
+   <nav className='icons' >   
       <Link to="/settings" style={{ color: 'white' }}>
-          <button><img src={svgsettings} alt="" /></button>
+          <button ><img src={svgsettings} alt="" /></button>
       </Link>
+
+      <button>
+              <label htmlFor="profileU" className="picU"><MdEdit /></label>
+      </button>
+                    
     </nav>
 
-     
-        <h1 className="page-title">My Profile</h1>
+    
+        <h1 className="page-title" style={{ color: 'white'}}>My Profile </h1>
 
-          <ProfilePicture picture={person.picture} />
-      
-      
+       <ProfilePicture picture={person.picture} />
 
       <MyInterests interest={person.interests} />
 

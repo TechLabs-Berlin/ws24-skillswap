@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
-import svgedit from '../assets/icons/edit.svg';
 
-// eslint-disable-next-line react/prop-types
+
 function ProfilePicture({ picture }) {
     const [backgroundImageUrl, setBackgroundImageUrl] = useState(picture);
 
@@ -23,12 +22,10 @@ function ProfilePicture({ picture }) {
                 <div>
                     <img src={backgroundImageUrl} id='profilePic' className="profilePic" alt="Profile"/>
 
-                    <button>
-                        <label htmlFor="profileU" className="picU"><img src={svgedit} alt="" /></label>
-                    </button>
-
                     <input type="file" accept='image/*' id='profileU' onChange={profileUpdate} className='profileU'/>
                 </div>
+
+
             </div>
         </section>
     );
