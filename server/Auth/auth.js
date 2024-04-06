@@ -94,6 +94,8 @@ exports.login = async (req, res, next) => {
     }
 };
 
+/* old code now separated from auth into user-route.js
+
 // update a user & userdata
 
 exports.update = async (req, res, next) => {
@@ -174,6 +176,8 @@ exports.getOneUser = async (req, res, next) => {
         res.sendStatus(403); // Forbidden
     }
 }
+
+*/ 
 
 /*
 

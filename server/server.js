@@ -48,12 +48,14 @@ app.get('/message', (req, res) => {
 
 
 //authentication & user data routes
-app.use('/api/auth', require('./routes/users-route'));
+app.use('/api/auth', require('./routes/auth-route.js'));
 
-//other routes: skills, preferences, messages
+//other routes: user data, skills, preferences, messages
+app.use('/api', require('./routes/users-route.js'));
 app.use('/api', require('./routes/skills-route.js'));
-app.use('/api', require('./routes/preferences-route.js'));
+// app.use('/api', require('./routes/preferences-route.js')); //no longer in use
 app.use('/api', require('./routes/messages-route.js'));
+app.use('/api', require('./routes/categories-route.js'));
 
 //run server on port 8000:
 

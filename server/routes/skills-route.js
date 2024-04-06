@@ -8,10 +8,11 @@ const app = express();
 app.use(cors());
 
 // create skill (admin only)
-router.route('/skills/create').post(/*adminAuth,*/ async (req, res, next) => {
-    const { name } = req.body;
+router.route('/skills/create').post(adminAuth, async (req, res, next) => {
+    const { name, category } = req.body;
     await Skill.create({
         name,
+        category,
     }).then((skill) => {
         res.status(201).json({
             message: 'New skill successfully created',
@@ -27,6 +28,18 @@ router.route('/skills/create').post(/*adminAuth,*/ async (req, res, next) => {
 });
 
 // retrieve skill (users or admins)
+
+//all skills in the database:
+
+router.route('/skills').get(/*userAuth,*/ async (req, res, next) => {
+    try {
+        const skills = await Skill.find(); // fetch all skills
+        res.status(200).json(skills); // array of skills in JSON response
+    } catch (err) {
+        res.status(500).json({ message: "An error occurred", error: err.message });
+    }
+});
+
 // one skill by ID:
 
 router.route('/skills/:id').get(/*userAuth,*/ async (req, res, next) => {
@@ -43,19 +56,8 @@ router.route('/skills/:id').get(/*userAuth,*/ async (req, res, next) => {
     }
 });
 
-//all skills in the database:
-
-router.route('/skills').get(/*userAuth,*/ async (req, res, next) => {
-    try {
-        const skills = await Skill.find(); // fetch all skills
-        res.status(200).json(skills); // array of skills in JSON response
-    } catch (err) {
-        res.status(500).json({ message: "An error occurred", error: err.message });
-    }
-});
-
 // update skill (admin only)
-router.route('/skills/update/:id').put(/*adminAuth,*/ async (req, res, next) => {
+router.route('/skills/update/:id').put(adminAuth, async (req, res, next) => {
     const id = req.params.id;
     const updates = req.body;
 
@@ -87,7 +89,7 @@ router.route('/skills/update/:id').put(/*adminAuth,*/ async (req, res, next) => 
 });
 
 // delete skill (admin only)
-router.route('/skills/delete/:id').delete(/*adminAuth,*/ async (req, res, next) => {
+router.route('/skills/delete/:id').delete(adminAuth, async (req, res, next) => {
     const id = req.params.id;
     await Skill.findByIdAndDelete(id)
         .then(skill =>
@@ -104,7 +106,8 @@ module.exports = router;
 
 test skill:
 {
-  "name": "guitar"
+  "name": "guitar",
+  "category": "6605b12c182c4d32d87223ba"
 }
 
 */
