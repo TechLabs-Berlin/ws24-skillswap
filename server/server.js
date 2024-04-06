@@ -57,6 +57,9 @@ app.use('/api', require('./routes/skills-route.js'));
 app.use('/api', require('./routes/messages-route.js'));
 app.use('/api', require('./routes/categories-route.js'));
 
+// route for skill-swap-mechanism
+app.use('/api', require('./routes/skillswap-route.js'));
+
 //run server on port 8000:
 
 app.listen(8000, () => {
