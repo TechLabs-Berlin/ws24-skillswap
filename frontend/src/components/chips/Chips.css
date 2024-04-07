@@ -1,0 +1,12 @@
+.chips {
+  border-radius: 12px;
+  border: 1.5px solid var(--Body-text, #707070);
+  padding: 8px 12px;
+  margin-right: 8px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.chips.selected {
+  border-color: #ff6b6b;
+}
