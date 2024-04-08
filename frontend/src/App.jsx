@@ -25,13 +25,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route
-            path="register"
-            element={<Register onFormSwitch={toggleForm} />}
-          />
-          <Route path="login" element={<Login onFormSwitch={toggleForm} />} />
-
-          <Route exact path="/" element={<MyProfile />} />
+          <Route exact path="login" element={<Login onFormSwitch={toggleForm} />} />
+          <Route path="register" element={<Register onFormSwitch={toggleForm} />} />
+          <Route path="/" element={<MyProfile />} />
           <Route path="/home" element={<Home />} />
           <Route path="/search" element={<Search />} />
           <Route path="/settings" element={<Settings />} />

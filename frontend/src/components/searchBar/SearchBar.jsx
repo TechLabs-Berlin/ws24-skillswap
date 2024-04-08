@@ -32,4 +32,4 @@ const SearchBar = ({ type, placeholder, searchIcon, onChange }) => {
 
 
 
-export default SearchBar
+export default SearchBar;
