@@ -50,7 +50,7 @@ export const Register = (props) => {
   return (
     <div className="auth-form-container">
       <p className="heading-text">Sign up</p>
-      <p className="body-text">Please enter your details to sign up and create an account. <br /> Already have an account? <button className="txt-btn" onClick={() => props.onFormSwitch('login')}>Login!</button></p>
+      <p className="body-text">Please enter your details to sign up and create an account. <br /> Already have an account? <button className="txt-btn" onClick={() => props.onFormSwitch('/login')}>Login!</button></p>
       
       <form className="reg-form" onSubmit={handleSubmit}>
         <InputBox

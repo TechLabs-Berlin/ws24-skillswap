@@ -4,6 +4,7 @@ import './Login.css';
 import InputBox from '../../components/comps/input/InputBox';
 import Buttons from "../../components/comps/buttons/Buttons";
 
+
 export const Login = (props) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -37,7 +38,7 @@ export const Login = (props) => {
   return (
     <div className="auth-form-container">
       <p className="heading-text">Log in</p>
-      <p className="body-text">Welcome back! <br /> Don't have an account? <button className="txt-btn" onClick={() => props.onFormSwitch('register')}>Sign up!</button> </p>
+      <p className="body-text">Welcome back! <br /> Don't have an account? <button className="txt-btn" onClick={() => props.onFormSwitch('/register')}>Sign up!</button> </p>
       
       {/* {error && <p className="error-tooltip">{error}</p>} */}
 
