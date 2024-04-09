@@ -3,6 +3,7 @@ import axios from 'axios';
 import './Login.css';
 import InputBox from '../../components/comps/input/InputBox';
 import Buttons from "../../components/comps/buttons/Buttons";
+import { useNavigate } from 'react-router-dom';
 
 
 export const Login = (props) => {
@@ -13,12 +14,6 @@ export const Login = (props) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    // // Check if email and password are filled
-    // if (!email || !password) {
-    //   setError('Please fill in all fields.');
-    //   return;
-    // }
 
     setIsLoading(true);
     try {
@@ -35,10 +30,16 @@ export const Login = (props) => {
     }
   }
 
+  const navigate = useNavigate()
+
+  const navigateToRegister = () => {
+    navigate("/register")
+  }
+
   return (
     <div className="auth-form-container">
       <p className="heading-text">Log in</p>
-      <p className="body-text">Welcome back! <br /> Don't have an account? <button className="txt-btn" onClick={() => props.onFormSwitch('/register')}>Sign up!</button> </p>
+      <p className="body-text">Welcome back! <br /> Don't have an account? <button className="txt-btn" onClick={ navigateToRegister }>Sign up!</button> </p>
       
       {/* {error && <p className="error-tooltip">{error}</p>} */}
 

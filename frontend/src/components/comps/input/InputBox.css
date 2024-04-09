@@ -1,5 +1,5 @@
 .input-container {
-  margin: 0 
+  margin: 0px 
 }
 
 .input-label {
@@ -15,7 +15,7 @@
 .input-box {
   width: 100%;
   padding: 0.5rem;
-  border: 1px solid DADADA;
+  border: 1px solid #DADADA;
   border-radius: 4px;
   display: flex;
   /* width: calc(100% - 56px); Subtracting the width of the button */
