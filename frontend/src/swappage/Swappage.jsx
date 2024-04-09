@@ -1,5 +1,5 @@
 import React from "react";
-//import "./Swappage.css";
+import "./Swappage.css";
 //import { useHistory } from "react-router-dom";
 import backIcon from "../assets/icons/backIcon.svg";
 import piano1 from "../assets/icons/piano1.svg";
@@ -14,14 +14,14 @@ const Swappage = () => {
     <>
       <div className="swap-page">
         <header className="swap-header">
-          <button className="back-button">
+          <button id="back-button">
             <img src={backIcon} alt="Back" />
           </button>
           <h1>SkillSwap</h1>
         </header>
 
         <div className="swap-container">
-          <div className="profile-pictures">
+          <div className="profile-images">
             <div className="userprofile">
               <img src={piano1} alt="User Skill" />
               <p>Piano</p>
@@ -36,18 +36,18 @@ const Swappage = () => {
           </div>
         </div>
         <div className="swap-text">
-          <p>
+          <p id="text">
             YOU CAN SEND BJORN A CHAT REQUEST AND ONCE THEY ACCEPTED, YOU CAN
             CHAT
           </p>
         </div>
 
-        <div>
-          <input
-            type="text"
+        <div className="chatbox">
+          <textarea
             placeholder="Write your message here"
             id="msg-box"
-          />
+          ></textarea>
+
           <button id="chat-request">Send chat request</button>
         </div>
       </div>

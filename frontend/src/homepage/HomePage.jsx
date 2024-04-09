@@ -13,89 +13,45 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
-let _person = {
-  name: "Bjorn",
-  skill: "Piano Lesson",
-  picture: "src/Assets/icons/logo.png",
-  skilss: ["piano", "cooking", "Language"],
-  about:
-    "“Bjorn here! Been playing piano for 10 years, mostly classical tunes. Love teaching others what I know and excited to pick up a new skill!”  ",
-  interests: ["music", "lenguage"],
-  skillLevel: "intermidiate",
-  completedSwaps: 5,
-  learningType: "online",
-  distance: 3,
-};
-
 const HomePage = () => {
-  const [person, setPerson] = useState(_person);
-  const handlediscard = () => {
-    //get another user with same interest
-    //ovewrite the person data
-    const NewPerson = {
-      name: "Elena",
-      skill: "Piano Lesson",
-      picture: "src/Assets/icons/logo.png",
-      skilss: ["piano", "cooking", "Language"],
-      about: " I have been playing piano for 5 years.",
-      interests: ["music"],
-      skillLevel: "intermidiate",
-      completedSwaps: 5,
-      learningType: "remote",
-      distance: 3,
+  const [data, setData] = useState(null);
+  const [person, setPerson] = useState(null);
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(
+          "https://ws24-skillswap.onrender.com/api/skillswap/660e8f412877b7ef70c85ed4"
+        );
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        const jsonData = await response.json();
+        setData(jsonData);
+        setPerson(jsonData?.matches?.[currentIndex]);
+      } catch (error) {
+        console.log("error", error);
+      }
     };
-    setPerson(NewPerson);
+
+    // Only fetch data if it hasn't been fetched yet
+    if (!data) {
+      fetchData();
+    }
+  }, [data, currentIndex]); // Fetch data when data or currentIndex changes
+
+  const handleNextMatch = () => {
+    setCurrentIndex((currentIndex) =>
+      currentIndex === data?.matches?.length - 1 ? 0 : currentIndex + 1
+    );
+    setPerson(data?.matches?.[currentIndex + 1] || data?.matches?.[0]);
   };
 
-  const [me, setMe] = useState({});
-  const [swapInfo, setSwapInfo] = useState({});
-  const [wantedSwaps, setWantedSwaps] = useState([]);
+  if (!person) {
+    return <div>Loading...</div>;
+  }
 
-  useEffect(() => {
-    const fetchMe = () => {
-      axios
-        .get(
-          "https://ws24-skillswap.onrender.com/api/users/6611531ab2adfcc5501b5ac2"
-        )
-        .then(function (response) {
-          // handle success
-          console.log(response);
-          setMe(response.data);
-          setWantedSwaps(response.data.skillsWanted);
-        })
-        .catch(function (error) {
-          // handle error
-          console.log(error);
-        });
-      // .finally(function () {
-      //   // always executed
-      // });
-    };
-    fetchMe();
-  }, []);
-
-  useEffect(() => {
-    const fetchSwap = () => {
-      axios
-        .get(`https://ws24-skillswap.onrender.com/api/skills/${wantedSwaps[0]}`)
-        .then(function (response) {
-          console.log(response);
-          setSwapInfo(response.data);
-        })
-        .catch(function (error) {
-          console.log(error);
-        });
-      // .finally(function () {
-      //   // always executed
-      // });
-    };
-
-    if (wantedSwaps && wantedSwaps.length > 0) {
-      fetchSwap();
-    }
-  }, [JSON.stringify(wantedSwaps)]);
-
-  //const history = useHistory();
   const handleConfirm = () => {
     //history.push("/swappage");
   };
@@ -108,16 +64,16 @@ const HomePage = () => {
         </header>
         <div className="info-container">
           <div className="information">
-            <div className="profile">
+            <div className="userprofile">
               <Picture picture={person.picture} />
-              {/* temporary Bjorn piano lesson */}
             </div>
             <div className="descritopn">
-              <h2 className="person-skill">
-                {me.username}-{swapInfo.name}
-              </h2>
+              <h2 className="person-skill">{person.username}</h2>
 
-              <AboutMe description={me.description} name={me.username} />
+              <AboutMe
+                description={person.description}
+                name={person.username}
+              />
               <div className="swaper-info">
                 <section>
                   <div className="icons">
@@ -126,25 +82,25 @@ const HomePage = () => {
                   </div>
                   <div className="icons">
                     <img src={skillLevelIcon} alt="skillLevelIcon" />
-                    {me.skillLevel}
+                    {person.skillLevel}
                   </div>
                   <div className="icons">
                     <img src={completedSwapsIcon} alt="completed Swaps" />
-                    {person.skillSwaps} successful swaps completed
+                    {person.completedSkillSwaps} successful swaps completed
                   </div>
-                  {/* how to fetch completed swaps */}
+
                   <div className="icons">
                     <img src={onlineIcon} alt="Learning prefrences icon" />
-                    Perfers {me.swapPreference} learning
+                    Perfers {person.swapPreference} learning
                   </div>
                 </section>
               </div>
               <div className="button">
                 <section>
-                  <button onClick={() => handlediscard()}>
+                  <button onClick={handleNextMatch}>
                     <img src={refreshIcon} alt="Refresh icon" />
                   </button>
-                  <button onClick={() => handlediscard()}>
+                  <button onClick={handleNextMatch}>
                     <img src={crossIcon} alt="cross icon" />
                   </button>
                   <Link to="/swappage">

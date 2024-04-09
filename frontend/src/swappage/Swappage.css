@@ -6,40 +6,54 @@
 }
 .swap-page {
   /* Add styles for the swap page container */
-  width: 100%;
-  height: 120%;
+  width: 375px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
-  flex-direction: column;
 }
 
 .swap-header {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  & h1 {
+    position: absolute;
+    top: 40px;
+    left: 115px;
+    font-family: Prosto One;
+    font-size: 36px;
+    text-align: center;
+    color: rgba(64, 96, 90, 1);
+  }
   /* Add styles for the header */
 }
 
-.back-button {
+#back-button {
   /* Add styles for the back button */
+  position: absolute;
+  top: 37px;
+  left: 5px;
   width: 30px;
   height: 30px;
-  top: 47px;
-  left: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .swap-container {
   /* Add styles for the swap container */
-  width: 294px;
-  height: 137px;
-  top: 135px;
-  left: 41px;
-  gap: 32px;
+  position: absolute;
+  top: 55px;
+  left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
 }
 
-.profile-pictures {
+.profile-images {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,28 +68,49 @@
 }
 
 .swap-text {
-  font-family: Poppins;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 22px;
-  text-align: center;
+  position: absolute;
+  top: 50;
+  left: 30px;
+  margin-top: 20px;
+  width: 312px;
+  height: 66px;
+  & #text {
+    color: rgba(24, 50, 45, 1);
+    padding: 7px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
 }
-
+.chatbox {
+  position: absolute;
+  top: 400px;
+  left: 50px;
+  align-items: center;
+  align-content: center;
+  width: 288px;
+}
 #msg-box {
+  position: relative;
   width: 288px;
   height: 136px;
-  top: 432px;
-  left: 43px;
-  gap: 0px;
-  border-radius: 5px 0px 0px 0px;
-  opacity: 0px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
   background-color: rgba(227, 236, 235, 1);
   box-shadow: 0px 4px 4px 0px rgba(112, 112, 112, 1);
+  border: 1px solid #ccc;
+  resize: none;
 }
 
 #chat-request {
+  position: relative;
+  align-self: center;
   width: 142px;
   height: 50px;
+  margin-top: 10px;
   border-radius: 14px;
   background: rgba(64, 96, 90, 1);
   font-size: 14px;
@@ -96,9 +131,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 38px;
   /* Add styles for the exchange icon container */
-}
-
-.exchange-icon img {
-  /* Add styles for the exchange icon image */
 }
