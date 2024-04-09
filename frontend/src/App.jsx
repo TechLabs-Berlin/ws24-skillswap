@@ -11,7 +11,7 @@ import Settings from "./setting/Settings.jsx";
 import Message from "./message/message.jsx";
 import Skills from "./skill-list/skills.jsx";
 import AddInterests from "./skill-list/addInterests.jsx";
-
+import Congrats from './form/congrats/Congrats';
 
 
 function App() {
@@ -25,13 +25,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route
-            path="register"
-            element={<Register onFormSwitch={toggleForm} />}
-          />
-          <Route path="login" element={<Login onFormSwitch={toggleForm} />} />
-
-          <Route exact path="/" element={<MyProfile />} />
+          <Route exact path="/" element={<Login onFormSwitch={toggleForm} />} />
+          <Route path="/register" element={<Register onFormSwitch={toggleForm} />} />
+          <Route path="/congrats" element={<Congrats onFormSwitch={toggleForm} />} />
+          <Route path="/myProfile" element={<MyProfile />} />
           <Route path="/home" element={<Home />} />
           <Route path="/search" element={<Search />} />
           <Route path="/settings" element={<Settings />} />
