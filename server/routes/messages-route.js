@@ -1,6 +1,8 @@
 const express = require('express');
+const mongoose = require('mongoose');
 const router = express.Router();
 const Message = require('../models/messages');
+const User = require('../models/user');
 const { adminAuth, userAuth } = require('../Auth/auth-middleware');
 
 const cors = require('cors');
@@ -57,6 +59,93 @@ router.route('/messages/:id').get(/*userAuth,*/ async (req, res, next) => {
         res.status(500).json({ message: "An error occurred", error: err.message });
     }
 });
+
+// retrieve a list of all chats of a given user incl. latest message, sorted by latest message
+
+router.route('/messages/chatlist/:id').get(/*userAuth,*/ async (req, res, next) => {
+    const userId = req.params.id;
+    try {
+        const chats = await fetchUserChats(userId);
+        res.status(200).json(chats);
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ message: 'An error occurred', error: err.message });
+    }
+});
+
+async function fetchUserChats(userId) {
+    // fetches user chats, populates it with username, sorts by date
+    const userObjectId = new mongoose.Types.ObjectId(userId);
+    const chats = await Message.aggregate([
+        {
+            $match: {
+                $or: [{ senderId: userObjectId }, { receiverId: userObjectId }]
+            }
+        },
+        {
+            $sort: { sentAt: -1 }
+        },
+        {
+            $group: {
+                _id: {
+                    $cond: [{ $eq: ["$senderId", userObjectId] }, "$receiverId", "$senderId"]
+                },
+                latestMessage: { $first: "$$ROOT" }
+            }
+        },
+        {
+            $lookup: {
+                from: 'users',
+                localField: '_id',
+                foreignField: '_id',
+                as: 'userDetails'
+            }
+        },
+        {
+            $unwind: "$userDetails"
+        },
+        {
+            $addFields: {
+                "latestMessage.text": {
+                    $cond: [{ $eq: ["$latestMessage.senderId", userObjectId] }, { $concat: ["You: ", "$latestMessage.text"] }, "$latestMessage.text"] // if it's ones own message, "You: " will be added in front of the string.
+                }
+            }
+        },
+        {
+            $project: {
+                _id: "$_id",
+                username: "$userDetails.username",
+                //image: "$userDetails.image",
+                message: {
+                    text: "$latestMessage.text",
+                    sentAt: "$latestMessage.sentAt"
+                }
+            }
+        }
+    ]);
+
+    return chats;
+}
+
+
+// retreive messages between 2 users in a chat
+
+router.route('/messages/:senderId/:receiverId').get(/*userAuth,*/ async (req, res, next) => {
+    try {
+        const { senderId, receiverId } = req.params;
+        const messages = await Message.find({
+            $or: [
+                { senderId: senderId, receiverId: receiverId },
+                { senderId: receiverId, receiverId: senderId }
+            ]
+        }).populate('senderId', '_id username')
+        res.status(200).json(messages)
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ message: 'An error occurred', error: err.message });
+    }
+})
+
 
 // update message
 router.route('/messages/update/:id').put(/*userAuth,*/ async (req, res, next) => {
