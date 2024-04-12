@@ -1,0 +1,97 @@
+{% set skill_domains = [
+    "Agriculture",
+    "Animal Care",
+    "Art",
+    "Beauty",
+    "Dance",
+    "Music",
+    "Writing",
+    "Language",
+    "Health",
+    "Sports",
+    "Food",
+    "Technology",
+    "Photo",
+    "Video"
+] %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Activity Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-top: 0;
+        }
+        h2 {
+            color: #333;
+            margin-top: 10px;
+        }
+        /* Styling for the buttons */
+        button {
+            margin-right: 10px; /* Increase distance between buttons */
+            margin-bottom: 10px; /* Increase distance between rows */
+        }
+        .hidden {
+            display: none;
+        }
+        .colored {
+            border: 2px solid #007bff; /* Blue border color */
+        }
+        .yellow {
+            background-color: #ffc107; /* Yellow background color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>How many lessons will a user, on average, teach?</h1>
+        <h2>(based on his or her skill portfolio)</h1>
+        <h3>Click on a skill category to add the skill to the skill portfolio of the user</h2>
+        <form action='/predict' method='POST'>
+            <div>
+                {% for skill_domain in skill_domains %}
+                <!-- Use onclick to toggle the class on button click -->
+                <button type="button" onclick="toggleValue(this)">{{ skill_domain }}</button>
+                <input type="hidden" id="{{ skill_domain }}Input" name="{{ skill_domain }}" value="0">
+                {% endfor %}
+            </div>
+            <button type="submit" class="yellow">Get Activity Prediction</button>
+        </form>
+    </div>
+
+    <script>
+        function toggleValue(button) {
+            // Toggle the class 'colored' on button click
+            button.classList.toggle('colored');
+            
+            // Get the hidden input element corresponding to the button
+            var input = button.nextElementSibling;
+            
+            // Set the value of the input based on the button class
+            if (button.classList.contains('colored')) {
+                input.value = "1"; // If button has class 'colored', set value to 1
+            } else {
+                input.value = "0"; // Otherwise, set value to 0
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
+
