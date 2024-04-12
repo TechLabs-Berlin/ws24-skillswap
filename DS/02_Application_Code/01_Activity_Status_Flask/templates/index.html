@@ -64,7 +64,7 @@
         <form action='/predict' method='POST'>
             <div>
                 {% for skill_domain in skill_domains %}
-                <!-- Use onclick to toggle the class on button click -->
+                
                 <button type="button" onclick="toggleValue(this)">{{ skill_domain }}</button>
                 <input type="hidden" id="{{ skill_domain }}Input" name="{{ skill_domain }}" value="0">
                 {% endfor %}
@@ -75,17 +75,17 @@
 
     <script>
         function toggleValue(button) {
-            // Toggle the class 'colored' on button click
+            
             button.classList.toggle('colored');
             
-            // Get the hidden input element corresponding to the button
+            
             var input = button.nextElementSibling;
             
-            // Set the value of the input based on the button class
+            
             if (button.classList.contains('colored')) {
-                input.value = "1"; // If button has class 'colored', set value to 1
+                input.value = "1"; 
             } else {
-                input.value = "0"; // Otherwise, set value to 0
+                input.value = "0"; 
             }
         }
     </script>
