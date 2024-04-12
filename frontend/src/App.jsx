@@ -11,6 +11,7 @@ import Settings from "./setting/Settings.jsx";
 import Message from "./message/message.jsx";
 import Skills from "./skill-list/skills.jsx";
 import AddInterests from "./skill-list/addInterests.jsx";
+import {SkillsProvider} from "./context/SkillsContext.jsx";
 
 
 
@@ -24,11 +25,10 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+          <Footer/>
+          <SkillsProvider>
         <Routes>
-          <Route
-            path="register"
-            element={<Register onFormSwitch={toggleForm} />}
-          />
+          <Route path="register" element={<Register onFormSwitch={toggleForm} />} />
           <Route path="login" element={<Login onFormSwitch={toggleForm} />} />
 
           <Route exact path="/" element={<MyProfile />} />
@@ -64,6 +64,7 @@ function App() {
           </Route>
           <Route path="/profile" element={<Profile/>}/> */}
         </Routes>
+        </SkillsProvider>
       </BrowserRouter>
     </div>
   );
