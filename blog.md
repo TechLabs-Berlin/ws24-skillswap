@@ -28,6 +28,7 @@ For this reason, users are first labelled with an activity status based on their
 
 After the inactive users and only remotely available users have been filtered out, the user's top 10 geographically closest potential super swaps are identified accordingly, which can then be suggested to the user. The visualization of the positions on the map is for illustrative purposes but is not displayed in the app.
 
+
 ### Exploratory data analysis
 
 In order to obtain an overview of the users, the distribution of the various skills and user satisfaction, this information was visualized in the notebook "02_Features_Insights\03_Exploratory_Data_Analysis". Demographic and geographical information, learning behavior, and user satisfaction with the app were recorded. Statistical correlations between individual variables were also analyzed, which will be used to train a machine learning model in the next step. However, due to the random creation of the data set, hardly any correlations between the various features were found. The significance of this data situation for the model is evaluated below.
