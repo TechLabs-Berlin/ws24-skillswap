@@ -2,16 +2,16 @@
 
 ````markdown
 ```bash
-pip install pandas
-pip install numpy
-pip install Faker
-pip install seaborn
-pip install matplotlib
-pip install folium
-pip install scikit-learn
-pip install flask
-pip install virtualenv
-
+`pip install pandas`
+`pip install numpy`
+`pip install Faker`
+`pip install seaborn`
+`pip install matplotlib`
+`pip install folium`
+`pip install scikit-learn`
+`pip install flask`
+`pip install virtualenv`
+```
 
 # How to create the synthetic data set in "DS\01_Notebooks\01_Synthetic_Data_Set":
 
