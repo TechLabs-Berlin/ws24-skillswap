@@ -10,7 +10,7 @@ pip install scikit-learn
 pip install flask
 pip install virtualenv
 
-# How to create the synthetic data set in DS\01_Notebooks\01_Synthetic_Data_Set
+# How to create the synthetic data set in "DS\01_Notebooks\01_Synthetic_Data_Set":
 
 **Run the notebooks in the following order:**
 
@@ -24,7 +24,7 @@ pip install virtualenv
 Then, run `DS\01_Notebooks\01_Synthetic_Data_Set\00_Aggregate_Data.ipynb`
 
 
-# How to run the folder DS\01_Notebooks\02_Features_Insights
+# How to run the folder "DS\01_Notebooks\02_Features_Insights":
 
 **Run the notebooks in the following order:**
 
@@ -33,20 +33,24 @@ Then, run `DS\01_Notebooks\01_Synthetic_Data_Set\00_Aggregate_Data.ipynb`
 3. `DS\01_Notebooks\02_Features_Insights\03_Exploratory_Data_Analysis\Exploratory.data.analysis.ipynb`
 
 
-# How to run the folder DS\01_Notebooks\03_Feature_Engineering
+# How to run the folder "DS\01_Notebooks\03_Feature_Engineering":
+
+**Run the notebooks in the following order:**
 
 1. `DS\01_Notebooks\03_Feature_Engineering\Data_Activity_Projection.ipynb`
 2. `DS\01_Notebooks\03_Feature_Engineering\General_Encodings\General_Encodings.ipynb` (optional, not required for ML model)
 
 
-# How to run the folder DS\01_Notebooks\04_Modeling\Activity_Projection
+# How to run the folder "DS\01_Notebooks\04_Modeling\Activity_Projection":
+
+**Run the notebooks in the following order:**
 
 1. `DS\01_Notebooks\04_Modeling\Activity_Projection\Activity_Projection.ipynb`
 
 
-# How to run the app in DS\02_Application_Code\01_Activity_Status_Flask
+# How to run the app in "DS\02_Application_Code\01_Activity_Status_Flask":
 
-1. **Make sure the pickle file in DS\01_Notebooks\04_Modeling\Activity_Projection is created**
+1. **Make sure the pickle file in "DS\01_Notebooks\04_Modeling\Activity_Projection" is created**
 
 2. **Make sure that installation requirements are fulfilled**
     - Flask: `pip install flask`
@@ -56,7 +60,7 @@ Then, run `DS\01_Notebooks\01_Synthetic_Data_Set\00_Aggregate_Data.ipynb`
     - Install virtual environment: `pip install virtualenv`
     - Create environment while being in the folder "DS\02_Application_Code\01_Activity_Status_Flask": `virtualenv --python python3 venv`
 
-4. **Activate the virtual environment while being in the folder DS\02_Application_Code\01_Activity_Status_Flask**
+4. **Activate the virtual environment while being in the folder "DS\02_Application_Code\01_Activity_Status_Flask"**
     - `source venv/Scripts/activate`
     - Deactivate the virtual environment (if needed): `deactivate`
 
