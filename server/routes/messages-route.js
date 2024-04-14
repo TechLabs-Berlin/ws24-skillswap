@@ -66,6 +66,7 @@ router.route('/messages/chatlist/:id').get(/*userAuth,*/ async (req, res, next) 
     const userId = req.params.id;
     try {
         const chats = await fetchUserChats(userId);
+        chats.sort((a, b) => new Date(b.message.sentAt) - new Date(a.message.sentAt));
         res.status(200).json(chats);
     } catch (err) {
         console.error(err);
@@ -74,7 +75,7 @@ router.route('/messages/chatlist/:id').get(/*userAuth,*/ async (req, res, next) 
 });
 
 async function fetchUserChats(userId) {
-    // fetches user chats, populates it with username, sorts by date
+    // fetches user chats, populates it with username, sorts by DateTime
     const userObjectId = new mongoose.Types.ObjectId(userId);
     const chats = await Message.aggregate([
         {
@@ -121,7 +122,7 @@ async function fetchUserChats(userId) {
                     sentAt: "$latestMessage.sentAt"
                 }
             }
-        }
+        },
     ]);
 
     return chats;
