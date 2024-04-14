@@ -1,16 +1,18 @@
-.profile-pictures {
+.profile-images {
   display: flex;
   justify-content: center;
   align-items: center;
   /* Add styles for the profile pictures container */
 }
+
 .swap-page {
   /* Add styles for the swap page container */
   width: 375px;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 
 .swap-header {
@@ -53,23 +55,9 @@
   margin-top: 90px;
 }
 
-.profile-images {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* Add styles for the profile pictures container */
-}
-
-.profile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* Add styles for the profile container */
-}
-
 .swap-text {
   position: absolute;
-  top: 50;
+  top: 40;
   left: 30px;
   margin-top: 20px;
   width: 312px;
@@ -93,7 +81,7 @@
   width: 288px;
 }
 #msg-box {
-  position: relative;
+  /* position: relative; */
   width: 288px;
   height: 136px;
   margin-top: 20px;
@@ -106,7 +94,7 @@
 }
 
 #chat-request {
-  position: relative;
+  /* position: relative; */
   align-self: center;
   width: 142px;
   height: 50px;
@@ -120,19 +108,23 @@
   line-height: 22px;
   text-align: center;
 }
-.profile img {
-  width: 294px;
-  height: 137px;
-  border-radius: 50%;
-  /* Add additional styles for the profile images */
-}
 
 .exchange-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   padding: 38px;
   /* Add styles for the exchange icon container */
+}
+.skill-pic {
+  background-color: #ffffff;
+  display: block;
+
+  width: 100px;
+  height: 100px;
+  border: 10px;
+  border-radius: 50%;
+  border: 10px solid rgba(92, 141, 133, 1);
 }

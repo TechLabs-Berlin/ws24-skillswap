@@ -9,14 +9,18 @@ import onlineIcon from "../assets/icons/online.svg";
 import refreshIcon from "../assets/icons/refresh.svg";
 import crossIcon from "../assets/icons/cross.svg";
 import confirmIcon from "../assets/icons/confirm.svg";
-import axios from "axios";
-import { Link } from "react-router-dom";
+//import axios from "axios";
+//import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom"; //m
 import { useEffect, useState } from "react";
+import Congrats from "../swappage/Congrats";
 
 const HomePage = () => {
+  const navigate = useNavigate();
   const [data, setData] = useState(null);
   const [person, setPerson] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [skillName, setSkillName] = useState("");
 
   useEffect(() => {
     const fetchData = async () => {
@@ -30,6 +34,15 @@ const HomePage = () => {
         const jsonData = await response.json();
         setData(jsonData);
         setPerson(jsonData?.matches?.[currentIndex]);
+
+        const skillId = jsonData?.matches?.[currentIndex]?.matchSkillOffered;
+        const skillResponse = await fetch(
+          `https://ws24-skillswap.onrender.com/api/skills/${skillId}`
+        );
+        if (skillResponse.ok) {
+          const skillData = await skillResponse.json();
+          setSkillName(skillData.name);
+        }
       } catch (error) {
         console.log("error", error);
       }
@@ -52,8 +65,15 @@ const HomePage = () => {
     return <div>Loading...</div>;
   }
 
-  const handleConfirm = () => {
-    //history.push("/swappage");
+  const handleConfirm = (id) => {
+    const queryParams = { id: id };
+    navigate("/swappage?" + new URLSearchParams(queryParams).toString());
+  };
+  const queryParams = new URLSearchParams(window.location.search);
+  const isChatRequestSent = queryParams.get("chatSent");
+
+  const handleCloseCongrats = () => {
+    navigate("/"); // Navigate back to the homepage
   };
 
   return (
@@ -68,7 +88,9 @@ const HomePage = () => {
               <Picture picture={person.picture} />
             </div>
             <div className="descritopn">
-              <h2 className="person-skill">{person.username}</h2>
+              <h2 className="person-skill">
+                {person.username}-{skillName}
+              </h2>
 
               <AboutMe
                 description={person.description}
@@ -103,16 +125,16 @@ const HomePage = () => {
                   <button onClick={handleNextMatch}>
                     <img src={crossIcon} alt="cross icon" />
                   </button>
-                  <Link to="/swappage">
-                    <button>
-                      <img src={confirmIcon} alt="" />
-                    </button>
-                  </Link>
+
+                  <button onClick={() => handleConfirm(person._id)}>
+                    <img src={confirmIcon} alt="" />
+                  </button>
                 </section>
               </div>
             </div>
           </div>
         </div>
+        {isChatRequestSent && <Congrats onCloseClick={handleCloseCongrats} />}
       </div>
     </>
   );
