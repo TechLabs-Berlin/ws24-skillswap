@@ -2,11 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* Add styles for the profile pictures container */
 }
 
 .swap-page {
-  /* Add styles for the swap page container */
   width: 375px;
   /* display: flex; */
   /* flex-direction: column; */
@@ -21,22 +19,14 @@
   align-items: center;
 
   & h1 {
-    position: absolute;
-    top: 40px;
-    left: 115px;
     font-family: Prosto One;
     font-size: 36px;
     text-align: center;
     color: rgba(64, 96, 90, 1);
   }
-  /* Add styles for the header */
 }
 
 #back-button {
-  /* Add styles for the back button */
-  position: absolute;
-  top: 37px;
-  left: 5px;
   width: 30px;
   height: 30px;
   background: none;
@@ -45,10 +35,6 @@
 }
 
 .swap-container {
-  /* Add styles for the swap container */
-  position: absolute;
-  top: 55px;
-  left: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,9 +42,6 @@
 }
 
 .swap-text {
-  position: absolute;
-  top: 40;
-  left: 30px;
   margin-top: 20px;
   width: 312px;
   height: 66px;
@@ -73,9 +56,6 @@
   }
 }
 .chatbox {
-  position: absolute;
-  top: 400px;
-  left: 50px;
   align-items: center;
   align-content: center;
   width: 288px;
@@ -116,7 +96,6 @@
   width: 20px;
   height: 20px;
   padding: 38px;
-  /* Add styles for the exchange icon container */
 }
 .skill-pic {
   background-color: #ffffff;

@@ -11,7 +11,7 @@ import crossIcon from "../assets/icons/cross.svg";
 import confirmIcon from "../assets/icons/confirm.svg";
 //import axios from "axios";
 //import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom"; //m
+import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Congrats from "../swappage/Congrats";
 
@@ -36,12 +36,16 @@ const HomePage = () => {
         setPerson(jsonData?.matches?.[currentIndex]);
 
         const skillId = jsonData?.matches?.[currentIndex]?.matchSkillOffered;
-        const skillResponse = await fetch(
-          `https://ws24-skillswap.onrender.com/api/skills/${skillId}`
-        );
-        if (skillResponse.ok) {
-          const skillData = await skillResponse.json();
-          setSkillName(skillData.name);
+        console.log("Skill ID", skillId);
+
+        if (skillId) {
+          const skillResponse = await fetch(
+            `https://ws24-skillswap.onrender.com/api/skills/${skillId}`
+          );
+          if (skillResponse.ok) {
+            const skillData = await skillResponse.json();
+            setSkillName(skillData.name);
+          }
         }
       } catch (error) {
         console.log("error", error);
