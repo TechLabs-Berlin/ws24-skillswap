@@ -2,7 +2,14 @@
 
 ## ![iPhone 15 Pro](https://github.com/TechLabs-Berlin/ws24-skillswap/assets/150553622/05288c05-eac7-4293-8f3c-8814a0f83ed7)
 
-<h1 align="center">About Project | How it works| Demo | Team</h1> 
+<h1 align="center">About Project | How it works | Demo | Team</h1> 
+
+<p align="center">
+  | <a href="#About Project">About Project</a>  |
+  <a href="#How it works">How it works</a>  |
+  <a href="Demo">Demo</a> |
+  <a href="#Team">Team</a>  |
+</p>
 
 <br />
 
