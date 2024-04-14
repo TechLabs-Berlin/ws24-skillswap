@@ -3,7 +3,7 @@ import pickle
 import math
 app = Flask(__name__)
 
-with open(r'C:\Users\Johannes\Documents\Uni\Master\Tech_Labs\ws24-skillswap\DS\01_Notebooks\04_Modeling\Activity_Projection\Activity_Projection_Model.pkl', 'rb') as file:
+with open(r'C:\Users\Johannes\Documents\ws24-skillswap\DS\01_Notebooks\04_Modeling\Activity_Projection\Activity_Projection_Model.pkl', 'rb') as file:
     loaded_model = pickle.load(file)
     
 @app.route('/')
