@@ -2,7 +2,6 @@
 
 ## ![iPhone 15 Pro](https://github.com/TechLabs-Berlin/ws24-skillswap/assets/150553622/05288c05-eac7-4293-8f3c-8814a0f83ed7)
 
-<h1 align="center">About | Demo | Team</h1> 
 
 <p align="center">
   | <a href="#about">About</a>  |
@@ -17,3 +16,16 @@ SkillSwap is an online platform that connects individuals with various skills an
 ## Demo
 
 ## Team
+
+### Contributors:
+
+- DS: Johannes Schaum 
+- UX: Faith Jegede, Isabella Oelofse
+- WD: Andreas Landes (FE & BE), Lexie Yu  (FE), Maryam Arghandiwa (FE), Najma Faiz (FE)
+
+
+
+### Mentors:
+
+- UX: Maria Mendes
+- WD: Larry Almeida
