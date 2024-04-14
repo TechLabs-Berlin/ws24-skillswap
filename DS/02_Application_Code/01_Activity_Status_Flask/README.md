@@ -13,6 +13,6 @@
     - Deactivate the environment: `deactivate`
 
 4. **Run the app**
-    - `python Activity_Status_app.py`
+    - `python Activity_Prediction_app.py`
 
 
