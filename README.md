@@ -15,6 +15,10 @@ SkillSwap is an online platform that connects individuals with various skills an
 
 ## Demo
 
+[Skillswap - Copy.zip](https://github.com/TechLabs-Berlin/ws24-skillswap/files/14972143/Skillswap.-.Copy.zip)
+
+https://docs.google.com/presentation/d/1KK2WRizRiJPulXIwZtVArvBL4gbKfUckWBo4-a3WJm0/edit?usp=sharing
+
 ## Team
 
 ### Contributors:
@@ -29,3 +33,4 @@ SkillSwap is an online platform that connects individuals with various skills an
 
 - UX: Maria Mendes
 - WD: Larry Almeida
+
