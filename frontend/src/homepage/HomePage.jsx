@@ -1,7 +1,6 @@
 import Picture from "./Picture";
 import AboutMe from "./AboutMe";
 import "./HomePage.css";
-//import { useHistory } from "react-router-dom";
 import loctionIcon from "../assets/icons/location.svg";
 import skillLevelIcon from "../assets/icons/star.svg";
 import completedSwapsIcon from "../assets/icons/swaps.svg";
@@ -35,7 +34,8 @@ const HomePage = () => {
         setData(jsonData);
         setPerson(jsonData?.matches?.[currentIndex]);
 
-        const skillId = jsonData?.matches?.[currentIndex]?.matchSkillOffered;
+        const skillId =
+          jsonData?.matches?.[currentIndex]?.matchingSkills.matchSkillOffered;
         console.log("Skill ID", skillId);
 
         if (skillId) {

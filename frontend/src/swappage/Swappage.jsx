@@ -116,9 +116,7 @@ const Swappage = () => {
       <section className="swap-page">
         <header className="swap-header">
           <Link to="/">
-            <button id="back-button">
-              <img src={backIcon} alt="Back" />
-            </button>
+            <img src={backIcon} id="back-button" alt="Back" />
           </Link>
           <h1>SkillSwap</h1>
         </header>
@@ -152,8 +150,10 @@ const Swappage = () => {
           </div>
           <div className="swap-text">
             <p id="text">
-              YOU CAN SEND {userData.username} A CHAT REQUEST AND ONCE THEY
-              ACCEPTED, YOU CAN CHAT
+              YOU CAN SEND {userData.username} A CHAT
+              <br />
+              REQUEST AND ONCE THEY ACCEPTED, YOU <br />
+              CAN CHAT
             </p>
           </div>
 
