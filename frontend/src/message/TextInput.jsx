@@ -4,6 +4,7 @@ import { HiOutlineEmojiHappy } from "react-icons/hi";
 import EmojiPicker from 'emoji-picker-react';
 import axios from 'axios';
 
+
 function AutoResizingTextarea({ senderId, receiverId, onMessageSent/*, authToken*/ }) {
     const [value, setValue] = useState('');
     const textareaRef = useRef(null);
@@ -22,12 +23,12 @@ function AutoResizingTextarea({ senderId, receiverId, onMessageSent/*, authToken
     const [showEmojiPicker, setShowEmojiPicker] = useState(false);
     const handleEmojiPicker = () => {
         setShowEmojiPicker(!showEmojiPicker);
-        console.log(showEmojiPicker);
+        //console.log(showEmojiPicker);
     }
 
     const handleSendClick = () => {
         const sendMessage = async (senderId, receiverId, value/*, authToken*/) => {
-            const url = 'http://localhost:8000/api/messages/create';
+            const url = 'https://ws24-skillswap.onrender.com/api/messages/create';
             const data = {
                 senderId: senderId,
                 receiverId: receiverId,

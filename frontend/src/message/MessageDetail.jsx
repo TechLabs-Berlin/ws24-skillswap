@@ -5,12 +5,13 @@ import AutoResizingTextarea from "./TextInput.jsx";
 import "./message.css";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import axios from 'axios';
-import picture from './profile-pic-dummy.jpg'; // replace with actual user profile pic
+import picture from './blank-profile-picture.png'; // currently hardcoded, replace with actual user profile pic if a profile picture is set
+
 
 const chat = () => {
     const location = useLocation();
     const { userId, chatUserId, chatUsername } = location.state; // access userId and chatUserId from MessageList
-    console.log(userId, chatUserId, chatUsername);
+    //console.log(userId, chatUserId, chatUsername);
     const [messages, setMessages] = useState([]);
 
     useEffect(() => {
@@ -20,11 +21,11 @@ const chat = () => {
     // Function to fetch messages for this chat
     const fetchMessages = async () => {
         try {
-            const response = await fetch(`http://localhost:8000/api/messages/${userId}/${chatUserId}`);
+            const response = await fetch(`https://ws24-skillswap.onrender.com/api/messages/${userId}/${chatUserId}`);
             const data = await response.json();
 
             setMessages(data);
-            console.log(data[0]);
+            //console.log(data[0]);
         } catch (error) {
             console.error('Failed to fetch messages:', error);
         }

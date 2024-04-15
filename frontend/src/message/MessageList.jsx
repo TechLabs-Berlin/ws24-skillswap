@@ -1,15 +1,12 @@
 import React from "react";
 import { useState, useEffect } from 'react';
 import "./message.css";
-import picture from './profile-pic-dummy.jpg'; // currently hardcoded
+import picture from './blank-profile-picture.png'; // currently hardcoded, replace with actual user profile pic if a profile picture is set
 import { useNavigate } from 'react-router-dom';
 
 
+const MessageList = ({ swap, user }) => {
 
-
-
-const MessageList = ({ swap }) => {
-    const loggedInUserId = '660e9b92453cad62e9a4f568'; // currently hardcoded
     const navigate = useNavigate();
 
     const navigateToChat = (userId, chatUserId, chatUsername) => {
@@ -57,7 +54,7 @@ const MessageList = ({ swap }) => {
     }
 
     return (
-        <div onClick={() => navigateToChat(loggedInUserId, swap._id, swap.username)}
+        <div onClick={() => navigateToChat(user, swap._id, swap.username)}
             className='message-list'>
             <div>
                 <img className='user-picture'
@@ -66,7 +63,10 @@ const MessageList = ({ swap }) => {
             </div>
             <div className='message-list-content'>
                 <p className="message-list-username">{swap.username}</p>
-                <p className="message-list-text">{swap.message.text.split(' ').slice(0, 7).join(' ')}...</p>
+                <p className="message-list-text">
+                    {swap.message.text.split(' ').slice(0, 7).join(' ')}
+                    ...
+                </p>
             </div>
             <div>
                 <p className="message-list-timestamp">{formatDateTime(swap.message.sentAt)}</p>

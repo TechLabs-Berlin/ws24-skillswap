@@ -6,21 +6,20 @@ import MessageList from "./MessageList.jsx";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import Footer from "../footer/Footer.jsx";
 
-// const userId = '';
-// const user = await axios.get(url, {header: {}, params: {},});
 
 const message = () => {
+    const loggedInUserId = '660e9b92453cad62e9a4f568'; // currently hardcoded, should be saved and passed down from parent for logged-in user
     const [swaps, setSwaps] = useState([]);
 
     useEffect(() => {
         // Function to fetch chat data
         const fetchSwaps = async () => {
             try {
-                const response = await fetch('http://localhost:8000/api/messages/chatlist/660e9b92453cad62e9a4f568');
+                const response = await fetch(`https://ws24-skillswap.onrender.com/api/messages/chatlist/${loggedInUserId}`);
                 const data = await response.json();
 
                 setSwaps(data);
-                console.log(data[0].message, data[0].username, data[0]._id);
+                // console.log(data[0].message, data[0].username, data[0]._id);
             } catch (error) {
                 console.error('Failed to fetch chats:', error);
             }
@@ -39,9 +38,8 @@ const message = () => {
             </div>
             <div>
                 {swaps.map((swap, index) => (
-                    <div>{<MessageList key={index} swap={swap} />}</div>
+                    <div>{<MessageList key={index} swap={swap} user={loggedInUserId} />}</div>
                 ))}
-
             </div>
             <div>
                 <Footer />
