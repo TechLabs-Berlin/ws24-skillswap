@@ -57,14 +57,25 @@ In addition to design work, the UX team also contributed to user testing and fee
 
 ![image](https://github.com/TechLabs-Berlin/ws24-skillswap/assets/150553622/90c9a154-0288-46a3-8cd5-303a590af214)
 
+<br>
 
-frontend
+**Web Development (Frontend)**
 
-Backend
+Add Text Here
 
-Data Science
+**Web Development (Backend)**
+
+Add Text Here
+
+
+**Data Science (DS)**
+
+Add Text Here
+
 
 ---
+
+<br>
 
 # Conclusion
 
