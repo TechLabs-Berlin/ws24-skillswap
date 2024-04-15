@@ -9,6 +9,7 @@ https://medium.com/@isabellaoelofse/skillswap-11d8f7fd6f13
 
 ## Summary
 
+
 SkillSwap is a simple yet powerful mobile application that facilitates user skill exchange. The core objective of our project is to create a platform where individuals can connect, share their expertise, and learn from one another.
 
 
@@ -30,7 +31,9 @@ Through competitive research on existing skill exchange platforms, we were able 
 
 As SkillSwap we therefore wanted to address these challenges and so we set out to develop a solution: a user-friendly platform that connects individuals with various skills and facilitates seamless skill exchange through a matching algorithm.
 
-Methodology
+<br>
+
+# Methodology
 
 frontend
 
