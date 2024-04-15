@@ -3,7 +3,8 @@ https://medium.com/@isabellaoelofse/skillswap-11d8f7fd6f13
 
 <br>
 
-# A Platform for Skill Exchange
+
+<h1 align="center">SkillSwap- A Platform for Skill Exchange • Blog Post</h1>
 
 <br>
 
