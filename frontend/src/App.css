@@ -18,18 +18,21 @@
   align-items: center;
   justify-content: center;
   background-color: #F7F7F7;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.auth-form-container, .input-container {
+.auth-form-container,
+.input-container {
   display: flex;
   flex-direction: column;
   /* align-items: center;
   text-align: left; */
-  
+
 }
 
-.login-form, .reg-form {
+.login-form,
+.reg-form {
   display: flex;
   flex-direction: column;
   padding-bottom: 1rem;
@@ -84,7 +87,8 @@ font: */
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
+  /* 150% */
   margin: 20 auto;
 }
 
@@ -96,7 +100,8 @@ font: */
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
-  line-height: 32px; /* 145.455% */
+  line-height: 32px;
+  /* 145.455% */
 }
 
 .sub-heading {
@@ -106,7 +111,8 @@ font: */
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 160% */
+  line-height: 24px;
+  /* 160% */
 }
 
 .assit-text {
@@ -115,6 +121,7 @@ font: */
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 16px; /* 133.333% */
+  line-height: 16px;
+  /* 133.333% */
   letter-spacing: 0.4px;
 }
