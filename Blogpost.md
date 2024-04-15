@@ -47,6 +47,8 @@ The UX team played a crucial role in shaping the user experience of SkillSwap. W
 
 ![image](https://github.com/TechLabs-Berlin/ws24-skillswap/assets/150553622/63100ac7-ae25-41c2-b45c-0144d6f27632)
 
+![HiFi](https://github.com/TechLabs-Berlin/ws24-skillswap/assets/150553622/3a2ed98f-8742-461d-81e7-854f4827de7c)
+
 
 frontend
 
