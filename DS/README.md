@@ -33,6 +33,7 @@ Then, run `DS\01_Notebooks\01_Synthetic_Data_Set\00_Aggregate_Data.ipynb`
 1. `DS\01_Notebooks\02_Features_Insights\01_User_Activity_Status\User_Activity_Status.ipynb`
 2. `DS\01_Notebooks\02_Features_Insights\02_Match_Recommendation\Recommendations.ipynb`
 3. `DS\01_Notebooks\02_Features_Insights\03_Exploratory_Data_Analysis\Exploratory.data.analysis.ipynb`
+- To run the last part of the exploratory data analysis that analyzes the input data for the ML model, run `DS\01_Notebooks\03_Feature_Engineering\Data_Activity_Projection.ipynb` first (see below)
 
 
 # How to run the folder "DS\01_Notebooks\03_Feature_Engineering":
