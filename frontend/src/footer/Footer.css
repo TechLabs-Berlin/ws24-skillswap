@@ -1,12 +1,13 @@
 /* Footer.css */
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #40605a;
-  color: #fff;
-  padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #40605A;
+    color: #fff;
+    padding: 10px;
+
 }
 
 .footer-icons {
