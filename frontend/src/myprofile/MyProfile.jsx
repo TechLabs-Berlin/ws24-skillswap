@@ -9,6 +9,7 @@ import '../myprofile/MyProfile.css'
 import { Link } from 'react-router-dom';
 import svgsettings from '../assets/icons/settings.svg';
 import { MdEdit } from "react-icons/md";
+import Footer from "../footer/Footer.jsx";
 
 
 
@@ -36,38 +37,37 @@ const MyProfile = () => {
 
 
   return (
-    <>
+    <div>
 
-   <nav className='icons' >   
-      <Link to="/settings" style={{ color: 'white' }}>
+      <nav className='icons' >
+        <Link to="/settings" style={{ color: 'white' }}>
           <button ><img src={svgsettings} alt="" /></button>
-      </Link>
+        </Link>
 
-      <button>
-              <label htmlFor="profileU" className="picU"><MdEdit /></label>
-      </button>
-                    
-    </nav>
+        <button>
+          <label htmlFor="profileU" className="picU"><MdEdit /></label>
+        </button>
 
-    
-        <h1 className="page-title" style={{ color: 'white'}}>My Profile </h1>
+      </nav>
 
-       <ProfilePicture picture={person.picture} />
+
+      <h1 className="page-title">My Profile </h1>
+
+      <ProfilePicture picture={person.picture} />
 
       <MyInterests interest={person.interests} />
 
-      <MySkills/>
+      <MySkills />
 
       <AboutMe description={person.about} name={'me'} />
 
-      <Frame/>
+      <Frame />
 
-      <CurrentSwap/>
+      <CurrentSwap />
 
-      <Saved/>
+      <Saved />
 
-
-    </>
+    </div>
   );
 };
 

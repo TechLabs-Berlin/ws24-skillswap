@@ -12,7 +12,7 @@ import Message from "./message/message.jsx";
 import Chat from "./message/MessageDetail.jsx";
 import Skills from "./skill-list/skills.jsx";
 import AddInterests from "./skill-list/addInterests.jsx";
-import {SkillsProvider} from "./context/SkillsContext.jsx";
+import { SkillsProvider } from "./context/SkillsContext.jsx";
 import Congrats from './form/congrats/Congrats';
 
 
@@ -26,21 +26,20 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-          <Footer/>
-          <SkillsProvider>
-        <Routes>
-          <Route exact path="/" element={<Login onFormSwitch={toggleForm} />} />
-          <Route path="/register" element={<Register onFormSwitch={toggleForm} />} />
-          <Route path="/congrats" element={<Congrats onFormSwitch={toggleForm} />} />
-          <Route path="/myProfile" element={<MyProfile />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/search" element={<Search />} />
-          <Route path="/settings" element={<Settings />} />
-          <Route path="/message" element={<Message />} />
-          <Route path="/chat" element={<Chat />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/addInterests" element={<AddInterests />} />
-        </Routes>
+        <SkillsProvider>
+          <Routes>
+            <Route exact path="/" element={<Login onFormSwitch={toggleForm} />} />
+            <Route path="/register" element={<Register onFormSwitch={toggleForm} />} />
+            <Route path="/congrats" element={<Congrats onFormSwitch={toggleForm} />} />
+            <Route path="/myProfile" element={<MyProfile />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/search" element={<Search />} />
+            <Route path="/settings" element={<Settings />} />
+            <Route path="/message" element={<Message />} />
+            <Route path="/chat" element={<Chat />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/addInterests" element={<AddInterests />} />
+          </Routes>
         </SkillsProvider>
       </BrowserRouter>
     </div>

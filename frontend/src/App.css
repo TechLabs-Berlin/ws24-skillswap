@@ -9,23 +9,30 @@
   max-width: 1280px;
 }
 
+body {
+  background-color: #F7F7F7;
+}
+
 .App {
-  text-align: center;
+  /*text-align: center;
   min-height: 100vh;
   /* margin: 20 auto; */
   /* min-width: 320px; */
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
   background-color: #F7F7F7;
   padding-left: 20px;
   padding-right: 20px;
 }
 
+
 .auth-form-container,
 .input-container {
   display: flex;
   flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
   /* align-items: center;
   text-align: left; */
 
@@ -43,28 +50,8 @@
   color: var(--primary-color, #40605A);
 }
 
-label {
-  text-align: left;
-  padding: 0.25rem 0rem;
-  color: var(--sub-heading, #18322D);
-}
-
-input {
-  background: none;
-  padding: 0.5rem;
-  border-radius: 4px;
-  border-color: DADADA;
-  border-width: 1.2px;
-  width: 250px;
-}
-
 .spacing {
   height: 2rem;
-}
-
-button {
-  background-color: var(--primary-color, #40605A);
-  padding: 2rem;
 }
 
 .txt-btn {

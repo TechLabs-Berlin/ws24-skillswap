@@ -13,16 +13,16 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-icons">
                 <Link to="/home" style={{ color: 'white' }}>
-                    <IoMdHome/>
+                    <IoMdHome />
                 </Link>
                 <Link to="/search" style={{ color: 'white' }}>
-                    <IoIosSearch/>
+                    <IoIosSearch />
                 </Link>
-                <Link  to='/message' style={{ color: 'white' }}>
-                <LuMessageSquare />
+                <Link to='/message' style={{ color: 'white' }}>
+                    <LuMessageSquare />
                 </Link>
                 <Link to="/" style={{ color: 'white' }}>
-                    <FaRegUser/>
+                    <FaRegUser />
                 </Link>
             </div>
         </footer>
