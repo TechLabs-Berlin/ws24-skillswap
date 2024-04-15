@@ -65,7 +65,11 @@ Add Text Here
 
 **Web Development (Backend)**
 
-Add Text Here
+For SkillSwap's backend, user authentication and the ability to store user data in a database was crucial. The team set up a backend server using node.js/express.js and a database using MongoDB Atlas. Hosting the server separately from the frontend on a dedicated web-server via Render allowed the frontend team to access the API endpoints from early in the project phase, without having to deal with any backend technologies on their local machines.
+
+The first task was to set up the backend data models via MongoDB, particularly for user-data, skills-data and skill-categories, and messages. For each of the data-models, dedicated restful API endpoints were created via the Express Router with CRUD functionality. An API endpoint for user authentication allows users to create accounts and to log into the app, and a middleware was implemented to verify whether the API-calls are being sent by a logged-in user.
+
+The 'heart of the app' is an API endpoint for the SkillSwap mechanism, which allowed the frontend to fetch an array users from backend which matched with the user of the app on their skills they are offering to teach and looking to learn. Due to the limited time of the project phase, this SkillSwap API endpoint is only working on a very high-level and not based on any sophisticated algorithms for user recommendations. Albeit enough for the development of an MVP, the finalized version of the SkillSwap App would ideally connect the backend server with another API set up by Data Science in order to make user of an advanced recommendation enginge to ensure the best experience for the user.
 
 
 **Data Science (DS)**
