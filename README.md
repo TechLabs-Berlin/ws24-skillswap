@@ -30,6 +30,8 @@ Go into the "frontend" directory and run "npm run dev".
 In case any packages are missing, run "npm install" first.
 Frontend app will run on localhost port 5173.
 
+Run the app in Mobile resolution (e.g. 430*932) for best experience.
+
 - Backend:
 Go into the "server" directory and run "nodemon dev".
 In case any packages are missing, run "npm install" first.
