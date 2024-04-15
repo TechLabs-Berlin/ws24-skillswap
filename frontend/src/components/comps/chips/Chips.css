@@ -1,0 +1,17 @@
+.chips {
+  display: flex;
+  width: 97px;
+  height: 42px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  border: 1.5px solid var(--Body-text, #707070);
+  cursor: pointer;
+}
+
+.chips.selected {
+  background-color: var(--Primary-color, #40605A);
+  color: white;
+}

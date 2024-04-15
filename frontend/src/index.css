@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
 :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
   
-    padding: 2rem;
+    /* padding: 2rem; */
   
      /* color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
