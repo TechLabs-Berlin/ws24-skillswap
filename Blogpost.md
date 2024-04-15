@@ -43,3 +43,6 @@ Data Science
 
 The UX team played a crucial role in shaping the user experience of SkillSwap. We began by conducting extensive research to understand user needs and preferences. This involved brainstorming sessions to define key features and ‘How might we’ statements to address specific user pain points. After then developing personas and creating low-fidelity wireframes we were able to visualise the app’s flow and functionality.
 
+
+![Screenshot 2024-04-15 125720](https://github.com/TechLabs-Berlin/ws24-skillswap/assets/150553622/7aa98ade-3537-4ba5-8ba4-6120b93d05d1)
+
