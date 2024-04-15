@@ -4,6 +4,7 @@
   padding: 0rem;
   text-align: center;
   max-width: 1280px;
+  align-content: center;
 }
 
 .App {
@@ -16,8 +17,6 @@
   /* justify-content: center; */
   background-color: rgb(233, 231, 223);
   padding: 2rem;
-  flex-direction: column;
-  align-content: center;
 }
 
 .auth-form-container {

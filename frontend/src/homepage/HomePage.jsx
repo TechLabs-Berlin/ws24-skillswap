@@ -35,7 +35,7 @@ const HomePage = () => {
         setPerson(jsonData?.matches?.[currentIndex]);
 
         const skillId =
-          jsonData?.matches?.[currentIndex]?.matchingSkills.matchSkillOffered;
+          jsonData?.matches?.[currentIndex]?.matchingSkills?.ownSkillOffered;
         console.log("Skill ID", skillId);
 
         if (skillId) {

@@ -2,7 +2,11 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  align-content: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  display: grid;
   /* padding: 2rem; */
 
   /* color-scheme: light dark;
