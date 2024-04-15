@@ -1,12 +1,19 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useAuth } from "../context/SkillsContext.jsx";
 
-
+// eslint-disable-next-line react/prop-types
 function ProfilePicture({ picture }) {
     const [backgroundImageUrl, setBackgroundImageUrl] = useState(picture);
+    const { skills} = useAuth();
 
     useEffect(() => {
         setBackgroundImageUrl(picture);
     }, [picture]);
+
+    useEffect(() => {
+        // adding listeners everytime props.x changes
+        console.log('something has changed in state', skills);
+    }, [skills]);
 
     function profileUpdate() {
         const profilePic = document.getElementById("profilePic");
@@ -24,8 +31,6 @@ function ProfilePicture({ picture }) {
 
                     <input type="file" accept='image/*' id='profileU' onChange={profileUpdate} className='profileU'/>
                 </div>
-
-
             </div>
         </section>
     );

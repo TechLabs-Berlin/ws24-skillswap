@@ -1,0 +1,51 @@
+.input-container {
+  margin: 0px 
+}
+
+.input-label {
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-box {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #DADADA;
+  border-radius: 4px;
+  display: flex;
+  /* width: calc(100% - 56px); Subtracting the width of the button */
+  height: 56px; /* Adjust height as needed */
+  /* margin: 0 28px; Margin on top, right, and bottom */
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 0.5rem;
+}
+
+.input-box::placeholder {
+  font-size: 16px;
+}

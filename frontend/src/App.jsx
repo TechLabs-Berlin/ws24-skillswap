@@ -10,8 +10,12 @@ import MyProfile from "./myprofile/MyProfile";
 import Footer from "./footer/Footer.jsx";
 import Settings from "./setting/Settings.jsx";
 import Message from "./message/message.jsx";
+import Chat from "./message/MessageDetail.jsx";
 import Skills from "./skill-list/skills.jsx";
 import AddInterests from "./skill-list/addInterests.jsx";
+
+import {SkillsProvider} from "./context/SkillsContext.jsx";
+import Congrats from './form/congrats/Congrats';
 
 function App() {
   const [currentForm, setCurrentForm] = useState("login");
@@ -29,12 +33,13 @@ function App() {
             path="register"
             element={<Register onFormSwitch={toggleForm} />}
           />
-          <Route path="login" element={<Login onFormSwitch={toggleForm} />} />
+          <Route path="/login" element={<Login onFormSwitch={toggleForm} />} />
           <Route path="/" element={<HomePage />} />
           <Route exact path="/myprofile" element={<MyProfile />} />
           <Route path="/search" element={<Search />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/message" element={<Message />} />
+          <Route path="/chat" element={<Chat />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/addInterests" element={<AddInterests />} />
           <Route path="/swappage" element={<Swappage />} />
@@ -62,6 +67,7 @@ function App() {
           </Route>
           <Route path="/profile" element={<Profile/>}/> */}
         </Routes>
+        </SkillsProvider>
       </BrowserRouter>
     </div>
   );

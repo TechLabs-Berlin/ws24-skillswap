@@ -1,0 +1,10 @@
+.congrats-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.congrats-image {
+  margin-bottom: 20px;
+}

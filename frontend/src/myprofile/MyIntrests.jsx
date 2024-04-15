@@ -35,18 +35,3 @@ const MyInterests = () => {
  
 export default MyInterests;
 
-
-
-
-
-
-
-
-
-
-
-// {interest.forEach(element => ', ' + element)}
-// onChange={handleMyIntrestsData} type="text" defaultValue={description} className="addButton"
-  // const handleMyIntrestsData = (val) =>{
-  //   const myIntrestsData = (val.target.value)
-  //   console.log(myIntrestsData); }
