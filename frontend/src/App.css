@@ -21,11 +21,11 @@ body {
   /* display: flex;
   align-items: center;
   justify-content: center;*/
+
   background-color: #F7F7F7;
   padding-left: 20px;
   padding-right: 20px;
 }
-
 
 .auth-form-container,
 .input-container {
@@ -53,6 +53,7 @@ body {
 .spacing {
   height: 2rem;
 }
+
 
 .txt-btn {
   background: none;
@@ -112,3 +113,4 @@ font: */
   /* 133.333% */
   letter-spacing: 0.4px;
 }
+

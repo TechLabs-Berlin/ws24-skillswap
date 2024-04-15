@@ -1,0 +1,124 @@
+.profile-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swap-page {
+  width: 375px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.swap-header {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & h1 {
+    font-family: Prosto One;
+    font-size: 36px;
+    text-align: center;
+    color: rgba(64, 96, 90, 1);
+    align-self: center;
+  }
+}
+
+#back-button {
+  position: absolute;
+  top: 47px;
+  left: 25px;
+  width: 30px;
+  height: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.swap-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 90px; */
+}
+
+.swap-text {
+  margin-top: 25px;
+  width: 312px;
+  height: 66px;
+  & #text {
+    color: rgba(24, 50, 45, 1);
+    padding: 7px;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+}
+.chatbox {
+  align-items: center;
+  align-content: center;
+  width: 288px;
+  margin-top: 50px;
+}
+#msg-box {
+  /* position: relative; */
+  width: 288px;
+  height: 136px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(227, 236, 235, 1);
+  box-shadow: 0px 4px 4px 0px rgba(112, 112, 112, 1);
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+#chat-request {
+  /* position: relative; */
+  align-self: center;
+  margin-left: 70px;
+  width: 142px;
+  height: 50px;
+  margin-top: 70px;
+  border-radius: 14px;
+  background: rgba(64, 96, 90, 1);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+}
+
+.exchange-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  padding: 38px;
+}
+.skill-pic {
+  background-color: #ffffff;
+  display: block;
+
+  width: 100px;
+  height: 100px;
+  border: 10px;
+  border-radius: 50%;
+  border: 10px solid rgba(92, 141, 133, 1);
+}
+
+#swapping-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding-left: 1rem; */
+}

@@ -1,14 +1,13 @@
 // Footer.jsx
-import React from 'react';
-import './Footer.css'; // Import the CSS file for styling
+import React from "react";
+import "./Footer.css"; // Import the CSS file for styling
 import { IoMdHome, IoIosSearch } from "react-icons/io";
 import { FaRegUser } from "react-icons/fa";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import { LuMessageSquare } from "react-icons/lu";
 
-
-
 const Footer = () => {
+
     return (
         <footer className="footer">
             <div className="footer-icons">
@@ -27,6 +26,7 @@ const Footer = () => {
             </div>
         </footer>
     );
+
 };
 
 export default Footer;

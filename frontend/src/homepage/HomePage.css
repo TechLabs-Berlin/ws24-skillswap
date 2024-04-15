@@ -1,0 +1,127 @@
+/* .aboutSec .homePageAboutSec {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 25px;
+} */
+.wholeScreen {
+  /* width: calc(100% - 2rem); */
+  height: 120%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+
+.home-header {
+  background: rgba(64, 96, 90, 1);
+  width: 100vw;
+  height: 220px;
+  top: 0;
+  left: 0;
+  text-align: center;
+  & h1 {
+    color: rgba(247, 247, 247, 1);
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    font-family: Prosto One;
+    margin-top: 45px;
+  }
+}
+
+.aboutSec .homePageAboutSec {
+  padding: 5px;
+  margin-top: 5px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: rgba(112, 112, 112, 1);
+}
+
+.info-container {
+  position: relative;
+  top: -1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.information {
+  width: 343px;
+  height: 630;
+  top: 220px;
+  align-self: center;
+  background: #ffffff;
+  border: 1px solid rgba(193, 192, 192, 1);
+  border-radius: 16px;
+  -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.descritopn {
+  margin-top: 30%;
+}
+
+.pictureContainer img {
+  background-color: #ffffff;
+  display: block;
+  position: absolute;
+  left: 15%;
+  bottom: 80%;
+  width: 220px;
+  height: 220px;
+  border: 10px 0px 0px 0px;
+  border-radius: 50%;
+  border: 10px solid rgba(92, 141, 133, 1);
+}
+
+.swaper-info {
+  width: Hug (240px) px;
+  height: Hug (148.5px) px;
+  top: 605px;
+  left: 37px;
+  gap: 19px;
+  opacity: 0px;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+.icons {
+  width: Fixed (240px) px;
+  height: Hug (22.5px) px;
+  gap: 4px;
+  border: 0px 0px 1px 0px;
+  opacity: 0px;
+  padding: 10px;
+  border-bottom: 1px solid rgba(112, 112, 112, 0.3);
+}
+
+.userofile {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+button {
+  margin-top: 10%;
+  display: inline;
+  align-self: center;
+  justify-content: center;
+  margin: 10px;
+  background-color: #ffffff;
+}
+
+.person-skill {
+  padding-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: center;
+  color: rgba(64, 96, 90, 1);
+}
