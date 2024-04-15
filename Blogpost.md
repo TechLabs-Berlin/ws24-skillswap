@@ -57,11 +57,15 @@ In addition to design work, the UX team also contributed to user testing and fee
 
 ![image](https://github.com/TechLabs-Berlin/ws24-skillswap/assets/150553622/90c9a154-0288-46a3-8cd5-303a590af214)
 
+---
+
 <br>
 
 **Web Development (Frontend)**
 
 Add Text Here
+
+---
 
 **Web Development (Backend)**
 
@@ -71,6 +75,7 @@ The first task was to set up the backend data models via MongoDB, particularly f
 
 The 'heart of the app' is an API endpoint for the SkillSwap mechanism, which allowed the frontend to fetch an array users from backend which matched with the user of the app on their skills they are offering to teach and looking to learn. Due to the limited time of the project phase, this SkillSwap API endpoint is only working on a very high-level and not based on any sophisticated algorithms for user recommendations. Albeit enough for the development of an MVP, the finalized version of the SkillSwap App would ideally connect the backend server with another API set up by Data Science in order to make user of an advanced recommendation enginge to ensure the best experience for the user.
 
+---
 
 **Data Science (DS)**
 
@@ -129,7 +134,7 @@ As all features have a value of either 0 or 1 and there are therefore no outlier
 The ‘02_Application_Code’ directory contains the code for deployment via a flask app.
 
 
-## DS Conclusion
+DS Conclusion
 
 To summarize, our central objectives from a data science perspective were fulfilled. An algorithm was developed for a matching process that finds suitable matches to a user. Furthermore, a machine learning model was used and deployed to develop an analysis tool that can be utilised to predict the activity of users in the app, which could be helpful for the further development of the app or e.g. for marketing purposes.
 
@@ -145,13 +150,23 @@ What a thrilling journey. We worked hard, and well, together as a team. Many obs
 
 Members:
 UX - Faith Jegede
+
 UX - Isabella Oelofse
+
 WD Fronted - Lexie Yu
+
 WD Frontend - Najma Faiz
+
 WD Frontend - Maryam Arghandiwal
+
 WD Backend - Andreas Landes
+
 Data Science - Johannes Schaum
 
+
+
 Mentors:
+
 Larry D’almeida
+
 Maria Mendes
