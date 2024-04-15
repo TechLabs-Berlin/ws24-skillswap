@@ -35,14 +35,18 @@ As SkillSwap we therefore wanted to address these challenges and so we set out t
 
 # Methodology
 
+
+**User Experience Design (UX)**
+
+The UX team played a crucial role in shaping the user experience of SkillSwap. We began by conducting extensive research to understand user needs and preferences. This involved brainstorming sessions to define key features and ‘How might we’ statements to address specific user pain points. After then developing personas and creating low-fidelity wireframes we were able to visualise the app’s flow and functionality. Finally, the Hi-Fi wireframes and prototype were created on [Figma](https://www.figma.com/file/P4FGekK8KHUDRuVefXLZb5/Wireframes?type=design&node-id=213%3A4346&mode=design&t=ep7tdIhxN8qQM1WO-1)and we conducted a usabilty test at the end. 
+
+![Screenshot 2024-04-15 125720](https://github.com/TechLabs-Berlin/ws24-skillswap/assets/150553622/7aa98ade-3537-4ba5-8ba4-6120b93d05d1)
+
+![image](https://github.com/TechLabs-Berlin/ws24-skillswap/assets/150553622/63100ac7-ae25-41c2-b45c-0144d6f27632)
+
+
 frontend
 
 Backend
 
 Data Science
-
-The UX team played a crucial role in shaping the user experience of SkillSwap. We began by conducting extensive research to understand user needs and preferences. This involved brainstorming sessions to define key features and ‘How might we’ statements to address specific user pain points. After then developing personas and creating low-fidelity wireframes we were able to visualise the app’s flow and functionality.
-
-
-![Screenshot 2024-04-15 125720](https://github.com/TechLabs-Berlin/ws24-skillswap/assets/150553622/7aa98ade-3537-4ba5-8ba4-6120b93d05d1)
-
