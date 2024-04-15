@@ -76,7 +76,7 @@ The 'heart of the app' is an API endpoint for the SkillSwap mechanism, which all
 
 ## Creation of a synthetic data set
 
-The data basis was intended to be a data set that contains all the information that is relevant for a successful skill matching process, provides information about user activity and at the same time contains personal user information in order to create a realistic data picture of an app.
+The data basis was intended to be a data set that contains all the information that is relevant for a successful skill matching process, provides information about user activity and at the same time contains personal user information in order to create a realistic data picture of the app.
 
 Due to the specific use case of our app, the creation of a synthetic dataset proved to be the most suitable method to fulfil the above-mentioned purposes. For example, we were able to individually consider which skill categories and specific skills should be selectable in the app and then map these in the data. As it was not entirely clear when the data set was created which features and ML models should be used, various models and features were tried out and the synthetic data adapted accordingly. It may therefore be that in some places the approach to creating the data appears somewhat arbitrary, as the models for which they were created were ultimately not implemented.
 
@@ -106,12 +106,12 @@ After the inactive users and only remotely available users have been filtered ou
 
 ## Exploratory data analysis
 
-In order to obtain an overview of the users, the distribution of the various skills and user satisfaction, this information was visualized in the notebook "DS\01_Notebooks\02_Features_Insights\03_Exploratory_Data_Analysis\Exploratory.data.analysis.ipynb". Demographic and geographical information, learning behavior, and user satisfaction with the app were recorded. The distribution of the target variable was also analyzed, which will be used to train a machine learning model in the next step. However, due to the random creation of the data set, there are hardly any statistical relations between the features. The significance of this data situation for the model is evaluated below.
+In order to obtain an overview of the users, the distribution of the various skills and user satisfaction, this information was visualized in the notebook "DS\01_Notebooks\02_Features_Insights\03_Exploratory_Data_Analysis\Exploratory.data.analysis.ipynb". Demographic and geographical information, learning behavior, and user satisfaction with the app were recorded. The distribution of the target variable was also analyzed, which will be used to train a machine learning model in the next step. Due to the random creation of the data set, there are hardly any statistical relations between the features. The significance of this data situation for the model is evaluated below.
 
 
 ## Model
 
-Relevant information about the users is the extent to which they contribute to a lively skill swap app with their skill set and user behavior. Therefore, based on a user's skill set, we aimed at predictiong how often the user is likely to give skill 'transactions' or lessons. Although this figure alone does not provide a comprehensive picture of a user's contribution to the app, it can be a data point for considering which type of user is particularly in demand in the app.
+Relevant information about the users is the extent to which they contribute to a lively skill swap app with their skill set and user behavior. Therefore, based on a user's skill set, we aimed at predictiong how often the user is likely to give lessons. Although this figure alone does not provide a comprehensive picture of a user's contribution to the app, it can be a data point for considering which type of user is particularly in demand in the app.
 
 The data set was prepared for this in the "Data_Activity_Projection.ipynb" notebook in the "03_Feature_Engineering" folder. In addition, other user information from the synthetic data set was encoded in the file "Encodings.ipynb" in order to make it usable for other possible ML models. However, the latter encodings have not yet been used in this project.
 
@@ -120,18 +120,18 @@ We have opted for a regression with KNN as the ML model. K-NN searches for the k
 
 ## Evaluation of the results and deployment
 
-The R2 value of the model is negative which means that the model has no predictive power, which might also be due to the fact, that there is no linear relationship between the variables
+The R2 value of the model is negative which means that the model has hardly any predictive power, which might e.g. be due to the fact, that there is no linear relationship between the variables.
 
 However, it is possible to obtain such a correlation in the real user data. To do this, the total number of lessons taught in each skill category could be divided into the respective categories in which they were taught. For example, a person could then have done 10 lessons in ‘Music’ and 2 in ‘Writing’ while the column “Sum_Skills_Off” counts 12 lessons. Then there would maybe be a linear relationship between the continuous features and the target variable.
 
-As all features have a value of either 0 or 1 and there are therefore no outliers, no further scaling of the features is necessary. However, scaling was nevertheless carried out for demonstration purposes. Although we identified the K value with the lowest mean squared error, this K value was not used to train the final model. This is because we wanted to achieve different predictions for different skill portfolios for demonstration purposes in the deployment. Due to the structure of the synthetic data set, the 'best' k-value of 635 would however produce the same prediction for every skill set as it predicts the mean of nearly all instances in the training data. We then decided to pick 12 as a random k-value because it leads to varying predictions. The model was then trained accordingly and converted into a pickle file for deployment.
+As all features have a value of either 0 or 1 and there are therefore no outliers, no further scaling of the features is necessary. However, scaling was nevertheless carried out for demonstration purposes. Although we identified the k-value with the lowest mean squared error, this k-value was not used to train the final model. This is because we wanted to achieve different predictions for different skill portfolios for demonstration purposes in the deployment. Due to the structure of the synthetic data set, the 'best' k-value of 635 would however produce the same prediction for every skill set as it predicts the mean of nearly all instances in the training data. We then decided to pick 12 as a random k-value because it leads to varying predictions. The model was then trained accordingly and converted into a pickle file for deployment.
 
 The ‘02_Application_Code’ directory contains the code for deployment via a flask app.
 
 
 ## DS Conclusion
 
-To summarize, our central objectives from a data science perspective were fulfilled. An algorithm was developed for a matching process that finds suitable matches to a user. Furthermore, a machine learning model was used and deployed to develop an analysis tool that can be utilised to predict the activity of users in the app, which could be helpful for the further development of the app or for marketing purposes.
+To summarize, our central objectives from a data science perspective were fulfilled. An algorithm was developed for a matching process that finds suitable matches to a user. Furthermore, a machine learning model was used and deployed to develop an analysis tool that can be utilised to predict the activity of users in the app, which could be helpful for the further development of the app or e.g. for marketing purposes.
 
 One of the biggest challenges was to create a suitable synthetic data set that contains realistic patterns of user behavior, which can then be used in the model. The data was not optimal for the ML model, but it can be assumed that real data will prove to be richer in patterns that can be learned by the model.
 
