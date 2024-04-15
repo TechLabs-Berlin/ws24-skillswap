@@ -49,9 +49,36 @@ The UX team played a crucial role in shaping the user experience of SkillSwap. W
 
 ![HiFi](https://github.com/TechLabs-Berlin/ws24-skillswap/assets/150553622/3a2ed98f-8742-461d-81e7-854f4827de7c)
 
+Throughout the development process, the UX team collaborated closely with other teams to ensure alignment between design and implementation. Regular meetings were held to discuss design updates and to integrate any feedback that was given. As the project progressed, the team iterated on the wireframes and eventually created a high-fidelity prototype using Figma.
+
+In addition to design work, the UX team also contributed to user testing and feedback collection. They conducted usability tests to identify any issues or areas for improvement and incorporated user feedback into the final design.
+
+![image](https://github.com/TechLabs-Berlin/ws24-skillswap/assets/150553622/46271e6f-6cbd-43a3-8197-64f987aa0897)
+
+![image](https://github.com/TechLabs-Berlin/ws24-skillswap/assets/150553622/90c9a154-0288-46a3-8cd5-303a590af214)
+
 
 frontend
 
 Backend
 
 Data Science
+
+---
+
+# Conclusion
+
+What a thrilling journey. We worked hard, and well, together as a team. Many obstacles constrained the progress of the project at certain points but it was nothing that wasn’t able to be solved. As a group we had two mentors, Larry and Maria, who helped us with workshop ideas, and brainstorming sessions and were there around the clock for guidance and to answer our questions.
+
+Members:
+UX - Faith Jegede
+UX - Isabella Oelofse
+WD Fronted - Lexie Yu
+WD Frontend - Najma Faiz
+WD Frontend - Maryam Arghandiwal
+WD Backend - Andreas Landes
+Data Science - Johannes Schaum
+
+Mentors:
+Larry D’almeida
+Maria Mendes
