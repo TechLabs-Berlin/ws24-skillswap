@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from 'react';
-import picture from './profile-pic-dummy.jpg';
+import "./message.css";
+import picture from './profile-pic-dummy.jpg'; // currently hardcoded
 import { useNavigate } from 'react-router-dom';
 
 
@@ -9,10 +10,21 @@ import { useNavigate } from 'react-router-dom';
 
 const MessageList = ({ swap }) => {
     const loggedInUserId = '660e9b92453cad62e9a4f568'; // currently hardcoded
-    const navigate = useNavigate()
+    const navigate = useNavigate();
+
     const navigateToChat = (userId, chatUserId, chatUsername) => {
         navigate("/chat", { state: { userId, chatUserId, chatUsername } });
     };
+
+    const [currentDate, setCurrentDate] = useState(new Date());
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentDate(new Date()); // Update the timestamps every 60 seconds
+        }, 60000);
+
+        return () => clearInterval(interval);
+    }, []);
 
     function formatDateTime(dateTime) {
         const date = new Date(dateTime);
@@ -46,39 +58,18 @@ const MessageList = ({ swap }) => {
 
     return (
         <div onClick={() => navigateToChat(loggedInUserId, swap._id, swap.username)}
-            style={{
-                display: 'flex',
-                flexDirection: 'row',
-                alignItems: 'center',
-                gap: '10px',
-                borderBottom: '0.7px solid #D0D0D0',
-                padding: '10px'
-            }}>
+            className='message-list'>
             <div>
-                <img style={{
-                    width: 50,
-                    height: 50,
-                    borderRadius: 25,
-                    objectFit: 'cover'
-                }}
+                <img className='user-picture'
                     src={picture} //currently hardcoded dummy
                     alt='profile picture of {swap.username}' />
             </div>
-            <div style={{ flex: 1 }}><p style={{
-                fontSize: 15,
-                fontWeight: 500
-            }}>{swap.username}</p>
-                <p style={{
-                    marginTop: 3,
-                    fontSize: 12,
-                    fontWeight: 500
-                }}>{swap.message.text.split(' ').slice(0, 7).join(' ')}...</p>
+            <div className='message-list-content'>
+                <p className="message-list-username">{swap.username}</p>
+                <p className="message-list-text">{swap.message.text.split(' ').slice(0, 7).join(' ')}...</p>
             </div>
             <div>
-                <p style={{
-                    fontSize: 10,
-                    fontWeight: 400
-                }}>{formatDateTime(swap.message.sentAt)}</p>
+                <p className="message-list-timestamp">{formatDateTime(swap.message.sentAt)}</p>
             </div>
         </div>
 

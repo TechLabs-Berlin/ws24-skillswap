@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import "./message.css";
 import { HiOutlineEmojiHappy } from "react-icons/hi";
 import EmojiPicker from 'emoji-picker-react';
 import axios from 'axios';
@@ -56,48 +57,30 @@ function AutoResizingTextarea({ senderId, receiverId, onMessageSent/*, authToken
 
 
     return (
-        <div style={{ flex: 1, position: 'relative', marginTop: '10px' }}>
+        <div className='input-component'>
             <HiOutlineEmojiHappy
                 onClick={handleEmojiPicker}
-                style={{ fontSize: '50px', marginRight: 20 }} />
+                className='smiley icon' />
             <textarea
                 ref={textareaRef}
                 value={value}
                 onChange={handleChange}
                 placeholder="Type your message..."
-                style={{
-                    width: '70%', // Ensure the textarea takes up the full container width
-                    padding: '10px',
-                    boxSizing: 'border-box', // Include padding in width and height
-                    border: '1px solid #ccc',
-                    borderRadius: '20px', // Rounded corners
-                    resize: 'none', // Disable manual resize
-                    overflow: 'hidden' // Hide scrollbar
-                }}
+                className='input-area'
             />
             <button
                 onClick={handleSendClick}
-                style={{
-                    position: 'absolute',
-                    right: '10px',
-                    top: '50%',
-                    transform: 'translateY(-50%)',
-                    borderRadius: '50%',
-                    width: '50px',
-                    height: '50px',
-                    border: 'none',
-                    background: 'black',
-                    color: 'white',
-                    cursor: 'pointer'
-                }}
+                className='send-button'
             >
                 ➤
             </button>
             {showEmojiPicker &&
-                <EmojiPicker style={{ height: 500 }}
-                    onEmojiClick={(emoji) =>
-                        setValue((prevValue) =>
-                            prevValue + emoji.emoji)} />
+                <div className='emoji-component'>
+                    <EmojiPicker
+                        onEmojiClick={(emoji) =>
+                            setValue((prevValue) =>
+                                prevValue + emoji.emoji)} />
+                </div>
             }
         </div>
     );

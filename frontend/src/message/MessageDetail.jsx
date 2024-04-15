@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect, useRef } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import AutoResizingTextarea from "./TextInput.jsx";
+import "./message.css";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import axios from 'axios';
 import picture from './profile-pic-dummy.jpg'; // replace with actual user profile pic
@@ -51,48 +52,26 @@ const chat = () => {
     }, [messages]);
 
     return (
-        <div style={{ display: 'flex', flexDirection: 'column', height: '100vh', width: '100%', backgroundColor: '#F0F0F0' }}>
-            <div style={{ display: 'flex', flexDirection: 'row', flex: 'none', alignItems: 'center', gap: 10, backgroundColor: '#FFFFFF' }}>
-                <IoMdArrowRoundBack size={30} onClick={handleBack} />
-                <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', marginLeft: 15 }}>
-                    <img style={{
-                        width: 50,
-                        height: 50,
-                        borderRadius: 25,
-                        objectFit: 'cover'
-                    }}
+        <div className='main-view'>
+            <div className='headline'>
+                <IoMdArrowRoundBack className='arrow icon' onClick={handleBack} />
+                <div className='headline-chat'>
+                    <img className='user-picture'
                         src={picture} //currently hardcoded dummy
                         alt='profile picture of {chatUsername}' />
-                    <h1 style={{ marginLeft: 5, fontSize: 15, fontWeight: 'bold' }}>{chatUsername}</h1>
+                    <h1 className='headline-text headline-name'>{chatUsername}</h1>
                 </div>
             </div>
-            <div style={{ display: 'flex', flexDirection: 'column', flex: 1, overflowY: 'auto', width: '100%' }}>
+            <div className="chat-window">
                 {messages.map((message) => (
-                    <div style={{
-                        backgroundColor: message.senderId._id === userId ? '#DCF8C6' : 'white',
-                        alignSelf: message.senderId._id === userId ? 'flex-end' : 'flex-start',
-                        padding: 8,
-                        margin: 10,
-                        borderRadius: 7,
-                        maxWidth: '60%'
-                    }}>
-                        <p style={{ fontSize: 13, textAlign: 'left' }}>{message.text}</p>
-                        <p style={{ fontSize: 9, textAlign: 'right', color: 'grey', marginTop: 5 }}>{formatTime(message.sentAt)}</p>
+                    <div className={`message ${message.senderId._id === userId ? 'message-sender' : 'message-receiver'}`}>
+                        <p className="message-text">{message.text}</p>
+                        <p className="message-timestamp">{formatTime(message.sentAt)}</p>
                     </div>
                 ))}
                 <div ref={endOfMessagesRef}></div>
             </div>
-            <div style={{
-                display: 'flex',
-                flexDirection: 'row',
-                flex: 'none',
-                alignItems: 'center',
-                width: '100%',
-                padding: 10,
-                borderTopWidth: 1,
-                borderTopColor: '#dddddd',
-                marginBottom: 25,
-            }}>
+            <div className="chat-footer">
                 <AutoResizingTextarea
                     onMessageSent={handleSendMessage}
                     senderId={userId}

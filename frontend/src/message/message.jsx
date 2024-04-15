@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from 'react';
+import "./message.css";
 import axios from 'axios';
 import MessageList from "./MessageList.jsx";
 import { IoMdArrowRoundBack } from "react-icons/io";
@@ -30,22 +31,14 @@ const message = () => {
 
 
     return (
-        <div style={{ height: '100vh', width: '100%' }}>
-            <div style={{ display: 'flex', flexDirection: 'row', flex: 'none', justifyContent: 'center', alignItems: 'center', gap: 10, width: '100%' }}>
+        <div className='main-view'>
+            <div className='headline headline-list'>
 
-                <h1 style={{ fontSize: 15, fontWeight: 'bold' }}>Message</h1>
+                <h1 className='headline-text'>Message</h1>
 
             </div>
             <div>
                 {swaps.map((swap, index) => (
-                    //<div key={chat.id} className="chat-preview">
-                    //<img src={chat.user.profilePic} alt={`${chat.user.username}'s profile`} />
-                    // <div>
-                    //   <h4>{chat.username}</h4>
-                    //   <p>{chat.message.text.split(' ').slice(0, 5).join(' ')}...</p>
-                    //   <span>{new Date(chat.message.sentAt).toLocaleDateString()}</span>
-                    //  </div>
-                    //</div>
                     <div>{<MessageList key={index} swap={swap} />}</div>
                 ))}
 
@@ -55,7 +48,6 @@ const message = () => {
             </div>
         </div>
     );
-    //return (<h1>Hello</h1>);
 }
 
 export default message;
