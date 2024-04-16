@@ -79,7 +79,7 @@ The 'heart of the app' is an API endpoint for the SkillSwap mechanism, which all
 
 **Data Science (DS)**
 
-Creation of a synthetic data set
+<u>Creation of a synthetic data set</u>
 
 The data basis was intended to be a data set that contains all the information that is relevant for a successful skill matching process, provides information about user activity and at the same time contains personal user information in order to create a realistic data picture of the app.
 
@@ -100,7 +100,7 @@ These datasets were then aggregated into the following data set:
 By creating a synthetic dataset, hardly any data cleaning was necessary as the individual datasets could be automatically generated consistently and as desired.
 
 
-Matching algorithm and visualization features
+<u>Matching algorithm and visualization features</u>
 
 It is crucial for users to find potential matches with whom skills can be exchanged. It is also helpful to filter out those users who are currently active on the app in order to enable the most efficient and targeted matching process possible.
 
@@ -109,12 +109,12 @@ For this reason, users are first labelled with an activity status based on their
 After the inactive users and only remotely available users have been filtered out, the user's top 10 geographically closest potential super swaps are identified accordingly, which can then be suggested to the user. The visualization of the positions on the map is for illustrative purposes but is not displayed in the app.
 
 
-Exploratory data analysis
+<u>Exploratory data analysis</u>
 
 In order to obtain an overview of the users, the distribution of the various skills and user satisfaction, this information was visualized in the notebook "DS\01_Notebooks\02_Features_Insights\03_Exploratory_Data_Analysis\Exploratory.data.analysis.ipynb". Demographic and geographical information, learning behavior, and user satisfaction with the app were recorded. The distribution of the target variable was also analyzed, which will be used to train a machine learning model in the next step. Due to the random creation of the data set, there are hardly any statistical relations between the features. The significance of this data situation for the model is evaluated below.
 
 
-Model
+<u>Model</u>
 
 Relevant information about the users is the extent to which they contribute to a lively skill swap app with their skill set and user behavior. Therefore, based on a user's skill set, we aimed at predictiong how often the user is likely to give lessons. Although this figure alone does not provide a comprehensive picture of a user's contribution to the app, it can be a data point for considering which type of user is particularly in demand in the app.
 
@@ -123,7 +123,7 @@ The data set was prepared for this in the "Data_Activity_Projection.ipynb" noteb
 We have opted for a regression with KNN as the ML model. K-NN searches for the k nearest neighbors of a given point in the feature space and then uses the average of their target variable values to predict the value for the given point. Thus, based on the user's skill set, the aim is to predict how often the user will give lessons based on the average value of all users with this skill set.
 
 
-Evaluation of the results and deployment
+<u>Evaluation of the results and deployment</u>
 
 The R2 value of the model is negative which means that the model has hardly any predictive power, which might e.g. be due to the fact, that there is no linear relationship between the variables.
 
@@ -134,7 +134,7 @@ As all features have a value of either 0 or 1 and there are therefore no outlier
 The ‘02_Application_Code’ directory contains the code for deployment via a flask app.
 
 
-DS Conclusion
+<u>DS Conclusion</u>
 
 To summarize, our central objectives from a data science perspective were fulfilled. An algorithm was developed for a matching process that finds suitable matches to a user. Furthermore, a machine learning model was used and deployed to develop an analysis tool that can be utilised to predict the activity of users in the app, which could be helpful for the further development of the app or e.g. for marketing purposes.
 
