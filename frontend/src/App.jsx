@@ -16,7 +16,11 @@ import AddInterests from "./skill-list/addInterests.jsx";
 
 import { SkillsProvider } from "./context/SkillsContext.jsx";
 
+<<<<<<< HEAD
+import Congrats from "./form/congrats/Congrats";
+=======
 import Congrats from './form/congrats/Congrats';
+>>>>>>> 06b05b0ebf664b003389df2a71fe4fff3bacbc73
 
 function App() {
   const [currentForm, setCurrentForm] = useState("login");
@@ -28,6 +32,27 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+<<<<<<< HEAD
+        <Footer />
+        <SkillsProvider>
+          <Routes>
+            <Route
+              exact
+              path="/"
+              element={<Login onFormSwitch={toggleForm} />}
+            />
+            <Route
+              path="/register"
+              element={<Register onFormSwitch={toggleForm} />}
+            />
+            <Route
+              path="/congrats"
+              element={<Congrats onFormSwitch={toggleForm} />}
+            />
+            <Route path="/homepage" element={<HomePage />} />
+            <Route path="/swappage" element={<Swappage />} />
+            <Route path="/myProfile" element={<MyProfile />} />
+=======
         <SkillsProvider>
           <Routes>
             <Route exact path="/" element={<Login onFormSwitch={toggleForm} />} />
@@ -35,6 +60,7 @@ function App() {
             <Route path="/congrats" element={<Congrats onFormSwitch={toggleForm} />} />
             <Route path="/myProfile" element={<MyProfile />} />
             <Route path="/home" element={<Home />} />
+>>>>>>> 06b05b0ebf664b003389df2a71fe4fff3bacbc73
             <Route path="/search" element={<Search />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="/message" element={<Message />} />
@@ -42,7 +68,11 @@ function App() {
             <Route path="/skills" element={<Skills />} />
             <Route path="/addInterests" element={<AddInterests />} />
 
+<<<<<<< HEAD
+            {/* //Onboarding
+=======
           {/* //Onboarding
+>>>>>>> 06b05b0ebf664b003389df2a71fe4fff3bacbc73
            <Route path="/Onboarding" element={<Onboarding/>}/>
      <Route path="step-1" element={<OnboardingStep1/>}/>
      <Route path="step-2" element={<OnboardingStep2/>}/>  
@@ -65,8 +95,12 @@ function App() {
             // etc for swap pages
           </Route>
           <Route path="/profile" element={<Profile/>}/> */}
+<<<<<<< HEAD
+          </Routes>
+=======
         </Routes>
 
+>>>>>>> 06b05b0ebf664b003389df2a71fe4fff3bacbc73
         </SkillsProvider>
       </BrowserRouter>
     </div>

@@ -99,7 +99,13 @@ const Swappage = () => {
       if (response.status === 201) {
         console.log("submitted data to BE successfully!!");
       }
+<<<<<<< HEAD
+      navigate(
+        "/homepage?" + new URLSearchParams({ chatSent: true }).toString()
+      );
+=======
       navigate("/?" + new URLSearchParams({ chatSent: true }).toString());
+>>>>>>> 06b05b0ebf664b003389df2a71fe4fff3bacbc73
       handleChatRequestSent();
     } catch (error) {
       console.error("Error:", error);
@@ -115,7 +121,11 @@ const Swappage = () => {
     <>
       <section className="swap-page">
         <header className="swap-header">
+<<<<<<< HEAD
+          <Link to="/homepage">
+=======
           <Link to="/">
+>>>>>>> 06b05b0ebf664b003389df2a71fe4fff3bacbc73
             <img src={backIcon} id="back-button" alt="Back" />
           </Link>
           <h1>SkillSwap</h1>

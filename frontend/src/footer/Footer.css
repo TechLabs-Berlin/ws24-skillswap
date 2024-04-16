@@ -1,5 +1,16 @@
 /* Footer.css */
 .footer {
+<<<<<<< HEAD
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #40605a;
+  color: #fff;
+  padding: 10px;
+  margin-top: 5px;
+  z-index: 1000;
+=======
     position: absolute;
     bottom: 0;
     left: 0;
@@ -8,6 +19,7 @@
     color: #fff;
     padding: 10px;
 
+>>>>>>> 06b05b0ebf664b003389df2a71fe4fff3bacbc73
 }
 
 .footer-icons {
