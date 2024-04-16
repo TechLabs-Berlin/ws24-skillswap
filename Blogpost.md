@@ -173,7 +173,7 @@ WD Frontend - Najma Faiz
 
 WD Frontend - Maryam Arghandiwal
 
-WD Backend - Andreas Landes
+WD Backend & Frontend - Andreas Landes
 
 Data Science - Johannes Schaum
 
