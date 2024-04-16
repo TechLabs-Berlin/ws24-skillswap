@@ -76,6 +76,8 @@ A user profile page was designed where users can add or delete skills they are i
 
 A messaging feature which allows users to exchange messages was added and allows users to communicate on the app.
 
+Building SkillSwap had its difficulties. We faced technical problems, like connecting the front-end and back-end, fixing errors from GitHub, Css layout and giving logic. But by working together and communicating, we solved these problems and made a great product.
+
 ---
 
 **Web Development (Backend)**
