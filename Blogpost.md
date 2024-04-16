@@ -162,6 +162,7 @@ One of the biggest challenges was to create a suitable synthetic data set that c
 What a thrilling journey. We worked hard, and well, together as a team. Many obstacles constrained the progress of the project at certain points but it was nothing that wasn’t able to be solved. As a group we had two mentors, Larry and Maria, who helped us with workshop ideas, and brainstorming sessions and were there around the clock for guidance and to answer our questions.
 
 Members:
+
 UX - Faith Jegede
 
 UX - Isabella Oelofse
