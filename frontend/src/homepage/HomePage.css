@@ -106,7 +106,7 @@
   justify-content: center;
 }
 
-button {
+#home-btn {
   margin-top: 10%;
   display: inline;
   align-self: center;

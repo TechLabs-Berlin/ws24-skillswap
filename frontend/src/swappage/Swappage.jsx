@@ -11,6 +11,7 @@ import Piano from "../assets/icons/Piano.svg";
 import Gardening from "../assets/icons/Gardening .svg";
 import cooking from "../assets/icons/cooking.svg";
 import Drawing from "../assets/icons/Drawing.jpg";
+import Footer from "../footer/Footer.jsx";
 const skillPictures = {
   Gardening: Gardening,
   Piano: Piano,
@@ -174,6 +175,9 @@ const Swappage = () => {
               Send chat request
             </button>
           </div>
+        </div>
+        <div className="headline headline-list">
+          <Footer />
         </div>
       </section>
       {isChatRequestSent && (

@@ -13,6 +13,7 @@ import confirmIcon from "../assets/icons/confirm.svg";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Congrats from "../swappage/Congrats";
+import Footer from "../footer/Footer.jsx";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -121,16 +122,19 @@ const HomePage = () => {
                   </div>
                 </section>
               </div>
-              <div className="nav-home">
+              <div className="home-btn">
                 <section>
-                  <button onClick={handleNextMatch}>
+                  <button id="home-btn" onClick={handleNextMatch}>
                     <img src={refreshIcon} alt="Refresh icon" />
                   </button>
-                  <button onClick={handleNextMatch}>
+                  <button id="home-btn" onClick={handleNextMatch}>
                     <img src={crossIcon} alt="cross icon" />
                   </button>
 
-                  <button onClick={() => handleConfirm(person._id)}>
+                  <button
+                    id="home-btn"
+                    onClick={() => handleConfirm(person._id)}
+                  >
                     <img src={confirmIcon} alt="" />
                   </button>
                 </section>
@@ -139,6 +143,9 @@ const HomePage = () => {
           </div>
         </div>
         {isChatRequestSent && <Congrats onCloseClick={handleCloseCongrats} />}
+        <div className="headline headline-list">
+          <Footer />
+        </div>
       </div>
     </>
   );

@@ -4,14 +4,11 @@
   align-items: center;
   height: 56px; /* Adjust height as needed */
   /* margin: 20px; */
-<<<<<<< HEAD
   /* background-color: #40605A; */
   /* Primary color */
-=======
-  background-color: #40605A; /* Primary color */
->>>>>>> 06b05b0ebf664b003389df2a71fe4fff3bacbc73
   color: #fff; /* Text color */
   border: none;
   border-radius: 8px; /* Adjust border radius as needed */
   cursor: pointer;
+  background-color: #40605a;
 }
