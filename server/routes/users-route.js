@@ -112,6 +112,48 @@ router.route('/users/update/:id').put(/*userAuth,*/ async (req, res, next) => {
     }
 });
 
+// update a user's password
+
+router.route('/users/passwordupdate/:id').put(/*userAuth,*/ async (req, res, next) => {
+    const { id } = req.params;
+    const { password } = req.body;
+
+    // Check if the password is provided and is valid
+    if (!password || password.length < 6) {
+        return res.status(400).json({
+            message: 'Password must be at least 6 characters long'
+        });
+    }
+
+    try {
+        const user = await User.findById(id);
+        if (!user) {
+            return res.status(404).json({ message: 'User not found' });
+        }
+
+        // Hash the new password
+        const salt = await bcrypt.genSalt(10);
+        const hash = await bcrypt.hash(password, salt);
+
+        // Update user's password
+        user.password = hash;
+        await user.save();
+
+        res.status(200).json({
+            message: 'Password updated successfully'
+        });
+    } catch (error) {
+        res.status(500).json({
+            message: 'Error updating password',
+            error: error.message
+        });
+    }
+});
+
+
+
+
+
 // Delete route (admin only)
 
 router.route('/users/delete/:id').delete(adminAuth, async (req, res, next) => {

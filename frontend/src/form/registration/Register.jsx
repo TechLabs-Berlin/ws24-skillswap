@@ -30,7 +30,7 @@ export const Register = (props) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     console.log('Name:', name);
     console.log('Email:', email);
     console.log('Password:', password);
@@ -54,13 +54,17 @@ export const Register = (props) => {
       console.error('Error registering user:', error); // handle error response from backend
       setError('Failed to register. Please try again.');
     }
+
+  }
+  const navigateToLogin = () => {
+    navigate("/")
   }
 
   return (
-    <div className="auth-form-container">
+    <div style={{ marginLeft: '40px', marginRight: '40px' }} className="auth-form-container">
       <p className="heading-text">Sign up</p>
-      <p className="body-text">Please enter your details to sign up and create an account. <br /> Already have an account? <button className="txt-btn" onClick={() => props.onFormSwitch('/login')}>Login!</button></p>
-      
+      <p className="body-text">Please enter your details to sign up and create an account. <br /> Already have an account? <button className="txt-btn" onClick={navigateToLogin}>Login!</button></p>
+
       <form className="reg-form" onSubmit={handleSubmit}>
         <InputBox
           label="Your name"
@@ -70,7 +74,7 @@ export const Register = (props) => {
           onChange={handleNameChange}
           required
         />
-      
+
         <InputBox
           label="Email"
           type="email"
@@ -79,7 +83,7 @@ export const Register = (props) => {
           onChange={handleEmailChange}
           required
         />
-        
+
         <InputBox
           label="Password"
           type="password"

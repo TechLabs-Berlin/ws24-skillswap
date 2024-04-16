@@ -12,9 +12,17 @@ export const Login = (props) => {
   const [error, setError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
+  const handleEmailChange = (value) => {
+    setEmail(value);
+  };
+
+  const handlePasswordChange = (value) => {
+    setPassword(value);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    console.log('message:', email, password);
     setIsLoading(true);
     try {
       const response = await axios.post('https://ws24-skillswap.onrender.com/api/auth/login', {
@@ -22,6 +30,8 @@ export const Login = (props) => {
         password: password
       });
       console.log(response.data); // handle successful response from backend
+      //navigate to homepage (swap recommendations)
+      navigate('/homepage')
     } catch (error) {
       console.error('Error logging in:', error); // handle error response from backend
       setError('Invalid email or password. Please try again.');
@@ -39,8 +49,8 @@ export const Login = (props) => {
   return (
     <div className="auth-form-container">
       <p className="heading-text">Log in</p>
-      <p className="body-text">Welcome back! <br /> Don't have an account? <button className="txt-btn" onClick={ navigateToRegister }>Sign up!</button> </p>
-      
+      <p className="body-text">Welcome back! <br /> Don't have an account? <button className="txt-btn" onClick={navigateToRegister}>Sign up!</button> </p>
+
       {/* {error && <p className="error-tooltip">{error}</p>} */}
 
       <form className="login-form" onSubmit={handleSubmit}>
@@ -48,17 +58,17 @@ export const Login = (props) => {
           label="Email"
           type="text"
           placeholder="Your Email"
-          value={name}
-          onChange={(e) => setEmail(e.target.value)}
+          value={email}
+          onChange={handleEmailChange}
           required
         />
-        
+
         <InputBox
           label="Password"
           type="password"
           placeholder="Enter your password"
           value={password}
-          onChange={(e) => setPassword(e.target.value)}
+          onChange={handlePasswordChange}
           required
         />
         {error && <p className="error-message">{error}</p>}
@@ -67,7 +77,7 @@ export const Login = (props) => {
         <Buttons type="submit" onClick={handleSubmit} disabled={isLoading}>{isLoading ? 'Logging in...' : 'Log in'}</Buttons>
 
       </form>
-      
+
     </div>
   )
 }
