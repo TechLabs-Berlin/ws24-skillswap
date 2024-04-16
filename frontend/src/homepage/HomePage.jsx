@@ -77,7 +77,11 @@ const HomePage = () => {
   const isChatRequestSent = queryParams.get("chatSent");
 
   const handleCloseCongrats = () => {
+<<<<<<< HEAD
     navigate("/homepage"); // Navigate back to the homepage
+=======
+    navigate("/"); // Navigate back to the homepage
+>>>>>>> 06b05b0ebf664b003389df2a71fe4fff3bacbc73
   };
 
   return (

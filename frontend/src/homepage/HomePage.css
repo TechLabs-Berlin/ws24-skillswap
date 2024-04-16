@@ -51,7 +51,11 @@
 
 .information {
   width: 343px;
+<<<<<<< HEAD
   height: 610px;
+=======
+  height: 630;
+>>>>>>> 06b05b0ebf664b003389df2a71fe4fff3bacbc73
   top: 220px;
   align-self: center;
   background: #ffffff;
