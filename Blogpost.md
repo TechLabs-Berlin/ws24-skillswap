@@ -63,7 +63,18 @@ In addition to design work, the UX team also contributed to user testing and fee
 
 **Web Development (Frontend)**
 
-Add Text Here
+Upon analyzing the main problems the final product wants to tackle in an initial workshop, the team roughly landed on the features to build for the App's frontend:
+First of all we decided on using React.js as the main component based system, quickly set up using Vite. We also talked about the possibility of using typescript but eventually chose to go with jsx instead, since we're more familiar with it from the learning process, and it should be absolutely sufficient for our first project. Larry as our mentor played an important role here for our initial roadmap planning, and high level task distribution. So the team divided the tasks and took up different parts (see Notion documentation @ https://www.notion.so/4atatime/Apr-4-468b8adc7c134ebdab9545d66ba5266f?pvs=4#134cfabab0974be480e3f2ebfa14f31d) :
+
+Setting up authentication, page switch, API calls - we learned how to create accounts and successfully log in as a registered user, with authorized token for each activity.
+
+Homepage / swap page, as the main focus of the App, where all the potential skill swaps get shown to the user and potentially get selected -> swapped. The user can then send a message to other users with whom they are interested in swapping skills.
+
+Page routing, the back bone user navigate through different pages. We learned and implemented reactdom, and the logic between pages.
+
+A user profile page was designed where users can add or delete skills they are interested in or offering for other users, as well as change their own user information.
+
+A messaging feature which allows users to exchange messages was added and allows users to communicate on the app.
 
 ---
 
