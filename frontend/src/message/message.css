@@ -1,0 +1,174 @@
+/* CSS for messaging/chat feature & components of the app*/
+
+.icon {
+    color: #40605A;
+}
+
+.arrow {
+    font-size: 30px;
+}
+
+.smiley {
+    font-size: 50px;
+    margin-right: 2rem;
+}
+
+.emoji-component {
+    height: 500px;
+    position: absolute;
+    bottom: 100%;
+}
+
+.input-component {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.input-area {
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #40605A;
+    border-radius: 20px;
+    resize: none;
+    overflow: hidden;
+}
+
+.send-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: #40605A;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main-view {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.headline {
+    display: flex;
+    flex-direction: row;
+    flex: none;
+    align-items: center;
+    width: 100%;
+}
+
+.headline-list {
+    justify-content: center;
+}
+
+.headline-chat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.headline-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.headline-name {
+    margin-left: 1rem;
+}
+
+.user-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 25em;
+    object-fit: cover;
+}
+
+.chat-window {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.message {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    max-width: 60%;
+}
+
+.message-sender {
+    background-color: #DCF8C6;
+    align-self: flex-end;
+}
+
+.message-receiver {
+    background-color: white;
+    align-self: flex-start;
+}
+
+.message-text {
+    font-size: 13px;
+    text-align: left;
+}
+
+.message-timestamp {
+    font-size: 9px;
+    text-align: right;
+    color: grey;
+    margin-top: 5px;
+}
+
+.chat-footer {
+    display: flex;
+    flex-direction: row;
+    flex: none;
+    align-items: center;
+    width: 100%;
+    padding: 10;
+    /*border-top: 1px solid #40605A;*/
+    margin-bottom: 50px;
+}
+
+.message-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 0.5px solid #D0D0D0;
+    padding: 10px;
+}
+
+.message-list-content {
+    flex: 1;
+}
+
+.message-list-username {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.message-list-text {
+    margin-top: 3px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.message-list-timestamp {
+    font-size: 10px;
+    font-weight: 400;
+}

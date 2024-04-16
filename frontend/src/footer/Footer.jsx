@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-icons">
-        <Link to="/" style={{ color: "white" }}>
+        <Link to="/homepage" style={{ color: "white" }}>
           <IoMdHome />
         </Link>
         <Link to="/search" style={{ color: "white" }}>
@@ -19,7 +19,7 @@ const Footer = () => {
         <Link to="/message" style={{ color: "white" }}>
           <LuMessageSquare />
         </Link>
-        <Link to="/myprofile" style={{ color: "white" }}>
+        <Link to="/" style={{ color: "white" }}>
           <FaRegUser />
         </Link>
       </div>

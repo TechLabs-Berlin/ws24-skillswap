@@ -1,7 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import svgplus from '../assets/icons/plus.svg';
-import svgcooking from '../assets/icons/cooking.svg';
+
+import { useAuth } from "../context/SkillsContext.jsx";
 
 const MySkills = () => {
   const navigate = useNavigate()
@@ -11,19 +12,27 @@ const MySkills = () => {
     {skill:"skill2" ,id:2},
     {skill:"skill3" ,id:3},
   ]
+  const {skills} = useAuth();
 
   const navigateToSkills = () => {
-    navigate("/skills")
+    navigate("/Skills")
   };
 
   return(
     <section className='mySkills'>
     <h3>My skills</h3>
+      {skills?.map(item => (
+          <div style={{ padding: '10px' }} key={item.id}>
+            <button>
+              {item.name}
+            </button>
+          </div>
+      ))}
     <div className="contain">
     <button className='plusButton' onClick={navigateToSkills}>
       <img src={svgplus} alt='plus icon'/>
     </button>
-    <img src={svgcooking} alt="cooking icon" />
+   
     </div>
 
 

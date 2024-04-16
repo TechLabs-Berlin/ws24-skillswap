@@ -1,21 +1,23 @@
 /* Footer.css */
 .footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #40605A;
-    color: #fff;
-    padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #40605a;
+  color: #fff;
+  padding: 10px;
+  margin-top: 5px;
+  z-index: 1000;
 }
 
 .footer-icons {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .footer-icons i {
-    font-size: 24px;
-    margin: 0 10px;
+  font-size: 24px;
+  margin: 0 10px;
 }

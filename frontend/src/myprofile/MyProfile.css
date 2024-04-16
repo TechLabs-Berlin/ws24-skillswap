@@ -50,6 +50,7 @@
 
 .addButton {
   border: 1px solid #FF6B6B;
+  margin-left: 25px;
 }
 
 /* about me */
@@ -86,8 +87,19 @@
 
 .contain {
   display: flex;
+  margin-right: 0px;
 }
 
+.AddButton{
+width: 328px;
+height: 56px;
+gap: 0px;
+opacity: 0px;
+background-color: #5C8D85;
+color: #F2F2F7;
+margin-bottom: 20px;
+
+}
 /* Frame */
 .level {
   border-radius: 5px;

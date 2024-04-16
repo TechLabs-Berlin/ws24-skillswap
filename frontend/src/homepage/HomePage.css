@@ -3,9 +3,8 @@
   border-radius: 5px;
   padding: 25px;
 } */
-
 .wholeScreen {
-  width: 100%;
+  /* width: calc(100% - 2rem); */
   height: 120%;
   display: flex;
   justify-content: center;
@@ -15,17 +14,20 @@
 }
 
 .home-header {
-  background: #40605a;
-  width: 375px;
-  height: 235px;
-  color: rgba(247, 247, 247, 1);
+  background: rgba(64, 96, 90, 1);
+  width: 100vw;
+  height: 220px;
+  top: 0;
+  left: 0;
   text-align: center;
-  font-size: 10px;
-  font-weight: 400;
-  line-height: 44.46px;
-  letter-spacing: -0.30000001192092896px;
-  text-align: center;
-  font-family: Prosto One;
+  & h1 {
+    color: rgba(247, 247, 247, 1);
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    font-family: Prosto One;
+    margin-top: 45px;
+  }
 }
 
 .aboutSec .homePageAboutSec {
@@ -41,6 +43,7 @@
 
 .info-container {
   position: relative;
+  top: -1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,13 +51,12 @@
 
 .information {
   width: 343px;
-  height: 649px;
+  height: 610px;
   top: 220px;
   align-self: center;
-  border-radius: 16px 0px 0px 0px;
-  background: ffffff;
+  background: #ffffff;
   border: 1px solid rgba(193, 192, 192, 1);
-  border-radius: 15px;
+  border-radius: 16px;
   -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -65,12 +67,13 @@
 }
 
 .pictureContainer img {
+  background-color: #ffffff;
   display: block;
   position: absolute;
-  left: 17%;
+  left: 15%;
   bottom: 80%;
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   border: 10px 0px 0px 0px;
   border-radius: 50%;
   border: 10px solid rgba(92, 141, 133, 1);
@@ -86,6 +89,7 @@
   padding-left: 20px;
   padding-right: 50px;
 }
+
 .icons {
   width: Fixed (240px) px;
   height: Hug (22.5px) px;
@@ -109,6 +113,7 @@ button {
   justify-content: center;
   margin: 10px;
   background-color: #ffffff;
+  margin-left: 20px;
 }
 
 .person-skill {
